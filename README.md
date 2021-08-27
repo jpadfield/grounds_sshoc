@@ -10,5 +10,6 @@ This repo contains code that connects to a version of the National Gallery's GRO
 * A full rebuild can be initiated by passing the command line argument 'fullrebuild' when running grounds_mapping. This will take a long time to run so it's not recommended unless absolutely necessary.
  
 ## Tables reference for the GROUNDS database
-![PXL_20210329_154909481](https://user-images.githubusercontent.com/26337095/131146037-c650f24e-3a40-4caa-872d-7140567c59bd.jpg)
+[database structure_ground_16.10.2017.pdf](https://github.com/odelaney/grounds_sshoc/files/7067846/database.structure_ground_16.10.2017.pdf)
+
 
