@@ -3,6 +3,7 @@ from openpyxl import load_workbook
 import random, urllib, json, string, csv
 from SPARQLWrapper import SPARQLWrapper, JSON
 import time
+import numpy as np
 
 from pdb import set_trace as st
 

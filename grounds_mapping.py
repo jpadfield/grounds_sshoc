@@ -7,6 +7,7 @@ import numpy as np
 from common_functions import generate_placeholder_PID, triples_to_csv, triples_to_tsv, create_PID_from_triple, find_aat_value, run_ruby_program, wikidata_query, create_year_dates, connect_to_sql
 from mapping_funcs import map_object, map_image, map_sample, map_event, map_extra_timespan_info, map_person, map_place
 from os import path
+import sys
 
 def create_graph():
 
@@ -186,7 +187,10 @@ def map_db_to_triples(full_rebuild=False):
 
 def main():
     # Initializing the mapping and outputting the full graph in three formats - pass "full_rebuild=True" to map_db_to_triples() for a full rebuild
-    full_graph = map_db_to_triples()
+    if sys.argv[0] == 'fullrebuild':
+        full_graph = map_db_to_triples(full_rebuild=True)
+    else:
+        full_graph = map_db_to_triples()
     full_graph.serialize(destination='outputs/grounds_full.xml', format='xml')
     full_graph.serialize(destination='outputs/grounds_full.ttl', format='ttl')
     full_graph.serialize(destination='outputs/grounds_full.trig', format='trig')
