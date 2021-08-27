@@ -11,7 +11,7 @@ This repo contains code that connects to a version of the National Gallery's GRO
 * Run inferencing.py with a graph TTL file as the input to output an inferenced version of the RDF graph.
 
 ## MySQL view creation
-* This file contains numerous queries that will create VIEWS that act as the inputs for the Python code. If this code is run atop another database the views should be created using this SQL code beforehand, otherwise it will not work.
+* The file grounds_sql_queries.sql contains numerous queries that will create VIEWS that act as the inputs for the Python code. If this code is run atop another database the views should be created using this SQL code beforehand, otherwise it will not work.
  
 ## Tables reference for the GROUNDS database
 [database structure_ground_16.10.2017.pdf](https://github.com/odelaney/grounds_sshoc/files/7067846/database.structure_ground_16.10.2017.pdf)
