@@ -16,4 +16,9 @@ This repo contains code that connects to a version of the National Gallery's GRO
 ## Tables reference for the GROUNDS database
 [database structure_ground_16.10.2017.pdf](https://github.com/odelaney/grounds_sshoc/files/7067846/database.structure_ground_16.10.2017.pdf)
 
+# Acknowledgement
+This project was developed and tested as part of the work of the following project:
 
+## H2020 EU project [SSHOC](https://sshopencloud.eu/)
+<img height="64px" src="https://github.com/jpadfield/simple-site/blob/master/docs/graphics/sshoc-logo.png" alt="SSHOC Grant Info">
+<img height="32px" src="https://github.com/jpadfield/simple-site/blob/master/docs/graphics/sshoc-eu-tag2.png" alt="SSHOC Grant Info">
