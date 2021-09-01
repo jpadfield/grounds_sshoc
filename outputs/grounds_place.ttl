@@ -1,0 +1,1043 @@
+@prefix aat: <http://vocab.getty.edu/page/aat/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ngo: <https://data.ng-london.org.uk/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ngo:05W6-LZY4-5H3U-7WSA crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:0VFC-SC5L-KG2C-XBFM crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:164H-WS25-RFZ2-L30C crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:1U5X-CZPW-VNKN-BAXR crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:1ZX8-1K51-7Y3A-XTN5 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:2156-OQ5M-VPEP-PR2Z crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:2NRF-ABMV-SUFA-PJST crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:2P9V-QJ54-7W7P-YL62 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:2UL8-I7FN-ACZQ-VLFU crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:2VCJ-B83M-5A13-NJ8G crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:2XOK-XW3Z-0OAL-Q5EM crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:38L3-BZXL-FWRU-N284 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:3G18-GA78-VCXO-AZW1 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:3JWD-SXMC-RAS0-DJNX crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:3VRE-GDC5-77EQ-PMIG a crm:E17_Type_Assignment ;
+    rdfs:label "Classification of Bayerische Staatsgemäldesammlungen"@en ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "institution type"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "institution type"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        crm:E17_Type_Assignment ;
+    crm:P41_classified ngo:XU43-KMGC-ORWT-QRUU ;
+    crm:P42_assigned [ a crm:E55_Type ;
+            rdfs:label "8"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "5"@en ;
+            crm:P2_has_type crm:E55_Type ] .
+
+ngo:4DFO-FX4S-ZD62-PID6 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:4EHM-6YGI-QFC7-YRI2 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:4VR1-5JWQ-9MQN-UTGA a crm:E17_Type_Assignment ;
+    rdfs:label "Classification of Koninklijk Instituut voor het Kunstpatrimonium"@en ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "None"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "institution type"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        crm:E17_Type_Assignment ;
+    crm:P41_classified ngo:VCHE-MUIB-AMTA-8KDC ;
+    crm:P42_assigned [ a crm:E55_Type ;
+            rdfs:label "None"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "6"@en ;
+            crm:P2_has_type crm:E55_Type ] .
+
+ngo:58P9-KSSW-7CXO-S05R crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:5QCI-SW6L-3MIL-U6FI crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:5WV9-6NY6-M45P-YDOV a crm:E17_Type_Assignment ;
+    rdfs:label "Classification of Ny Carlsberg Glyptotek"@en ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "institution type"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        crm:E17_Type_Assignment ;
+    crm:P41_classified ngo:AXMV-6LD9-6Q6T-61AK ;
+    crm:P42_assigned [ a crm:E55_Type ;
+            rdfs:label "12"@en ;
+            crm:P2_has_type crm:E55_Type ] .
+
+ngo:66YD-I92P-00OW-EB28 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:6BD6-7BGE-GF4P-0QBX crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:6MGO-4LJN-05GK-53FY crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:6RYP-RLS7-AHC0-DL53 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:6WAD-4S9H-PYBY-6VFA crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:70YI-RZZJ-0O2D-IWRQ crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:74K7-PN8V-YVTK-SUHJ crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:7OU1-NXDH-DYUW-9ORG crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:7Q1T-CEHQ-G0E2-L5ZZ crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:7QQ6-FASF-BICN-FNAI crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:82KG-XTKC-26UD-OCH2 a crm:E17_Type_Assignment ;
+    rdfs:label "Classification of Frederiksborg slot, Det Nationalhistoriske Museum"@en ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "institution type"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        crm:E17_Type_Assignment ;
+    crm:P41_classified ngo:ET3T-FO0C-U1P3-T13W ;
+    crm:P42_assigned [ a crm:E55_Type ;
+            rdfs:label "24"@en ;
+            crm:P2_has_type crm:E55_Type ] .
+
+ngo:8BCG-MHKY-TLF4-TSY7 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:8Z1W-7QHD-REL5-E7EC crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:907J-FLD1-R106-MGWV crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:92FZ-6URY-IF8H-D7MT crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:9IYY-OIWJ-JUEL-XBG7 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:9YKD-GNHR-MIJY-7NYT a crm:E17_Type_Assignment ;
+    rdfs:label "Classification of Statens Museum for Kunst"@en ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "institution type"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        crm:E17_Type_Assignment ;
+    crm:P41_classified ngo:A9Y6-5SLC-F6DZ-NGBB ;
+    crm:P42_assigned [ a crm:E55_Type ;
+            rdfs:label "10"@en ;
+            crm:P2_has_type crm:E55_Type ] .
+
+ngo:A7YW-6Y9O-54P8-MU1E crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:AIK5-A8BU-H754-B8O8 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:AMT8-29SO-DIWG-M6PP crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:AN8D-L8W6-EQM6-J5FF a crm:E17_Type_Assignment ;
+    rdfs:label "Classification of The J. Paul Getty Museum"@en ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "institution type"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        crm:E17_Type_Assignment ;
+    crm:P41_classified ngo:LXDH-JZ0Y-E46P-BSO6 ;
+    crm:P42_assigned [ a crm:E55_Type ;
+            rdfs:label "11"@en ;
+            crm:P2_has_type crm:E55_Type ] .
+
+ngo:ANZK-R40D-1GRX-A5QG crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:AQ4P-LCGP-9LWO-7RW8 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:ATDU-GTFA-COPG-177T crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:AUC4-G1BU-2AQC-ODWN crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:B59U-T6PY-381M-EFRD crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:BDKO-2X2H-PT1J-XVJR crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:BFCH-OA5J-2U7O-F63H crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:BIW6-1HUP-AELQ-PN1X crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:BPZN-3KKN-8QSP-XRPR crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:BRH1-G3GB-LCUH-KT71 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:BU2V-IG8G-DB9J-L9FI crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:BU7X-Z7OF-Q3PJ-LQO9 a crm:E17_Type_Assignment ;
+    rdfs:label "Classification of The National Gallery, London"@en ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "None"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "institution type"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        crm:E17_Type_Assignment ;
+    crm:P41_classified ngo:JG33-LVW3-KBKC-EXLU ;
+    crm:P42_assigned [ a crm:E55_Type ;
+            rdfs:label "1"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "None"@en ;
+            crm:P2_has_type crm:E55_Type ] .
+
+ngo:BVGD-S2OF-5RPV-YOEY crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:C58G-7BY1-S9Z8-L71A a crm:E17_Type_Assignment ;
+    rdfs:label "Classification of Museo Nacional del Prado"@en ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "institution type"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "None"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        crm:E17_Type_Assignment ;
+    crm:P41_classified ngo:OHRN-OEAM-2F7I-MKS0 ;
+    crm:P42_assigned [ a crm:E55_Type ;
+            rdfs:label "None"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "3"@en ;
+            crm:P2_has_type crm:E55_Type ] .
+
+ngo:C6I1-MMOG-ELFK-NO1K crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:C8BF-FCW8-8UO4-3VF8 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:CD9J-9EV9-2DP4-9H57 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:CM01-7EZX-LMKI-GMVF crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:CNLU-W61X-X55P-U6YV crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:D38M-CQ9T-RQQV-O3D1 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:D5YS-PQCF-ZMY0-YSC6 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:DM4X-DAW7-9XJW-9Q2O crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:DWYE-ZG0L-82T6-LEJE crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:E191-2T4B-WD6U-H7U3 a crm:E17_Type_Assignment ;
+    rdfs:label "Classification of National Museum of Stockholm"@en ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "institution type"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        crm:E17_Type_Assignment ;
+    crm:P41_classified ngo:GI2E-TQJJ-OJJT-GE8T ;
+    crm:P42_assigned [ a crm:E55_Type ;
+            rdfs:label "25"@en ;
+            crm:P2_has_type crm:E55_Type ] .
+
+ngo:E3PG-YMX6-2SZ6-6YBM crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:ECKS-QSF1-4TP7-JZPP crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:EKY1-35UR-V6SO-1Z89 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:EO4E-KPY8-ZEQU-EPKO crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:F69N-LPJK-TDE6-F2E3 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:FT5B-RT49-264T-6K2Q crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:FVXD-1NEH-E9TO-ZYO6 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:FZ8S-XLOG-LXOI-R7NM a crm:E17_Type_Assignment ;
+    rdfs:label "Classification of Statens Museum for Kunst, Centre for Art Technological Studies and Conservation"@en ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "institution type"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "None"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        crm:E17_Type_Assignment ;
+    crm:P41_classified ngo:9IWQ-P1OQ-FQQB-S0XX ;
+    crm:P42_assigned [ a crm:E55_Type ;
+            rdfs:label "2"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "None"@en ;
+            crm:P2_has_type crm:E55_Type ] .
+
+ngo:G9LR-2F1T-UINY-5DCR crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:GFBT-PT0T-KLBR-NMHO crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:GGBV-2B6R-VJ13-JA5Y crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:GLML-A4C3-WVNN-UEZI crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:GNEM-BT9Z-356I-7A4T crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:GVZV-79MW-N38N-07BA crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:GZFQ-5O3V-WSVY-9ILO crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:HZI4-ONQ5-4G52-3ZZR crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:I8HF-AJH0-126I-Q8YD crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:IEXN-MTE1-9DDV-LVGV a crm:E17_Type_Assignment ;
+    rdfs:label "Classification of Staatliche Kunstsammlungen Dresden"@en ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "institution type"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "institution type"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "institution type"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        crm:E17_Type_Assignment ;
+    crm:P41_classified ngo:FP9B-9KYO-FJV4-NM8M ;
+    crm:P42_assigned [ a crm:E55_Type ;
+            rdfs:label "9"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "9"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "16"@en ;
+            crm:P2_has_type crm:E55_Type ] .
+
+ngo:J9FF-XM6F-2IMQ-R24Z crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:JDAP-O0F5-GQCZ-YCPX crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:JFGA-SCMD-X7YN-SZAF crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:JONK-5US8-HA0R-0KZM crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:K7GJ-0OMV-SND7-J1V4 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:KE6R-JLJK-SBEM-YIWM crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:KQXF-T09M-83AY-NL4Y crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:KRJP-U77W-7N7D-KZIW crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:L59M-MXDT-7126-5SQE crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:L88U-MP9Y-Q4V6-UHC1 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:LARU-59IZ-ASDN-EO2E crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:LGK8-295O-8JVP-EIPK crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:LJJ2-SM47-OAC6-OEK2 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:LSNI-I4X4-XAD8-Z3FT a crm:E17_Type_Assignment ;
+    rdfs:label "Classification of Rijksmuseum"@en ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "None"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "institution type"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        crm:E17_Type_Assignment ;
+    crm:P41_classified ngo:TUPN-6H9K-2T1M-NE7P ;
+    crm:P42_assigned [ a crm:E55_Type ;
+            rdfs:label "4"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "None"@en ;
+            crm:P2_has_type crm:E55_Type ] .
+
+ngo:M9NS-UM3B-CKGA-89C3 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:MAYW-BHIM-OUHL-3CMC crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:MC9V-QIH4-Y4CM-LM81 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:MD6K-5SWI-29O1-GU2X crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:MPUU-GH8U-VQTE-UMKN crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:N0458d50a79af4027a7dab9b8692b8135 crm:P2_has_type aat:300265431 .
+
+ngo:N0cdc0649565547ca826fbd240a13d7e8 crm:P2_has_type aat:300265431 .
+
+ngo:N0dde529e37e64d5194482729f6d74b65 crm:P2_has_type aat:300265431 .
+
+ngo:N1ab7ebc810fc40dca9c3fa2686b864fb crm:P2_has_type aat:300265431 .
+
+ngo:N1babace97ca6406d9d29ed74e9c1b4c0 crm:P2_has_type aat:300265431 .
+
+ngo:N35703fca0f1e47589279ac1889848d65 crm:P2_has_type aat:300265431 .
+
+ngo:N3590fab1370b44779ff4517a817035db crm:P2_has_type aat:300265431 .
+
+ngo:N468cae2d12bf407fbe4d304654fe05c4 crm:P2_has_type aat:300265431 .
+
+ngo:N5b13a57ca02e43f2834decfa5b956ff8 crm:P2_has_type aat:300265431 .
+
+ngo:N73ff7d68ab2941d9bae699f58245011b crm:P2_has_type aat:300265431 .
+
+ngo:N7TH-99CC-IF35-FCTK crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:N8b143ac8a69642b0bb48f87d0cbe4dad crm:P2_has_type aat:300265431 .
+
+ngo:N8df85631681843e68d9bfb9c1393429d crm:P2_has_type aat:300265431 .
+
+ngo:N8ef6ba897fef475ab134db7bfc49f4da crm:P2_has_type aat:300265431 .
+
+ngo:N909691218b144fcda75c45bbf92b0a93 crm:P2_has_type aat:300265431 .
+
+ngo:NBMH-ORFC-ASRX-UM2O crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:NBN7-JD8T-1XEO-VAYB crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:NDFH-W8V9-KXRD-PIQ0 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:NJX6-84BD-S2QC-LN6M crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:NN6M-BM69-X272-EIAJ crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:Nb0a004a48f2143f8b9601fe3ce853f51 crm:P2_has_type aat:300265431 .
+
+ngo:Nbcbdb985a01848979019e113c96c6fdb crm:P2_has_type aat:300265431 .
+
+ngo:Ncab942283f7b419cbcc6d89955170b8b crm:P2_has_type aat:300265431 .
+
+ngo:Nd9ff00dbaeef450c85ff122b6e697c91 crm:P2_has_type aat:300265431 .
+
+ngo:Ne0237674b0774d06b95b565668ee557b crm:P2_has_type aat:300265431 .
+
+ngo:Ne3e2b257a8014b58852e6ea6f8a6104f crm:P2_has_type aat:300265431 .
+
+ngo:Neb7fdc07399a4c129d9141453957b9bc crm:P2_has_type aat:300265431 .
+
+ngo:Nf61247a9ad2a461b9b390202f8fa6cb6 crm:P2_has_type aat:300265431 .
+
+ngo:O3IP-FHD6-CMV5-4JJR crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:O45R-UCEP-CQEI-PMVD crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:OPHZ-GELS-FUBA-8A9S crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:P05K-J0PD-309W-34BB crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:P6L2-27TT-8YD2-GF6A crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:PLCQ-CNCF-BTJ8-B6IO crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:Q7S9-VIR6-KM6S-LHSH crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:QFF8-Z7DF-TG4V-YDX3 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:QFRZ-PI1J-5QHU-3S3Z crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:QXQV-RXAB-BEQ5-U0C0 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:R3P4-8J3L-Q7ZA-C3AC crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:R5O0-KYX5-VSFO-VBNM crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:R90L-S71R-9HIL-GOT1 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:RI3T-TDD3-30WC-JRHJ crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:RLC5-6D9M-ICSW-A998 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:RZKG-4ZG5-IGK8-H5NJ crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:S2FS-LCF7-MAPV-23W0 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:S7O9-PPNS-9BTT-DDLM crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:THAA-ZPYH-N5I2-HJZO crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:TLI0-94U3-YUES-IGRQ crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:U349-B9GZ-EVUN-J396 a crm:E17_Type_Assignment ;
+    rdfs:label "Classification of Consiglio Nazionale delle Ricerche"@en ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "None"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "institution type"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        crm:E17_Type_Assignment ;
+    crm:P41_classified ngo:7LRT-JN22-2V6K-WZKG ;
+    crm:P42_assigned [ a crm:E55_Type ;
+            rdfs:label "7"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "None"@en ;
+            crm:P2_has_type crm:E55_Type ] .
+
+ngo:UMLE-O5VU-DHWJ-ZRJN crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:UXAD-XI39-93S2-NF3A crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:V505-FLGY-52US-U2M6 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:V51K-3FRI-2R1B-4QHZ crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:VM8X-I68G-BWJL-YRG2 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:VRTP-ZX7C-P41B-6JVW crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:VY50-7I7A-F2OH-7MG3 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:WA30-A8FG-9KL4-OHO6 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:WGIN-DL0K-O6EB-B8F2 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:WVA7-3X2C-N5LP-UVC1 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:WVLA-DXMX-MW89-MDGS crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:X5A7-ZJCS-PEFD-9WC0 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:X81E-RHF9-7W25-ASAG crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:XQ3Y-9HAB-0BU9-5U3Q crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:XRXX-H2M0-QMOZ-0R4E crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:YHAP-HLO8-6SYY-SDKS a crm:E17_Type_Assignment ;
+    rdfs:label "Classification of Doerner Institut, Bayerische Staatsgemäldesammlungen"@en ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "institution type"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "None"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "institution type"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        crm:E17_Type_Assignment ;
+    crm:P41_classified ngo:OTST-LJPS-N28V-77DF ;
+    crm:P42_assigned [ a crm:E55_Type ;
+            rdfs:label "None"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "5"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "5"@en ;
+            crm:P2_has_type crm:E55_Type ] .
+
+ngo:Z39U-ABO8-6FIY-8M59 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:Z7YD-FCBE-XQO6-Y089 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+ngo:ZLL4-WL42-5OEL-0IH5 a crm:E17_Type_Assignment ;
+    rdfs:label "Classification of Hochschule für Bildende Künste Dresden"@en ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "institution type"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        crm:E17_Type_Assignment ;
+    crm:P41_classified ngo:BFAE-5VOC-UWRI-C9JI ;
+    crm:P42_assigned [ a crm:E55_Type ;
+            rdfs:label "13"@en ;
+            crm:P2_has_type crm:E55_Type ] .
+
+ngo:ZU2L-N5N6-UXPA-PADM crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
+
+aat:300379244 rdfs:label "years@en" .
+
+ngo:1RX6-VIFI-VK9V-VHIM crm:P53_has_former_or_current_location ngo:R6VV-CQ6V-VB6O-VUT3 .
+
+ngo:22SJ-NC5G-OWYA-I1YM crm:P53_has_former_or_current_location ngo:F0P1-YU15-2L7P-UMNJ .
+
+ngo:22X0-311R-PFJG-DQLI crm:P53_has_former_or_current_location ngo:HMPC-5FTA-OTOE-ICJF .
+
+ngo:4S5W-M9BG-F6GJ-QY0D crm:P53_has_former_or_current_location ngo:GPMS-V694-WF1Z-MPXK .
+
+ngo:5294-2BGR-2ELL-AY50 crm:P53_has_former_or_current_location ngo:B7AS-AE3Y-EHC9-116G .
+
+ngo:7LRT-JN22-2V6K-WZKG a crm:E74_Group ;
+    rdfs:label "Consiglio Nazionale delle Ricerche"@en ;
+    crm:P156_occupies ngo:22X0-311R-PFJG-DQLI ;
+    crm:P1_is_identified_by "CNR"@en ;
+    crm:P2_has_type crm:E74_Group ;
+    crm:P3_has_note "www.cnr.it"@en ;
+    crm:P48_has_preferred_identifier "Consiglio Nazionale delle Ricerche"@en ;
+    crm:P70i_is_documented_in [ a crm:E73_Information_Object ;
+            rdfs:label "www.cnr.it"@en ;
+            crm:P2_has_type crm:E73_Information_Object ],
+        [ a crm:E73_Information_Object ;
+            rdfs:label "41.8998236 | 12.5101778"@en ;
+            crm:P2_has_type crm:E73_Information_Object ] .
+
+ngo:8I4U-R12O-83LN-UBEQ a crm:E53_Place ;
+    rdfs:label "Hochschule für Bildende Künste Dresden"@en ;
+    crm:P168_place_is_defined_by "0.0N 0.0E" ;
+    crm:P2_has_type aat:300312292,
+        crm:E53_Place ;
+    crm:P3_has_note "None"@en ;
+    crm:P89_falls_within ngo:R7QT-T8ZD-B2AR-KA4V .
+
+ngo:8N06-5EQR-KOP8-L1L2 crm:P53_has_former_or_current_location ngo:P9O0-B57Y-HNMT-WCOX .
+
+ngo:929A-PN1A-AWA7-JFYO a crm:E53_Place ;
+    rdfs:label "Museo Nacional del Prado"@en ;
+    crm:P168_place_is_defined_by "40.413825N -3.69213E" ;
+    crm:P2_has_type aat:300312292,
+        crm:E53_Place ;
+    crm:P3_has_note "None"@en ;
+    crm:P89_falls_within ngo:0TJA-2DP6-GQE1-BZ7N,
+        ngo:19SG-FCVP-UUUT-6CIF .
+
+ngo:9IWQ-P1OQ-FQQB-S0XX a crm:E74_Group ;
+    rdfs:label "Statens Museum for Kunst, Centre for Art Technological Studies and Conservation"@en ;
+    crm:P156_occupies ngo:K0YM-MMUY-D41X-NCCT ;
+    crm:P1_is_identified_by "CATS-SMK"@en ;
+    crm:P2_has_type crm:E74_Group ;
+    crm:P3_has_note "www.smk.dk"@en ;
+    crm:P48_has_preferred_identifier "Statens Museum for Kunst, Centre for Art Technological Studies and Conservation"@en ;
+    crm:P70i_is_documented_in [ a crm:E73_Information_Object ;
+            rdfs:label "55.688837 | 12.578317"@en ;
+            crm:P2_has_type crm:E73_Information_Object ],
+        [ a crm:E73_Information_Object ;
+            rdfs:label "www.smk.dk"@en ;
+            crm:P2_has_type crm:E73_Information_Object ] .
+
+ngo:A9Y6-5SLC-F6DZ-NGBB a crm:E74_Group ;
+    rdfs:label "Statens Museum for Kunst"@en ;
+    crm:P156_occupies ngo:GEJR-3M3K-2Q6M-DIKZ ;
+    crm:P1_is_identified_by "SMK"@en ;
+    crm:P2_has_type crm:E74_Group ;
+    crm:P3_has_note "www.smk.dk"@en ;
+    crm:P48_has_preferred_identifier "Statens Museum for Kunst"@en ;
+    crm:P70i_is_documented_in [ a crm:E73_Information_Object ;
+            rdfs:label "55.688837 | 12.578317"@en ;
+            crm:P2_has_type crm:E73_Information_Object ] .
+
+ngo:AXMV-6LD9-6Q6T-61AK a crm:E74_Group ;
+    rdfs:label "Ny Carlsberg Glyptotek"@en ;
+    crm:P156_occupies ngo:T3TB-MD0V-P3RH-G7AT ;
+    crm:P1_is_identified_by "Glyptotek"@en ;
+    crm:P2_has_type crm:E74_Group ;
+    crm:P48_has_preferred_identifier "Ny Carlsberg Glyptotek"@en ;
+    crm:P70i_is_documented_in [ a crm:E73_Information_Object ;
+            rdfs:label "55.672287  | 12.571802"@en ;
+            crm:P2_has_type crm:E73_Information_Object ] .
+
+ngo:B7AS-AE3Y-EHC9-116G a crm:E53_Place ;
+    rdfs:label "National Museum of Stockholm"@en ;
+    crm:P168_place_is_defined_by "59.328456N 18.078058E" ;
+    crm:P2_has_type aat:300312292,
+        crm:E53_Place ;
+    crm:P3_has_note "None"@en ;
+    crm:P89_falls_within ngo:0MGT-2KJ8-7CB9-6QJK .
+
+ngo:BFAE-5VOC-UWRI-C9JI a crm:E74_Group ;
+    rdfs:label "Hochschule für Bildende Künste Dresden"@en ;
+    crm:P156_occupies ngo:QQM1-247W-6GNI-Q5DF ;
+    crm:P1_is_identified_by "HfBK Dresden"@en ;
+    crm:P2_has_type crm:E74_Group ;
+    crm:P48_has_preferred_identifier "Hochschule für Bildende Künste Dresden"@en .
+
+ngo:ET3T-FO0C-U1P3-T13W a crm:E74_Group ;
+    rdfs:label "Frederiksborg slot, Det Nationalhistoriske Museum"@en ;
+    crm:P156_occupies ngo:1RX6-VIFI-VK9V-VHIM ;
+    crm:P1_is_identified_by "DNM"@en ;
+    crm:P2_has_type crm:E74_Group ;
+    crm:P3_has_note "http://www.dnm.dk"@en ;
+    crm:P48_has_preferred_identifier "Frederiksborg slot, Det Nationalhistoriske Museum"@en ;
+    crm:P70i_is_documented_in [ a crm:E73_Information_Object ;
+            rdfs:label "55.929180 | 12.308100"@en ;
+            crm:P2_has_type crm:E73_Information_Object ] .
+
+ngo:F0P1-YU15-2L7P-UMNJ a crm:E53_Place ;
+    rdfs:label "Koninklijk Instituut voor het Kunstpatrimonium"@en ;
+    crm:P168_place_is_defined_by "50.8424352N 4.3936017E" ;
+    crm:P2_has_type aat:300312292,
+        crm:E53_Place ;
+    crm:P3_has_note "None"@en ;
+    crm:P89_falls_within ngo:H38R-7D5V-Q5IR-R131,
+        ngo:R7QT-T8ZD-B2AR-KA4V .
+
+ngo:FP9B-9KYO-FJV4-NM8M a crm:E74_Group ;
+    rdfs:label "Staatliche Kunstsammlungen Dresden"@en ;
+    crm:P156_occupies ngo:N82S-GCDQ-3OK7-I1UC ;
+    crm:P1_is_identified_by "SKD"@en ;
+    crm:P2_has_type crm:E74_Group ;
+    crm:P3_has_note "https://www.skd.museum"@en ;
+    crm:P48_has_preferred_identifier "Staatliche Kunstsammlungen Dresden"@en ;
+    crm:P70i_is_documented_in [ a crm:E73_Information_Object ;
+            rdfs:label "51.053289 | 13.734807"@en ;
+            crm:P2_has_type crm:E73_Information_Object ] .
+
+ngo:GEJR-3M3K-2Q6M-DIKZ crm:P53_has_former_or_current_location ngo:X6JN-OTCC-FTMX-Y979 .
+
+ngo:GI2E-TQJJ-OJJT-GE8T a crm:E74_Group ;
+    rdfs:label "National Museum of Stockholm"@en ;
+    crm:P156_occupies ngo:5294-2BGR-2ELL-AY50 ;
+    crm:P1_is_identified_by "NM"@en ;
+    crm:P2_has_type crm:E74_Group ;
+    crm:P3_has_note "https://www.nationalmuseum.se/"@en ;
+    crm:P48_has_preferred_identifier "National Museum of Stockholm"@en ;
+    crm:P70i_is_documented_in [ a crm:E73_Information_Object ;
+            rdfs:label "59.328456 | 18.078058"@en ;
+            crm:P2_has_type crm:E73_Information_Object ] .
+
+ngo:GPMS-V694-WF1Z-MPXK a crm:E53_Place ;
+    rdfs:label "The National Gallery, London"@en ;
+    crm:P168_place_is_defined_by "51.508995N -0.128312E" ;
+    crm:P2_has_type aat:300312292,
+        crm:E53_Place ;
+    crm:P3_has_note "None"@en ;
+    crm:P89_falls_within ngo:8I4L-31NL-46WE-1GEB,
+        ngo:PA0P-T5H5-0CBZ-TC3P .
+
+ngo:GTYB-XW4Y-TA4J-6E8B a crm:E53_Place ;
+    rdfs:label "Bayerische Staatsgemäldesammlungen"@en ;
+    crm:P168_place_is_defined_by "48.1498568N 11.57097E" ;
+    crm:P2_has_type aat:300312292,
+        crm:E53_Place ;
+    crm:P3_has_note "None"@en ;
+    crm:P89_falls_within ngo:8I4L-31NL-46WE-1GEB,
+        ngo:PSR9-T7HD-1RK0-P63D .
+
+ngo:HLNN-1Y4X-WGVF-2A9A a crm:E53_Place ;
+    rdfs:label "The J. Paul Getty Museum"@en ;
+    crm:P168_place_is_defined_by "0.0N 0.0E" ;
+    crm:P2_has_type aat:300312292,
+        crm:E53_Place ;
+    crm:P3_has_note "None"@en ;
+    crm:P89_falls_within ngo:0MGT-2KJ8-7CB9-6QJK .
+
+ngo:HMPC-5FTA-OTOE-ICJF a crm:E53_Place ;
+    rdfs:label "Consiglio Nazionale delle Ricerche"@en ;
+    crm:P168_place_is_defined_by "41.8998236N 12.5101778E" ;
+    crm:P2_has_type aat:300312292,
+        crm:E53_Place ;
+    crm:P3_has_note "None"@en ;
+    crm:P89_falls_within ngo:KL06-10K5-RPY3-MEUT,
+        ngo:R7QT-T8ZD-B2AR-KA4V .
+
+ngo:JG33-LVW3-KBKC-EXLU a crm:E74_Group ;
+    rdfs:label "The National Gallery, London"@en ;
+    crm:P156_occupies ngo:4S5W-M9BG-F6GJ-QY0D ;
+    crm:P1_is_identified_by "NG"@en ;
+    crm:P2_has_type crm:E74_Group ;
+    crm:P3_has_note "http://www.nationalgallery.org.uk"@en ;
+    crm:P48_has_preferred_identifier "The National Gallery, London"@en ;
+    crm:P70i_is_documented_in [ a crm:E73_Information_Object ;
+            rdfs:label "51.508995 | -0.128312"@en ;
+            crm:P2_has_type crm:E73_Information_Object ],
+        [ a crm:E73_Information_Object ;
+            rdfs:label "http://www.nationalgallery.org.uk"@en ;
+            crm:P2_has_type crm:E73_Information_Object ] .
+
+ngo:K0YM-MMUY-D41X-NCCT crm:P53_has_former_or_current_location ngo:WUK5-RQH8-RBV2-QIX7 .
+
+ngo:L3DC-DBGI-TZYJ-84OZ crm:P53_has_former_or_current_location ngo:UD9K-ICXM-SI6F-9KHS .
+
+ngo:LXDH-JZ0Y-E46P-BSO6 a crm:E74_Group ;
+    rdfs:label "The J. Paul Getty Museum"@en ;
+    crm:P156_occupies ngo:TA0H-66UA-Q9HQ-JCCO ;
+    crm:P1_is_identified_by "Getty"@en ;
+    crm:P2_has_type crm:E74_Group ;
+    crm:P48_has_preferred_identifier "The J. Paul Getty Museum"@en .
+
+ngo:N82S-GCDQ-3OK7-I1UC crm:P53_has_former_or_current_location ngo:XPQI-E47A-LH17-OEXV .
+
+ngo:NMME-ZEL6-QD1Z-40YN a crm:E53_Place ;
+    rdfs:label "Ny Carlsberg Glyptotek"@en ;
+    crm:P168_place_is_defined_by "55.672287N 12.571802E" ;
+    crm:P2_has_type aat:300312292,
+        crm:E53_Place ;
+    crm:P3_has_note "None"@en ;
+    crm:P89_falls_within ngo:0MGT-2KJ8-7CB9-6QJK .
+
+ngo:OHRN-OEAM-2F7I-MKS0 a crm:E74_Group ;
+    rdfs:label "Museo Nacional del Prado"@en ;
+    crm:P156_occupies ngo:TURQ-YQBI-FQAE-DVX7 ;
+    crm:P1_is_identified_by "PRADO"@en ;
+    crm:P2_has_type crm:E74_Group ;
+    crm:P3_has_note "www.museodelprado.es"@en ;
+    crm:P48_has_preferred_identifier "Museo Nacional del Prado"@en ;
+    crm:P70i_is_documented_in [ a crm:E73_Information_Object ;
+            rdfs:label "www.museodelprado.es"@en ;
+            crm:P2_has_type crm:E73_Information_Object ],
+        [ a crm:E73_Information_Object ;
+            rdfs:label "40.413825 | -3.692130"@en ;
+            crm:P2_has_type crm:E73_Information_Object ] .
+
+ngo:OTST-LJPS-N28V-77DF a crm:E74_Group ;
+    rdfs:label "Doerner Institut, Bayerische Staatsgemäldesammlungen"@en ;
+    crm:P156_occupies ngo:L3DC-DBGI-TZYJ-84OZ ;
+    crm:P1_is_identified_by "DI-BStGS"@en ;
+    crm:P2_has_type crm:E74_Group ;
+    crm:P3_has_note "www.doernerinstitut.de"@en ;
+    crm:P48_has_preferred_identifier "Doerner Institut, Bayerische Staatsgemäldesammlungen"@en ;
+    crm:P70i_is_documented_in [ a crm:E73_Information_Object ;
+            rdfs:label "www.doernerinstitut.de"@en ;
+            crm:P2_has_type crm:E73_Information_Object ],
+        [ a crm:E73_Information_Object ;
+            rdfs:label "48.1498568 | 11.57097"@en ;
+            crm:P2_has_type crm:E73_Information_Object ],
+        [ a crm:E73_Information_Object ;
+            rdfs:label "48.1498568 | 11.57097"@en ;
+            crm:P2_has_type crm:E73_Information_Object ] .
+
+ngo:P9O0-B57Y-HNMT-WCOX a crm:E53_Place ;
+    rdfs:label "Rijksmuseum"@en ;
+    crm:P168_place_is_defined_by "52.359998N 4.885433E" ;
+    crm:P2_has_type aat:300312292,
+        crm:E53_Place ;
+    crm:P3_has_note "None"@en ;
+    crm:P89_falls_within ngo:19SG-FCVP-UUUT-6CIF,
+        ngo:4XDS-N3QH-19E2-02J7 .
+
+ngo:QQM1-247W-6GNI-Q5DF crm:P53_has_former_or_current_location ngo:8I4U-R12O-83LN-UBEQ .
+
+ngo:R6VV-CQ6V-VB6O-VUT3 a crm:E53_Place ;
+    rdfs:label "Frederiksborg slot, Det Nationalhistoriske Museum"@en ;
+    crm:P168_place_is_defined_by "55.92918N 12.3081E" ;
+    crm:P2_has_type aat:300312292,
+        crm:E53_Place ;
+    crm:P3_has_note "None"@en ;
+    crm:P89_falls_within ngo:0MGT-2KJ8-7CB9-6QJK .
+
+ngo:T3TB-MD0V-P3RH-G7AT crm:P53_has_former_or_current_location ngo:NMME-ZEL6-QD1Z-40YN .
+
+ngo:TA0H-66UA-Q9HQ-JCCO crm:P53_has_former_or_current_location ngo:HLNN-1Y4X-WGVF-2A9A .
+
+ngo:TUPN-6H9K-2T1M-NE7P a crm:E74_Group ;
+    rdfs:label "Rijksmuseum"@en ;
+    crm:P156_occupies ngo:8N06-5EQR-KOP8-L1L2 ;
+    crm:P1_is_identified_by "Rijks Museum"@en ;
+    crm:P2_has_type crm:E74_Group ;
+    crm:P3_has_note "https://www.rijksmuseum.nl/"@en ;
+    crm:P48_has_preferred_identifier "Rijksmuseum"@en ;
+    crm:P70i_is_documented_in [ a crm:E73_Information_Object ;
+            rdfs:label "52.359998 | 4.885433"@en ;
+            crm:P2_has_type crm:E73_Information_Object ],
+        [ a crm:E73_Information_Object ;
+            rdfs:label "https://www.rijksmuseum.nl/"@en ;
+            crm:P2_has_type crm:E73_Information_Object ] .
+
+ngo:TURQ-YQBI-FQAE-DVX7 crm:P53_has_former_or_current_location ngo:929A-PN1A-AWA7-JFYO .
+
+ngo:UD9K-ICXM-SI6F-9KHS a crm:E53_Place ;
+    rdfs:label "Doerner Institut, Bayerische Staatsgemäldesammlungen"@en ;
+    crm:P168_place_is_defined_by "48.1498568N 11.57097E" ;
+    crm:P2_has_type aat:300312292,
+        crm:E53_Place ;
+    crm:P3_has_note "None"@en ;
+    crm:P89_falls_within ngo:8I4L-31NL-46WE-1GEB,
+        ngo:J6ZA-0ZI4-JL6S-IVLU,
+        ngo:R7QT-T8ZD-B2AR-KA4V .
+
+ngo:VCHE-MUIB-AMTA-8KDC a crm:E74_Group ;
+    rdfs:label "Koninklijk Instituut voor het Kunstpatrimonium"@en ;
+    crm:P156_occupies ngo:22SJ-NC5G-OWYA-I1YM ;
+    crm:P1_is_identified_by "KIK-IRPA"@en ;
+    crm:P2_has_type crm:E74_Group ;
+    crm:P3_has_note "www.kikirpa.be"@en ;
+    crm:P48_has_preferred_identifier "Koninklijk Instituut voor het Kunstpatrimonium"@en ;
+    crm:P70i_is_documented_in [ a crm:E73_Information_Object ;
+            rdfs:label "50.8424352 | 4.3936017"@en ;
+            crm:P2_has_type crm:E73_Information_Object ],
+        [ a crm:E73_Information_Object ;
+            rdfs:label "www.kikirpa.be"@en ;
+            crm:P2_has_type crm:E73_Information_Object ] .
+
+ngo:VTRC-CJYL-5019-43RC crm:P53_has_former_or_current_location ngo:GTYB-XW4Y-TA4J-6E8B .
+
+ngo:WUK5-RQH8-RBV2-QIX7 a crm:E53_Place ;
+    rdfs:label "Statens Museum for Kunst, Centre for Art Technological Studies and Conservation"@en ;
+    crm:P168_place_is_defined_by "55.688837N 12.578317E" ;
+    crm:P2_has_type aat:300312292,
+        crm:E53_Place ;
+    crm:P3_has_note "None"@en ;
+    crm:P89_falls_within ngo:19SG-FCVP-UUUT-6CIF,
+        ngo:F23J-RFM9-W6WZ-0D56 .
+
+ngo:X6JN-OTCC-FTMX-Y979 a crm:E53_Place ;
+    rdfs:label "Statens Museum for Kunst"@en ;
+    crm:P168_place_is_defined_by "55.688837N 12.578317E" ;
+    crm:P2_has_type aat:300312292,
+        crm:E53_Place ;
+    crm:P3_has_note "None"@en ;
+    crm:P89_falls_within ngo:0MGT-2KJ8-7CB9-6QJK .
+
+ngo:XPQI-E47A-LH17-OEXV a crm:E53_Place ;
+    rdfs:label "Staatliche Kunstsammlungen Dresden"@en ;
+    crm:P168_place_is_defined_by "0.0N 0.0E",
+        "51.053289N 13.734807E" ;
+    crm:P2_has_type aat:300312292,
+        crm:E53_Place ;
+    crm:P3_has_note "None"@en ;
+    crm:P89_falls_within ngo:19SG-FCVP-UUUT-6CIF .
+
+ngo:XU43-KMGC-ORWT-QRUU a crm:E74_Group ;
+    rdfs:label "Bayerische Staatsgemäldesammlungen"@en ;
+    crm:P156_occupies ngo:VTRC-CJYL-5019-43RC ;
+    crm:P1_is_identified_by "BStGS"@en,
+        "DI-BStGS"@en ;
+    crm:P2_has_type crm:E74_Group ;
+    crm:P3_has_note "www.pinakothek.de"@en ;
+    crm:P48_has_preferred_identifier "Bayerische Staatsgemäldesammlungen"@en ;
+    crm:P70i_is_documented_in [ a crm:E73_Information_Object ;
+            rdfs:label "48.1498568 | 11.57097"@en ;
+            crm:P2_has_type crm:E73_Information_Object ],
+        [ a crm:E73_Information_Object ;
+            rdfs:label "48.1498568 | 11.57097"@en ;
+            crm:P2_has_type crm:E73_Information_Object ] .
+
+aat:300312292 rdfs:label "institutions (buildings)"@en .
+
+aat:300265431 rdfs:label "Web sites"@en .
+
+ngo:25UI-ZYQZ-7TGD-8FQK a aat:300379244,
+        crm:E52_Time_span ;
+    rdfs:label "Timespan of Existence of (Rome) Venice "@en,
+        "Timespan of Existence of Albino"@en,
+        "Timespan of Existence of Amboise"@en,
+        "Timespan of Existence of Amsterdam"@en,
+        "Timespan of Existence of Anchiano"@en,
+        "Timespan of Existence of Ancona"@en,
+        "Timespan of Existence of Antwerp"@en,
+        "Timespan of Existence of Asola"@en,
+        "Timespan of Existence of Augsburg"@en,
+        "Timespan of Existence of Barberino Val d’Elsa"@en,
+        "Timespan of Existence of Bassano"@en,
+        "Timespan of Existence of Bassano del Grappa"@en,
+        "Timespan of Existence of Bayerische Staatsgemäldesammlungen"@en,
+        "Timespan of Existence of Belgium"@en,
+        "Timespan of Existence of Bergamo"@en,
+        "Timespan of Existence of Bologna"@en,
+        "Timespan of Existence of Boulogne-sur-Mer"@en,
+        "Timespan of Existence of Brescia"@en,
+        "Timespan of Existence of Brussels"@en,
+        "Timespan of Existence of Caldiero"@en,
+        "Timespan of Existence of Caprese"@en,
+        "Timespan of Existence of Caprese Michelangelo"@en,
+        "Timespan of Existence of Carpi"@en,
+        "Timespan of Existence of Casale Monferrato"@en,
+        "Timespan of Existence of Casalmaggiore"@en,
+        "Timespan of Existence of Castelfranco Veneto"@en,
+        "Timespan of Existence of Chateau of Cloux"@en,
+        "Timespan of Existence of Chiaravalle"@en,
+        "Timespan of Existence of Château du Clos Lucé"@en,
+        "Timespan of Existence of Città di Castello"@en,
+        "Timespan of Existence of Conegliano"@en,
+        "Timespan of Existence of Conegliano "@en,
+        "Timespan of Existence of Consiglio Nazionale delle Ricerche"@en,
+        "Timespan of Existence of Copenhagen"@en,
+        "Timespan of Existence of Correggio"@en,
+        "Timespan of Existence of Cotignola"@en,
+        "Timespan of Existence of Crema"@en,
+        "Timespan of Existence of Cremona"@en,
+        "Timespan of Existence of Denmark"@en,
+        "Timespan of Existence of Doerner Institut, Bayerische Staatsgemäldesammlungen"@en,
+        "Timespan of Existence of Dresden"@en,
+        "Timespan of Existence of Dumenza"@en,
+        "Timespan of Existence of Faenza"@en,
+        "Timespan of Existence of Ferrara"@en,
+        "Timespan of Existence of Ferrara "@en,
+        "Timespan of Existence of Florence"@en,
+        "Timespan of Existence of Fontainebleau"@en,
+        "Timespan of Existence of France"@en,
+        "Timespan of Existence of Frederiksborg slot, Det Nationalhistoriske Museum"@en,
+        "Timespan of Existence of Galluzzo"@en,
+        "Timespan of Existence of Garofalo "@en,
+        "Timespan of Existence of Genoa"@en,
+        "Timespan of Existence of Germany"@en,
+        "Timespan of Existence of Hilleroed"@en,
+        "Timespan of Existence of Hochschule für Bildende Künste Dresden"@en,
+        "Timespan of Existence of Italy"@en,
+        "Timespan of Existence of Koninklijk Instituut voor het Kunstpatrimonium"@en,
+        "Timespan of Existence of Lago d'Iseo"@en,
+        "Timespan of Existence of Legnano"@en,
+        "Timespan of Existence of Lodi"@en,
+        "Timespan of Existence of London"@en,
+        "Timespan of Existence of Loreto"@en,
+        "Timespan of Existence of Los Angeles"@en,
+        "Timespan of Existence of Lucca"@en,
+        "Timespan of Existence of Lugano"@en,
+        "Timespan of Existence of Luino"@en,
+        "Timespan of Existence of Madrid"@en,
+        "Timespan of Existence of Mantua"@en,
+        "Timespan of Existence of Mantua "@en,
+        "Timespan of Existence of Maser"@en,
+        "Timespan of Existence of Milan"@en,
+        "Timespan of Existence of Milan "@en,
+        "Timespan of Existence of Modena"@en,
+        "Timespan of Existence of Mortara"@en,
+        "Timespan of Existence of Museo Nacional del Prado"@en,
+        "Timespan of Existence of München"@en,
+        "Timespan of Existence of Naples"@en,
+        "Timespan of Existence of National Museum of Stockholm"@en,
+        "Timespan of Existence of Novara"@en,
+        "Timespan of Existence of Novellara"@en,
+        "Timespan of Existence of Ny Carlsberg Glyptotek"@en,
+        "Timespan of Existence of Padua"@en,
+        "Timespan of Existence of Parma"@en,
+        "Timespan of Existence of Parma "@en,
+        "Timespan of Existence of Perugia"@en,
+        "Timespan of Existence of Pesaro"@en,
+        "Timespan of Existence of Pienza"@en,
+        "Timespan of Existence of Pieve di Cadore"@en,
+        "Timespan of Existence of Piombino"@en,
+        "Timespan of Existence of Pisa"@en,
+        "Timespan of Existence of Poggio a Caiano"@en,
+        "Timespan of Existence of Pontorme"@en,
+        "Timespan of Existence of Prato"@en,
+        "Timespan of Existence of Ravenna"@en,
+        "Timespan of Existence of Recanati"@en,
+        "Timespan of Existence of Reggio Emilia"@en,
+        "Timespan of Existence of Rijksmuseum"@en,
+        "Timespan of Existence of Rome"@en,
+        "Timespan of Existence of Rome "@en,
+        "Timespan of Existence of Rovato"@en,
+        "Timespan of Existence of SMK"@en,
+        "Timespan of Existence of San Giovanni del Dosso"@en,
+        "Timespan of Existence of Saronno"@en,
+        "Timespan of Existence of Serina"@en,
+        "Timespan of Existence of Siena"@en,
+        "Timespan of Existence of Spain"@en,
+        "Timespan of Existence of Staatliche Kunstsammlungen Dresden"@en,
+        "Timespan of Existence of Statens Museum for Kunst"@en,
+        "Timespan of Existence of Statens Museum for Kunst, Centre for Art Technological Studies and Conservation"@en,
+        "Timespan of Existence of Stockholm"@en,
+        "Timespan of Existence of Switzerland"@en,
+        "Timespan of Existence of The Hague"@en,
+        "Timespan of Existence of The J. Paul Getty Museum"@en,
+        "Timespan of Existence of The National Gallery, London"@en,
+        "Timespan of Existence of The Netherlands"@en,
+        "Timespan of Existence of Trento"@en,
+        "Timespan of Existence of Treviso"@en,
+        "Timespan of Existence of Turin"@en,
+        "Timespan of Existence of Umbria"@en,
+        "Timespan of Existence of United Kingdom"@en,
+        "Timespan of Existence of Unknown"@en,
+        "Timespan of Existence of Urbino"@en,
+        "Timespan of Existence of Utrecht"@en,
+        "Timespan of Existence of Val Camonica"@en,
+        "Timespan of Existence of Venice"@en,
+        "Timespan of Existence of Venice "@en,
+        "Timespan of Existence of Vercelli"@en,
+        "Timespan of Existence of Verona"@en,
+        "Timespan of Existence of Viadana"@en,
+        "Timespan of Existence of Volterra"@en,
+        "Timespan of Existence of gallery"@en,
+        "Timespan of Existence of gallery | research centre"@en,
+        "Timespan of Existence of museum"@en,
+        "Timespan of Existence of museum | research centre"@en,
+        "Timespan of Existence of research centre"@en ;
+    crm:P3_has_note "None"@en ;
+    crm:P82a_begin_of_the_begin "None"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "None"^^xsd:dateTime ;
+    crm:P90_has_value "None"@en .
+

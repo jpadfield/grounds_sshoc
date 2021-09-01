@@ -154,7 +154,7 @@ def map_db_to_triples(full_rebuild=False):
 
     if path.exists('outputs/grounds_sample.xml') == False or full_rebuild == True:
         sample_graph = create_graph()
-        new_sample_graph = map_sample(new_graph=sample_graph, sample_colour=sample_colour, sample_timespan_event=sample_timespan_event, sample_component_view=sample_component_view, sample_component_colours=sample_component_colours, sample_component_parents=sample_component_parents, sample_reference=sample_reference)
+        new_sample_graph = map_sample(new_graph=sample_graph, sample_colour=sample_colour, sample_timespan_event=sample_timespan_event, sample_component_view=sample_component_view, sample_component_colours=sample_component_colours, measurement_materials=measurement_materials, sample_component_parents=sample_component_parents, sample_reference=sample_reference)
         new_sample_graph.serialize(destination='outputs/grounds_sample.xml', format='xml')
         new_sample_graph.serialize(destination='outputs/grounds_sample.ttl', format='ttl')
         new_sample_graph.serialize(destination='outputs/grounds_sample.trig', format='trig')

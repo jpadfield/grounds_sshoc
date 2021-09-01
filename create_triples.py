@@ -188,7 +188,8 @@ def create_person_triples(new_graph, **kwargs):
     new_graph.add((getattr(NGO, kwargs["person_PID"]), CRM.P1_is_identified_by, name_PID))
     new_graph.add((getattr(NGO, kwargs["person_PID"]), CRM.P48_has_preferred_identifier, name_PID))
     new_graph.add((name_PID, RDF.type, CRM.E41_Appellation))
-    new_graph.add((name_PID, RDFS.label, Literal(kwargs["person_name"])))
+    new_graph.add((name_PID, CRM.P2_has_type, CRM.E41_Appellation))
+    new_graph.add((name_PID, RDFS.label, Literal(kwargs["person_name"], lang="en")))
 
     if kwargs["comment"] != "":
         new_graph.add((name_PID, CRM.P3_has_note, Literal(kwargs["comment"])))
@@ -222,11 +223,11 @@ def create_role_triples(new_graph, **kwargs):
         
         try:
             aat_number, aat_type = find_aat_value(kwargs["person_title"], 'roles')
-
+        except:
+            pass
+        else:
             new_graph.add((role_PID, RDF.type, getattr(AAT, aat_number)))
             new_graph.add((getattr(AAT, aat_number), RDFS.label, Literal(aat_type)))
-        except:
-            return
 
     if kwargs["role_comment"] != "":
 

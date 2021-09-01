@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/OU4Q-6GTS-O59Q-X3AL">
+    <crm:P1_is_identified_by rdf:nodeID="N9a167067b07f46f1ba6b361a35dc5a56"/>
+    <crm:P1_is_identified_by rdf:nodeID="N1f68127100b3476faf0ae6f97567b871"/>
+    <crm:P1_is_identified_by rdf:nodeID="Ne0887099d0514dfbbd296b0058d91ee6"/>
+    <crm:P1_is_identified_by rdf:nodeID="N6ab8a1ee02724c1aa5c6cd8284bbff0e"/>
+    <crm:P1_is_identified_by rdf:nodeID="Ne698b2f6cb8b4400bea9ef4c9f94e517"/>
+    <crm:P1_is_identified_by rdf:nodeID="Nd26a0e29c98448deb155851dbd804da2"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N9a167067b07f46f1ba6b361a35dc5a56"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N6ab8a1ee02724c1aa5c6cd8284bbff0e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/VHVI-Q1XS-RCHM-9KW2">
+    <crm:P48_has_preferred_identifier rdf:nodeID="N2daa4fc812dc49a78c8ddccb17aeb5ff"/>
+    <crm:P1_is_identified_by rdf:nodeID="N125b97bcfba74e7590245191ff38cc7d"/>
+    <crm:P1_is_identified_by rdf:nodeID="N6cbe455b23fc47da87f43fe09255082a"/>
+    <crm:P1_is_identified_by rdf:nodeID="N2daa4fc812dc49a78c8ddccb17aeb5ff"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N531b23663ae1489da0859145d8b89849">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Sofie Wikkelsø Jensen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndb6545a6fb0e4f1688d5b2ebda6ec57e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Andreas Burmester</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N265512bf50a74b3aaae39f33ab7062e6">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Marta Melchiorre Di Crescenzo</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/OTST-LJPS-N28V-77DF">
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/3U0L-4H9V-JL07-Y8SI"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/V5J9-UNK3-9VW3-SXPT"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/ING1-WPAU-IOM7-0WPI"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/H6NZ-OPFZ-7Y50-QZ2P"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/049Q-SLVP-5K3B-AY0Y"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/7PD4-5QVP-PWVB-MEBL"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/E6MY-AEL3-WVRA-QS9X"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/UCF0-V1QC-WMGH-DFYN"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/VHVI-Q1XS-RCHM-9KW2"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/NC2I-H8C7-8NG1-CLBQ"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/EQF6-EUNZ-WHAJ-RTGF"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/6UE5-RUEG-1FEL-WXDM"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/UUMQ-D9YT-0DLW-2QMA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/FP9B-9KYO-FJV4-NM8M">
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/J2TC-GVEZ-GDQH-ZIF3"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/S9LH-FUNA-G8ZA-PDAF"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/IG4B-YEZ0-9RSJ-58ED"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/AXXR-BY07-JHTF-WPAT"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/4RBP-6YM1-3QW9-A2WM"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/VKDI-2NFA-3GRF-WY8T"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/SZMG-Y7G2-2FKD-5MB3"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/BIE2-NFCI-0X71-WZN9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc8a992c36b524eadac3513707cd40474">
+    <rdfs:label xml:lang="en">Ursula Baumer</rdfs:label>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N80d890562695499e91130ad89b8c4f3c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Marlies Giebe</rdfs:label>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/JG33-LVW3-KBKC-EXLU">
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/OU4Q-6GTS-O59Q-X3AL"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/045T-BMG8-ZC06-4PYR"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/0UND-JCJZ-RWYR-X915"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/C3HG-9LC6-1VSX-P8DD"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/ZN9J-F5I4-TU39-R8ZN"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/KX5Z-X70C-CAC3-BYNX"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/BYUU-HLWF-CSSO-1NEI"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/U27T-HNTY-3YMJ-I11Q"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/UP9M-U4LY-7F5P-HLTI"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/RLNH-G1T1-03AV-Q3YO"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/SKSM-2TRH-M8SF-473Z"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/SZYH-96Q6-WDRB-JF8X"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/N805-NB90-9JXR-PBGB"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N629d84f2c450444c9b276d039e63c10d">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/AXXR-BY07-JHTF-WPAT">
+    <crm:P1_is_identified_by rdf:nodeID="N250070b340ea4e3f8007115257d9b672"/>
+    <crm:P1_is_identified_by rdf:nodeID="Nd5eea56e571a4679a49a3020991ba173"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N4c623c61fece4a17b3bbc157465784c1"/>
+    <crm:P1_is_identified_by rdf:nodeID="N4c623c61fece4a17b3bbc157465784c1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbd28feb18e5d420797605457779394bc">
+    <rdfs:label>david.buti@smk.dk | david.buti81@gmail.com</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb9502085c136477f88b8fdc20ec93d4b">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>heike.stege@doernerinstitut.pinakothek.de</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0a9f20d7075e43d7a7c01f3f00aaef78">
+    <rdfs:label>marika.spring@ng-london.org.uk</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N00d138f02dc146059543f38021a30c42">
+    <rdfs:label>Head of Analytical Laboratory (Archeometry)</rdfs:label>
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne8e4b50d653f43b695813240c24790e4">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Freelance conservator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N84fe90daa29c421cafa8b0409f3874b6">
+    <rdfs:label>fiewikkel@gmail.com</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne7abdbf26a7b4f668794a56230592dab">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Sabine Posselt</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/ZN9J-F5I4-TU39-R8ZN">
+    <crm:P1_is_identified_by rdf:nodeID="N92ebae55d467462db6aa80fa74c40c6b"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="Ne0b2024a74a2474382601561eaee2e68"/>
+    <crm:P1_is_identified_by rdf:nodeID="Ne0b2024a74a2474382601561eaee2e68"/>
+    <crm:P1_is_identified_by rdf:nodeID="N6f9774d8f1294115bbb023cc6b441083"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na7efbc06446e4b10affd1ae1f4429e8e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Evelyn Adler</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N160a9b7775994692a316738a0e3e530f">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Intern, Student for Conservation of Paintings (HfBK Dresden)</rdfs:label>
+    <crm:P3_has_note>None</crm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/ADN8-DI1Q-Y6AD-GCNT">
+    <crm:P1_is_identified_by rdf:nodeID="N16f8c3dee91943d0b405bc771d652428"/>
+    <crm:P1_is_identified_by rdf:nodeID="N9e3d739fa8404af8a5660cb486f75888"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="Ne56d624ba4b54cbd9ce4890b051d8de4"/>
+    <crm:P1_is_identified_by rdf:nodeID="Ne56d624ba4b54cbd9ce4890b051d8de4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N252837d96cce4df4a2df50eab986de33">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/045T-BMG8-ZC06-4PYR">
+    <crm:P1_is_identified_by rdf:nodeID="N7deb1f54741c426a81e78ae4d5fefc26"/>
+    <crm:P1_is_identified_by rdf:nodeID="N43212c21731f4b53bb0b0648d29cb031"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N265512bf50a74b3aaae39f33ab7062e6"/>
+    <crm:P1_is_identified_by rdf:nodeID="N265512bf50a74b3aaae39f33ab7062e6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/UUMQ-D9YT-0DLW-2QMA">
+    <crm:P1_is_identified_by rdf:nodeID="N6693cb3ef49f449bb299e466b31cfe8b"/>
+    <crm:P1_is_identified_by rdf:nodeID="N0a990741656c401a8af3d1d1d2ab9bff"/>
+    <crm:P76_has_contact_point rdf:nodeID="N0b191c22e65244eeab8c2a8a9c9c89c0"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N45eb6ba1bf4c43d796698e4709a49094"/>
+    <crm:P1_is_identified_by rdf:nodeID="N45eb6ba1bf4c43d796698e4709a49094"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/E6MY-AEL3-WVRA-QS9X">
+    <crm:P1_is_identified_by rdf:nodeID="N948bc7f5e966491d8883fd1747a7ebc6"/>
+    <crm:P1_is_identified_by rdf:nodeID="N5d8baf24745a462abd86f4d45bd5f9f2"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N948bc7f5e966491d8883fd1747a7ebc6"/>
+    <crm:P1_is_identified_by rdf:nodeID="Ne7f769615fdb485aba86655fc86da825"/>
+    <crm:P76_has_contact_point rdf:nodeID="Nb9502085c136477f88b8fdc20ec93d4b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd641f42cc11b43d3afa7ef12d6f48ed2">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdfs:label>Head of Painting Conservation Department SKD</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/IG4B-YEZ0-9RSJ-58ED">
+    <crm:P48_has_preferred_identifier rdf:nodeID="N94e31dcc64284b98923fa9cda05b2496"/>
+    <crm:P1_is_identified_by rdf:nodeID="N94e31dcc64284b98923fa9cda05b2496"/>
+    <crm:P1_is_identified_by rdf:nodeID="N679cca0f69694bac8c785270ecf57a18"/>
+    <crm:P1_is_identified_by rdf:nodeID="N3b427221bde14cd9ab9500113870245c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/H6NZ-OPFZ-7Y50-QZ2P">
+    <crm:P1_is_identified_by rdf:nodeID="Nfaaf2e5690354c539c4b2faca73f4347"/>
+    <crm:P1_is_identified_by rdf:nodeID="N010b70893539420baf437ea4897f9a2d"/>
+    <crm:P1_is_identified_by rdf:nodeID="Ne8793225284148e785d949a93eddf7bb"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="Nfaaf2e5690354c539c4b2faca73f4347"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N46b14e0537bc4d088480f933ab79f8ec">
+    <rdfs:label>Scientist</rdfs:label>
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N54b99920a4a34957abd641a6f99421f0">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4a99659043d04a149ead00ca62adbc9a">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Marika Spring</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/UP9M-U4LY-7F5P-HLTI">
+    <crm:P1_is_identified_by rdf:nodeID="Ndb0e5ec8d74640a38f7d171683114137"/>
+    <crm:P1_is_identified_by rdf:nodeID="N16b85fa460074f1aaaf802a9bf542411"/>
+    <crm:P1_is_identified_by rdf:nodeID="N9a19dcea1dad42018ebcd6a5293256ea"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="Ndb0e5ec8d74640a38f7d171683114137"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N85575c37c0484defb815180212db6507">
+    <rdfs:label>marlies.giebe@skd.museum</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6693cb3ef49f449bb299e466b31cfe8b">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/VKDI-2NFA-3GRF-WY8T">
+    <crm:P48_has_preferred_identifier rdf:nodeID="Nf15b8914ef044cfa81f0862098568fef"/>
+    <crm:P1_is_identified_by rdf:nodeID="Nf15b8914ef044cfa81f0862098568fef"/>
+    <crm:P76_has_contact_point rdf:nodeID="N235b0bf6f7bc4c46b59a81e98f0691b0"/>
+    <crm:P1_is_identified_by rdf:nodeID="N5e7bef7bb3624394b255e8c034b2e673"/>
+    <crm:P1_is_identified_by rdf:nodeID="Nc13a949af2cc4e468603d8d87ab0a424"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N94e31dcc64284b98923fa9cda05b2496">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Tobias Lange</rdfs:label>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf5a8d463677342b582c3811f182dafb2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0a990741656c401a8af3d1d1d2ab9bff">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Scientist</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4f48c81d510a4b30ac82f3fdad1b5467">
+    <rdfs:label xml:lang="en">Aviva Burnstock</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8d2f1793e09847ceb94d62bb6db94e7b">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/KX5Z-X70C-CAC3-BYNX">
+    <crm:P48_has_preferred_identifier rdf:nodeID="N6dc002065c3d4ba88af7f0247941edca"/>
+    <crm:P76_has_contact_point rdf:nodeID="Nde6df63752e84c23ab1bb934255ad59f"/>
+    <crm:P1_is_identified_by rdf:nodeID="N6dc002065c3d4ba88af7f0247941edca"/>
+    <crm:P1_is_identified_by rdf:nodeID="Ncf2f48bdef32438585ae2773e411b522"/>
+    <crm:P1_is_identified_by rdf:nodeID="N84a9046196774659a225719e20d953e7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7deb1f54741c426a81e78ae4d5fefc26">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Scientist, inorganic analysis</rdfs:label>
+    <crm:P3_has_note>None</crm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/EQF6-EUNZ-WHAJ-RTGF">
+    <crm:P1_is_identified_by rdf:nodeID="Nf5a8d463677342b582c3811f182dafb2"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N16e9c6d60cb34c069a80a723b2a55e4a"/>
+    <crm:P1_is_identified_by rdf:nodeID="N480c6ee4aeac4b8e90aed96fd90c318c"/>
+    <crm:P1_is_identified_by rdf:nodeID="N16e9c6d60cb34c069a80a723b2a55e4a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc21b5ffe7b3d42a89e17f8114915b2e4">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdfs:label>Freelance conservator</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6cbe455b23fc47da87f43fe09255082a">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Chemical-technical assistant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/BIE2-NFCI-0X71-WZN9">
+    <crm:P1_is_identified_by rdf:nodeID="Nb9e69f7fa7b041e1988e419c7d7f47db"/>
+    <crm:P1_is_identified_by rdf:nodeID="N4c817d10cb3d43d9a7d51b00e82e07a1"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="Na7efbc06446e4b10affd1ae1f4429e8e"/>
+    <crm:P1_is_identified_by rdf:nodeID="Na7efbc06446e4b10affd1ae1f4429e8e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/7PD4-5QVP-PWVB-MEBL">
+    <crm:P1_is_identified_by rdf:nodeID="N93f117a57b1c49729db6b627ab55d346"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N38a79083c51d4f18b38069986b3f3596"/>
+    <crm:P1_is_identified_by rdf:nodeID="N24525143d3dc4af89c468ab0fe536d15"/>
+    <crm:P1_is_identified_by rdf:nodeID="N38a79083c51d4f18b38069986b3f3596"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N70e7d68ecd484662abe40bf6e9bf3db4">
+    <rdfs:label xml:lang="en">Patrick Dietemann</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N24525143d3dc4af89c468ab0fe536d15">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/NC2I-H8C7-8NG1-CLBQ">
+    <crm:P48_has_preferred_identifier rdf:nodeID="N34e05a822ee640a78a9ed21d3290a99b"/>
+    <crm:P1_is_identified_by rdf:nodeID="N4013f6e4c6ff4ef0b0245541306d1af4"/>
+    <crm:P1_is_identified_by rdf:nodeID="N9634be914c8b4833ae4666de6be352c2"/>
+    <crm:P1_is_identified_by rdf:nodeID="N34e05a822ee640a78a9ed21d3290a99b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncf2f48bdef32438585ae2773e411b522">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Scientist Officer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/ING1-WPAU-IOM7-0WPI">
+    <crm:P1_is_identified_by rdf:nodeID="Nef61416fc8544d32bcec660535aa7c1e"/>
+    <crm:P1_is_identified_by rdf:nodeID="N4fde607a71094383a6e8582a8cca186b"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N8a61cb23a2e34200a76b1f1750ea6465"/>
+    <crm:P1_is_identified_by rdf:nodeID="N8a61cb23a2e34200a76b1f1750ea6465"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N45eb6ba1bf4c43d796698e4709a49094">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Jeanine Walcher</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SKSM-2TRH-M8SF-473Z">
+    <crm:P1_is_identified_by rdf:nodeID="N9f98daa70409465ba0e2a71cd1a1b2d2"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="Nc2e7f386fdc7436683c80bbcd2171a98"/>
+    <crm:P1_is_identified_by rdf:nodeID="Nc2e7f386fdc7436683c80bbcd2171a98"/>
+    <crm:P1_is_identified_by rdf:nodeID="N3c410bac77a64f159a3c77f9d9793f50"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/29BG-3CQ5-1EL9-536V">
+    <crm:P48_has_preferred_identifier rdf:nodeID="N4f78399208de447cac66b6c0bd07536c"/>
+    <crm:P1_is_identified_by rdf:nodeID="N4f78399208de447cac66b6c0bd07536c"/>
+    <crm:P1_is_identified_by rdf:nodeID="Naadeaf34b478484e92fec2e14602ecd5"/>
+    <crm:P1_is_identified_by rdf:nodeID="N00d138f02dc146059543f38021a30c42"/>
+    <crm:P76_has_contact_point rdf:nodeID="Na2f3e69fb90440a7bbd12551ae1d1956"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N16f8c3dee91943d0b405bc771d652428">
+    <rdfs:label>Scientist</rdfs:label>
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/9IWQ-P1OQ-FQQB-S0XX">
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/0RUB-8QZX-2N0U-0N5X"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/8V1V-92KF-ZXUA-1BQN"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/MOJ2-EHMB-48BU-82C7"/>
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/6ZVG-5960-4X42-G0GT"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na665bef6f7ff4d009b07eef040d9c8de">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nba8a74580ef748f7bec4b19f5444775f">
+    <rdfs:label>Paintings Conservator and laboratory technician, CATS-SMK</rdfs:label>
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb9e69f7fa7b041e1988e419c7d7f47db">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/0RUB-8QZX-2N0U-0N5X">
+    <crm:P1_is_identified_by rdf:nodeID="Nc65a990ecd1f42b1a8451f92ad044eed"/>
+    <crm:P1_is_identified_by rdf:nodeID="N531b23663ae1489da0859145d8b89849"/>
+    <crm:P76_has_contact_point rdf:nodeID="N84fe90daa29c421cafa8b0409f3874b6"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N531b23663ae1489da0859145d8b89849"/>
+    <crm:P1_is_identified_by rdf:nodeID="Ndd5c1b391ab4476ca94a61a954112b16"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7aa11beeb3ff4929b38fd5911c0c768c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na2f3e69fb90440a7bbd12551ae1d1956">
+    <rdfs:label>herm@hfbk-dresden.de</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N01305ac7b5664719aa9263f55e373cc7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9f98daa70409465ba0e2a71cd1a1b2d2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Scientist</rdfs:label>
+    <crm:P3_has_note>None</crm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N70806a85277f452daeee2254ebb5ad8b">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Scientist</rdfs:label>
+    <crm:P3_has_note>None</crm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd26a0e29c98448deb155851dbd804da2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Scientist</rdfs:label>
+    <crm:P3_has_note>None</crm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc65a990ecd1f42b1a8451f92ad044eed">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdfs:label>Student helper, Student for Conservation of works on paper (KADK Copenhagen)</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nde6df63752e84c23ab1bb934255ad59f">
+    <rdfs:label>gabriella.macaro@ng-london.org.uk</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4c623c61fece4a17b3bbc157465784c1">
+    <rdfs:label xml:lang="en">Jan Sacher</rdfs:label>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/3U0L-4H9V-JL07-Y8SI">
+    <crm:P48_has_preferred_identifier rdf:nodeID="N0e7cbd352643468a83bab34efc59195e"/>
+    <crm:P1_is_identified_by rdf:nodeID="N0e7cbd352643468a83bab34efc59195e"/>
+    <crm:P1_is_identified_by rdf:nodeID="N629d84f2c450444c9b276d039e63c10d"/>
+    <crm:P1_is_identified_by rdf:nodeID="Ne1d05d367886487ba0706b72bd35e0ac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/6UE5-RUEG-1FEL-WXDM">
+    <crm:P1_is_identified_by rdf:nodeID="Nee6fe8ea02b14c88982889d9a3aa7c2e"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N70e7d68ecd484662abe40bf6e9bf3db4"/>
+    <crm:P1_is_identified_by rdf:nodeID="N70e7d68ecd484662abe40bf6e9bf3db4"/>
+    <crm:P1_is_identified_by rdf:nodeID="N46b14e0537bc4d088480f933ab79f8ec"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9a19dcea1dad42018ebcd6a5293256ea">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/6ZVG-5960-4X42-G0GT">
+    <crm:P1_is_identified_by rdf:nodeID="N160a9b7775994692a316738a0e3e530f"/>
+    <crm:P1_is_identified_by rdf:nodeID="N252837d96cce4df4a2df50eab986de33"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N2c65aeff848b42139c98d0875185ae30"/>
+    <crm:P1_is_identified_by rdf:nodeID="N2c65aeff848b42139c98d0875185ae30"/>
+    <crm:P76_has_contact_point rdf:nodeID="N02c4c89b2d9b49c4919db18963182d46"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N32ea178656d7432eb561c264f4086415">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/V5J9-UNK3-9VW3-SXPT">
+    <crm:P1_is_identified_by rdf:nodeID="N7ad728dc21dd45168c2950fac6745609"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N85bb9ebe02f54f3fb8e3c9b6d8bac49c"/>
+    <crm:P1_is_identified_by rdf:nodeID="N85bb9ebe02f54f3fb8e3c9b6d8bac49c"/>
+    <crm:P1_is_identified_by rdf:nodeID="N598568249cc748d1885beeb844a2ad6f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/BYUU-HLWF-CSSO-1NEI">
+    <crm:P1_is_identified_by rdf:nodeID="Ndef413cb098c4b24bec5a6c0396ecafe"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N7ae6e3af6f774bf28bc0240a276ba796"/>
+    <crm:P1_is_identified_by rdf:nodeID="N3acda4e885d34590ad573fb14434761f"/>
+    <crm:P1_is_identified_by rdf:nodeID="N7ae6e3af6f774bf28bc0240a276ba796"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne1d05d367886487ba0706b72bd35e0ac">
+    <rdfs:label>Head of Conservation Alte Pinakothek</rdfs:label>
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/MOJ2-EHMB-48BU-82C7">
+    <crm:P48_has_preferred_identifier rdf:nodeID="Nb3583d1d66e64426b30e0dd18c3dd05c"/>
+    <crm:P1_is_identified_by rdf:nodeID="Nb3583d1d66e64426b30e0dd18c3dd05c"/>
+    <crm:P1_is_identified_by rdf:nodeID="N5de4031febd44657adda57b6c048d379"/>
+    <crm:P1_is_identified_by rdf:nodeID="Nba8a74580ef748f7bec4b19f5444775f"/>
+    <crm:P76_has_contact_point rdf:nodeID="N5e6ed25d3215456a97870b16cdb92a2a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne8793225284148e785d949a93eddf7bb">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdfs:label>Scientist</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/S9LH-FUNA-G8ZA-PDAF">
+    <crm:P1_is_identified_by rdf:nodeID="Nd30177613f0749669f8c758542cdc7a7"/>
+    <crm:P1_is_identified_by rdf:nodeID="Ne041d5a5a7e84646aeaffdf288f69444"/>
+    <crm:P1_is_identified_by rdf:nodeID="N8d2f1793e09847ceb94d62bb6db94e7b"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="Ne041d5a5a7e84646aeaffdf288f69444"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N84be0d88ef5749b4b23b19bc065ae36d">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N95e5397b00234d6590b9d48b0127f73b">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Head of Scientific Department</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naadeaf34b478484e92fec2e14602ecd5">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SZMG-Y7G2-2FKD-5MB3">
+    <crm:P1_is_identified_by rdf:nodeID="N310cc1d923794f209054c71cc184c9fc"/>
+    <crm:P76_has_contact_point rdf:nodeID="N85575c37c0484defb815180212db6507"/>
+    <crm:P1_is_identified_by rdf:nodeID="N80d890562695499e91130ad89b8c4f3c"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N80d890562695499e91130ad89b8c4f3c"/>
+    <crm:P1_is_identified_by rdf:nodeID="Nd641f42cc11b43d3afa7ef12d6f48ed2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7ae6e3af6f774bf28bc0240a276ba796">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Helen Howard</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5d8baf24745a462abd86f4d45bd5f9f2">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Head of Scientific Department</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nee6fe8ea02b14c88982889d9a3aa7c2e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N02c4c89b2d9b49c4919db18963182d46">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>nora@la-sch.de</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SZYH-96Q6-WDRB-JF8X">
+    <crm:P1_is_identified_by rdf:nodeID="N436f2f3f67a94c6f8929f9e3dd8aae38"/>
+    <crm:P1_is_identified_by rdf:nodeID="N70806a85277f452daeee2254ebb5ad8b"/>
+    <crm:P1_is_identified_by rdf:nodeID="N01305ac7b5664719aa9263f55e373cc7"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N436f2f3f67a94c6f8929f9e3dd8aae38"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndef413cb098c4b24bec5a6c0396ecafe">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/RLNH-G1T1-03AV-Q3YO">
+    <crm:P1_is_identified_by rdf:nodeID="N26cae5b54c9640628f7678a3b41934c1"/>
+    <crm:P1_is_identified_by rdf:nodeID="N84be0d88ef5749b4b23b19bc065ae36d"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N89f010c9a2314b869c34b78b7f073265"/>
+    <crm:P1_is_identified_by rdf:nodeID="N89f010c9a2314b869c34b78b7f073265"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/UCF0-V1QC-WMGH-DFYN">
+    <crm:P1_is_identified_by rdf:nodeID="Na665bef6f7ff4d009b07eef040d9c8de"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="Nc8a992c36b524eadac3513707cd40474"/>
+    <crm:P1_is_identified_by rdf:nodeID="Nc8a992c36b524eadac3513707cd40474"/>
+    <crm:P1_is_identified_by rdf:nodeID="Ne92f7961f81145c4a8cac18d9f0b77de"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9e3d739fa8404af8a5660cb486f75888">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6f9774d8f1294115bbb023cc6b441083">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/J2TC-GVEZ-GDQH-ZIF3">
+    <crm:P1_is_identified_by rdf:nodeID="Nc21b5ffe7b3d42a89e17f8114915b2e4"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="Ne7abdbf26a7b4f668794a56230592dab"/>
+    <crm:P1_is_identified_by rdf:nodeID="Ne7abdbf26a7b4f668794a56230592dab"/>
+    <crm:P1_is_identified_by rdf:nodeID="N54b99920a4a34957abd641a6f99421f0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/4RBP-6YM1-3QW9-A2WM">
+    <crm:P48_has_preferred_identifier rdf:nodeID="Nb75645749d094e769e3b3acc6b7673cf"/>
+    <crm:P1_is_identified_by rdf:nodeID="N3dbeef41f82d4cf48681d98747c57d1b"/>
+    <crm:P1_is_identified_by rdf:nodeID="Nb75645749d094e769e3b3acc6b7673cf"/>
+    <crm:P1_is_identified_by rdf:nodeID="Ne8e4b50d653f43b695813240c24790e4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6ab8a1ee02724c1aa5c6cd8284bbff0e">
+    <rdfs:label xml:lang="en">Joanna Russell</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N16e9c6d60cb34c069a80a723b2a55e4a">
+    <rdfs:label xml:lang="en">Cornelia Tilenschi</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2daa4fc812dc49a78c8ddccb17aeb5ff">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Andrea Obermeier</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4c817d10cb3d43d9a7d51b00e82e07a1">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Freelance conservator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/0UND-JCJZ-RWYR-X915">
+    <crm:P1_is_identified_by rdf:nodeID="Nccf8f15e5e814116ab59c89013ae5d0e"/>
+    <crm:P1_is_identified_by rdf:nodeID="N1c1cacd941d74ebf8239bc7e88618beb"/>
+    <crm:P1_is_identified_by rdf:nodeID="N613e402521184a8388b8416a63189e92"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N1c1cacd941d74ebf8239bc7e88618beb"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd5eea56e571a4679a49a3020991ba173">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N85bb9ebe02f54f3fb8e3c9b6d8bac49c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Veronika Poll-Frommel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/C3HG-9LC6-1VSX-P8DD">
+    <crm:P1_is_identified_by rdf:nodeID="N3714113b51e44628ad76cd089a3b29ef"/>
+    <crm:P1_is_identified_by rdf:nodeID="Nf1576fc4c5b9493ca339bc11be4c7f7b"/>
+    <crm:P1_is_identified_by rdf:nodeID="N404b1f7fdee64b158609133ad458e2d4"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N3714113b51e44628ad76cd089a3b29ef"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3acda4e885d34590ad573fb14434761f">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Scientist, inorganic analysis</rdfs:label>
+    <crm:P3_has_note>None</crm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N679cca0f69694bac8c785270ecf57a18">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Freelance conservator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne92f7961f81145c4a8cac18d9f0b77de">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Chemical-technical assistant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1c1cacd941d74ebf8239bc7e88618beb">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">David Peggie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N51fff9b20dd349668bd818d5659c4c46">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Conservation Scientist, CATS-SMK</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/8V1V-92KF-ZXUA-1BQN">
+    <crm:P48_has_preferred_identifier rdf:nodeID="N8a3d2d0b4d3b4944a00b9749ff5ec56b"/>
+    <crm:P1_is_identified_by rdf:nodeID="N10c44acb54ab466095e264d3a500e3d8"/>
+    <crm:P1_is_identified_by rdf:nodeID="N51fff9b20dd349668bd818d5659c4c46"/>
+    <crm:P76_has_contact_point rdf:nodeID="Nbd28feb18e5d420797605457779394bc"/>
+    <crm:P1_is_identified_by rdf:nodeID="N8a3d2d0b4d3b4944a00b9749ff5ec56b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/TUPN-6H9K-2T1M-NE7P">
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/ADN8-DI1Q-Y6AD-GCNT"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc2e7f386fdc7436683c80bbcd2171a98">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Jilleen Nadolny</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N436f2f3f67a94c6f8929f9e3dd8aae38">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Kate Stonor</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N43212c21731f4b53bb0b0648d29cb031">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nedfd0d96bff6416fb06d7dca8c4a6c56">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Scientist</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N26cae5b54c9640628f7678a3b41934c1">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Scientist, organic analysis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5de4031febd44657adda57b6c048d379">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5e7bef7bb3624394b255e8c034b2e673">
+    <rdfs:label>Associated Scientist (Archeometry)</rdfs:label>
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3b427221bde14cd9ab9500113870245c">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N010b70893539420baf437ea4897f9a2d">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N10c44acb54ab466095e264d3a500e3d8">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2c65aeff848b42139c98d0875185ae30">
+    <crm:P3_has_note>2017/11/1 - 2018/03/30</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Nora Schlag</rdfs:label>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N93f117a57b1c49729db6b627ab55d346">
+    <rdfs:label>Conservator</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P3_has_note>None</crm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne56d624ba4b54cbd9ce4890b051d8de4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Arie Wallert</rdfs:label>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndd5c1b391ab4476ca94a61a954112b16">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/U27T-HNTY-3YMJ-I11Q">
+    <crm:P1_is_identified_by rdf:nodeID="N95e5397b00234d6590b9d48b0127f73b"/>
+    <crm:P1_is_identified_by rdf:nodeID="N7aa11beeb3ff4929b38fd5911c0c768c"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N4a99659043d04a149ead00ca62adbc9a"/>
+    <crm:P1_is_identified_by rdf:nodeID="N4a99659043d04a149ead00ca62adbc9a"/>
+    <crm:P76_has_contact_point rdf:nodeID="N0a9f20d7075e43d7a7c01f3f00aaef78"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9634be914c8b4833ae4666de6be352c2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdfs:label>Chemical-technical assistant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N84a9046196774659a225719e20d953e7">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N92ebae55d467462db6aa80fa74c40c6b">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Head of Scientific Department</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/N805-NB90-9JXR-PBGB">
+    <crm:P1_is_identified_by rdf:nodeID="N32ea178656d7432eb561c264f4086415"/>
+    <crm:P1_is_identified_by rdf:nodeID="Nedfd0d96bff6416fb06d7dca8c4a6c56"/>
+    <crm:P48_has_preferred_identifier rdf:nodeID="N4f48c81d510a4b30ac82f3fdad1b5467"/>
+    <crm:P1_is_identified_by rdf:nodeID="N4f48c81d510a4b30ac82f3fdad1b5467"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndb0e5ec8d74640a38f7d171683114137">
+    <rdfs:label xml:lang="en">Rachel Grout</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N480c6ee4aeac4b8e90aed96fd90c318c">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Chemical-technical assistant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N613e402521184a8388b8416a63189e92">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne7f769615fdb485aba86655fc86da825">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd30177613f0749669f8c758542cdc7a7">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Freelance conservator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8a61cb23a2e34200a76b1f1750ea6465">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Ulrike Fischer</rdfs:label>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N598568249cc748d1885beeb844a2ad6f">
+    <rdfs:label>Head of Conservation Alte Pinakothek</rdfs:label>
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nef61416fc8544d32bcec660535aa7c1e">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdfs:label>Conservator</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N16b85fa460074f1aaaf802a9bf542411">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Scientist</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N235b0bf6f7bc4c46b59a81e98f0691b0">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>fuhrmann@hfbk-dresden.de</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb75645749d094e769e3b3acc6b7673cf">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Anke Stenzel</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/049Q-SLVP-5K3B-AY0Y">
+    <crm:P48_has_preferred_identifier rdf:nodeID="Ndb6545a6fb0e4f1688d5b2ebda6ec57e"/>
+    <crm:P1_is_identified_by rdf:nodeID="N9a766ae42ccf45c4a4ddeca2ca9fb381"/>
+    <crm:P1_is_identified_by rdf:nodeID="Ndb6545a6fb0e4f1688d5b2ebda6ec57e"/>
+    <crm:P1_is_identified_by rdf:nodeID="N8dfd46c76b39482588e52cabb7469ed1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0e7cbd352643468a83bab34efc59195e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Jan Schmidt</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfaaf2e5690354c539c4b2faca73f4347">
+    <rdfs:label xml:lang="en">Christoph Krekel</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N250070b340ea4e3f8007115257d9b672">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Freelance conservator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4013f6e4c6ff4ef0b0245541306d1af4">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3714113b51e44628ad76cd089a3b29ef">
+    <rdfs:label xml:lang="en">Joyce Plesters</rdfs:label>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9a167067b07f46f1ba6b361a35dc5a56">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Joanna Russell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N89f010c9a2314b869c34b78b7f073265">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Rachel Morrison</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb3583d1d66e64426b30e0dd18c3dd05c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Astrid Grinder-Hansen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N310cc1d923794f209054c71cc184c9fc">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3dbeef41f82d4cf48681d98747c57d1b">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne041d5a5a7e84646aeaffdf288f69444">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Kathrin Jacob</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf15b8914ef044cfa81f0862098568fef">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Annegret Fuhrmann</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc13a949af2cc4e468603d8d87ab0a424">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne0887099d0514dfbbd296b0058d91ee6">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8a3d2d0b4d3b4944a00b9749ff5ec56b">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">David Buti</rdfs:label>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4fde607a71094383a6e8582a8cca186b">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6dc002065c3d4ba88af7f0247941edca">
+    <rdfs:label xml:lang="en">Gabriella Macaro</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N34e05a822ee640a78a9ed21d3290a99b">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Carola Komar</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N404b1f7fdee64b158609133ad458e2d4">
+    <rdfs:label>Scientist Officer</rdfs:label>
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N125b97bcfba74e7590245191ff38cc7d">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N38a79083c51d4f18b38069986b3f3596">
+    <rdfs:label xml:lang="en">Wibke Neugebauer</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5e6ed25d3215456a97870b16cdb92a2a">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>astrid.grinder-hansen@smk.dk | astridgrinder@gmail.com</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3c410bac77a64f159a3c77f9d9793f50">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf1576fc4c5b9493ca339bc11be4c7f7b">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8dfd46c76b39482588e52cabb7469ed1">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdfs:label>Head of Scientific Department, Head of Doerner Institut</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/BFAE-5VOC-UWRI-C9JI">
+    <crm:P107_has_current_or_former_member rdf:resource="https://data.ng-london.org.uk/29BG-3CQ5-1EL9-536V"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0b191c22e65244eeab8c2a8a9c9c89c0">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>jeanine.walcher@doernerinstitut.pinakothek.de</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1f68127100b3476faf0ae6f97567b871">
+    <crm:P3_has_note>None</crm:P3_has_note>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Scientist for Paintings Examination</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4f78399208de447cac66b6c0bd07536c">
+    <rdfs:label xml:lang="en">Christoph Herm</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nccf8f15e5e814116ab59c89013ae5d0e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>Scientist, organic analysis</rdfs:label>
+    <crm:P3_has_note>None</crm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne698b2f6cb8b4400bea9ef4c9f94e517">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9a766ae42ccf45c4a4ddeca2ca9fb381">
+    <rdfs:label>None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7ad728dc21dd45168c2950fac6745609">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label>None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N948bc7f5e966491d8883fd1747a7ebc6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:label xml:lang="en">Heike Stege</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne0b2024a74a2474382601561eaee2e68">
+    <rdfs:label xml:lang="en">Ashok Roy</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+</rdf:RDF>

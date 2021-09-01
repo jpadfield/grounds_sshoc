@@ -1,0 +1,566 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ngo: <https://data.ng-london.org.uk/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+_:N2ffc35b95b8f42bdbe92a598d42d7dc8 {
+    ngo:9IWQ-P1OQ-FQQB-S0XX crm:P107_has_current_or_former_member ngo:0RUB-8QZX-2N0U-0N5X,
+            ngo:6ZVG-5960-4X42-G0GT,
+            ngo:8V1V-92KF-ZXUA-1BQN,
+            ngo:MOJ2-EHMB-48BU-82C7 .
+
+    ngo:BFAE-5VOC-UWRI-C9JI crm:P107_has_current_or_former_member ngo:29BG-3CQ5-1EL9-536V .
+
+    ngo:FP9B-9KYO-FJV4-NM8M crm:P107_has_current_or_former_member ngo:4RBP-6YM1-3QW9-A2WM,
+            ngo:AXXR-BY07-JHTF-WPAT,
+            ngo:BIE2-NFCI-0X71-WZN9,
+            ngo:IG4B-YEZ0-9RSJ-58ED,
+            ngo:J2TC-GVEZ-GDQH-ZIF3,
+            ngo:S9LH-FUNA-G8ZA-PDAF,
+            ngo:SZMG-Y7G2-2FKD-5MB3,
+            ngo:VKDI-2NFA-3GRF-WY8T .
+
+    ngo:JG33-LVW3-KBKC-EXLU crm:P107_has_current_or_former_member ngo:045T-BMG8-ZC06-4PYR,
+            ngo:0UND-JCJZ-RWYR-X915,
+            ngo:BYUU-HLWF-CSSO-1NEI,
+            ngo:C3HG-9LC6-1VSX-P8DD,
+            ngo:KX5Z-X70C-CAC3-BYNX,
+            ngo:N805-NB90-9JXR-PBGB,
+            ngo:OU4Q-6GTS-O59Q-X3AL,
+            ngo:RLNH-G1T1-03AV-Q3YO,
+            ngo:SKSM-2TRH-M8SF-473Z,
+            ngo:SZYH-96Q6-WDRB-JF8X,
+            ngo:U27T-HNTY-3YMJ-I11Q,
+            ngo:UP9M-U4LY-7F5P-HLTI,
+            ngo:ZN9J-F5I4-TU39-R8ZN .
+
+    ngo:OTST-LJPS-N28V-77DF crm:P107_has_current_or_former_member ngo:049Q-SLVP-5K3B-AY0Y,
+            ngo:3U0L-4H9V-JL07-Y8SI,
+            ngo:6UE5-RUEG-1FEL-WXDM,
+            ngo:7PD4-5QVP-PWVB-MEBL,
+            ngo:E6MY-AEL3-WVRA-QS9X,
+            ngo:EQF6-EUNZ-WHAJ-RTGF,
+            ngo:H6NZ-OPFZ-7Y50-QZ2P,
+            ngo:ING1-WPAU-IOM7-0WPI,
+            ngo:NC2I-H8C7-8NG1-CLBQ,
+            ngo:UCF0-V1QC-WMGH-DFYN,
+            ngo:UUMQ-D9YT-0DLW-2QMA,
+            ngo:V5J9-UNK3-9VW3-SXPT,
+            ngo:VHVI-Q1XS-RCHM-9KW2 .
+
+    ngo:TUPN-6H9K-2T1M-NE7P crm:P107_has_current_or_former_member ngo:ADN8-DI1Q-Y6AD-GCNT .
+
+    ngo:045T-BMG8-ZC06-4PYR crm:P1_is_identified_by _:N265512bf50a74b3aaae39f33ab7062e6,
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "Scientist, inorganic analysis" ;
+                crm:P3_has_note "None" ] ;
+        crm:P48_has_preferred_identifier _:N265512bf50a74b3aaae39f33ab7062e6 .
+
+    ngo:049Q-SLVP-5K3B-AY0Y crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "Head of Scientific Department, Head of Doerner Institut" ;
+                crm:P3_has_note "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            _:Ndb6545a6fb0e4f1688d5b2ebda6ec57e ;
+        crm:P48_has_preferred_identifier _:Ndb6545a6fb0e4f1688d5b2ebda6ec57e .
+
+    ngo:0RUB-8QZX-2N0U-0N5X crm:P1_is_identified_by _:N531b23663ae1489da0859145d8b89849,
+            [ a crm:E41_Appellation ;
+                rdfs:label "Student helper, Student for Conservation of works on paper (KADK Copenhagen)" ;
+                crm:P3_has_note "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ] ;
+        crm:P48_has_preferred_identifier _:N531b23663ae1489da0859145d8b89849 ;
+        crm:P76_has_contact_point [ a crm:E41_Appellation ;
+                rdfs:label "fiewikkel@gmail.com" ] .
+
+    ngo:0UND-JCJZ-RWYR-X915 crm:P1_is_identified_by _:N1c1cacd941d74ebf8239bc7e88618beb,
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "Scientist, organic analysis" ;
+                crm:P3_has_note "None" ] ;
+        crm:P48_has_preferred_identifier _:N1c1cacd941d74ebf8239bc7e88618beb .
+
+    ngo:29BG-3CQ5-1EL9-536V crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "Head of Analytical Laboratory (Archeometry)" ;
+                crm:P3_has_note "None" ],
+            _:N4f78399208de447cac66b6c0bd07536c,
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ] ;
+        crm:P48_has_preferred_identifier _:N4f78399208de447cac66b6c0bd07536c ;
+        crm:P76_has_contact_point [ a crm:E41_Appellation ;
+                rdfs:label "herm@hfbk-dresden.de" ] .
+
+    ngo:3U0L-4H9V-JL07-Y8SI crm:P1_is_identified_by _:N0e7cbd352643468a83bab34efc59195e,
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "Head of Conservation Alte Pinakothek" ;
+                crm:P3_has_note "None" ] ;
+        crm:P48_has_preferred_identifier _:N0e7cbd352643468a83bab34efc59195e .
+
+    ngo:4RBP-6YM1-3QW9-A2WM crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            _:Nb75645749d094e769e3b3acc6b7673cf,
+            [ a crm:E41_Appellation ;
+                rdfs:label "Freelance conservator" ;
+                crm:P3_has_note "None" ] ;
+        crm:P48_has_preferred_identifier _:Nb75645749d094e769e3b3acc6b7673cf .
+
+    ngo:6UE5-RUEG-1FEL-WXDM crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "Scientist" ;
+                crm:P3_has_note "None" ],
+            _:N70e7d68ecd484662abe40bf6e9bf3db4,
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ] ;
+        crm:P48_has_preferred_identifier _:N70e7d68ecd484662abe40bf6e9bf3db4 .
+
+    ngo:6ZVG-5960-4X42-G0GT crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "Intern, Student for Conservation of Paintings (HfBK Dresden)" ;
+                crm:P3_has_note "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            _:N2c65aeff848b42139c98d0875185ae30 ;
+        crm:P48_has_preferred_identifier _:N2c65aeff848b42139c98d0875185ae30 ;
+        crm:P76_has_contact_point [ a crm:E41_Appellation ;
+                rdfs:label "nora@la-sch.de" ] .
+
+    ngo:7PD4-5QVP-PWVB-MEBL crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            _:N38a79083c51d4f18b38069986b3f3596,
+            [ a crm:E41_Appellation ;
+                rdfs:label "Conservator" ;
+                crm:P3_has_note "None" ] ;
+        crm:P48_has_preferred_identifier _:N38a79083c51d4f18b38069986b3f3596 .
+
+    ngo:8V1V-92KF-ZXUA-1BQN crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "Conservation Scientist, CATS-SMK" ;
+                crm:P3_has_note "None" ],
+            _:N8a3d2d0b4d3b4944a00b9749ff5ec56b ;
+        crm:P48_has_preferred_identifier _:N8a3d2d0b4d3b4944a00b9749ff5ec56b ;
+        crm:P76_has_contact_point [ a crm:E41_Appellation ;
+                rdfs:label "david.buti@smk.dk | david.buti81@gmail.com" ] .
+
+    ngo:ADN8-DI1Q-Y6AD-GCNT crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "Scientist" ;
+                crm:P3_has_note "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            _:Ne56d624ba4b54cbd9ce4890b051d8de4 ;
+        crm:P48_has_preferred_identifier _:Ne56d624ba4b54cbd9ce4890b051d8de4 .
+
+    ngo:AXXR-BY07-JHTF-WPAT crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "Freelance conservator" ;
+                crm:P3_has_note "None" ],
+            _:N4c623c61fece4a17b3bbc157465784c1,
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ] ;
+        crm:P48_has_preferred_identifier _:N4c623c61fece4a17b3bbc157465784c1 .
+
+    ngo:BIE2-NFCI-0X71-WZN9 crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "Freelance conservator" ;
+                crm:P3_has_note "None" ],
+            _:Na7efbc06446e4b10affd1ae1f4429e8e,
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ] ;
+        crm:P48_has_preferred_identifier _:Na7efbc06446e4b10affd1ae1f4429e8e .
+
+    ngo:BYUU-HLWF-CSSO-1NEI crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "Scientist, inorganic analysis" ;
+                crm:P3_has_note "None" ],
+            _:N7ae6e3af6f774bf28bc0240a276ba796,
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ] ;
+        crm:P48_has_preferred_identifier _:N7ae6e3af6f774bf28bc0240a276ba796 .
+
+    ngo:C3HG-9LC6-1VSX-P8DD crm:P1_is_identified_by _:N3714113b51e44628ad76cd089a3b29ef,
+            [ a crm:E41_Appellation ;
+                rdfs:label "Scientist Officer" ;
+                crm:P3_has_note "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ] ;
+        crm:P48_has_preferred_identifier _:N3714113b51e44628ad76cd089a3b29ef .
+
+    ngo:E6MY-AEL3-WVRA-QS9X crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "Head of Scientific Department" ;
+                crm:P3_has_note "None" ],
+            _:N948bc7f5e966491d8883fd1747a7ebc6,
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ] ;
+        crm:P48_has_preferred_identifier _:N948bc7f5e966491d8883fd1747a7ebc6 ;
+        crm:P76_has_contact_point [ a crm:E41_Appellation ;
+                rdfs:label "heike.stege@doernerinstitut.pinakothek.de" ] .
+
+    ngo:EQF6-EUNZ-WHAJ-RTGF crm:P1_is_identified_by _:N16e9c6d60cb34c069a80a723b2a55e4a,
+            [ a crm:E41_Appellation ;
+                rdfs:label "Chemical-technical assistant" ;
+                crm:P3_has_note "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ] ;
+        crm:P48_has_preferred_identifier _:N16e9c6d60cb34c069a80a723b2a55e4a .
+
+    ngo:H6NZ-OPFZ-7Y50-QZ2P crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "Scientist" ;
+                crm:P3_has_note "None" ],
+            _:Nfaaf2e5690354c539c4b2faca73f4347 ;
+        crm:P48_has_preferred_identifier _:Nfaaf2e5690354c539c4b2faca73f4347 .
+
+    ngo:IG4B-YEZ0-9RSJ-58ED crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "Freelance conservator" ;
+                crm:P3_has_note "None" ],
+            _:N94e31dcc64284b98923fa9cda05b2496 ;
+        crm:P48_has_preferred_identifier _:N94e31dcc64284b98923fa9cda05b2496 .
+
+    ngo:ING1-WPAU-IOM7-0WPI crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            _:N8a61cb23a2e34200a76b1f1750ea6465,
+            [ a crm:E41_Appellation ;
+                rdfs:label "Conservator" ;
+                crm:P3_has_note "None" ] ;
+        crm:P48_has_preferred_identifier _:N8a61cb23a2e34200a76b1f1750ea6465 .
+
+    ngo:J2TC-GVEZ-GDQH-ZIF3 crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "Freelance conservator" ;
+                crm:P3_has_note "None" ],
+            _:Ne7abdbf26a7b4f668794a56230592dab ;
+        crm:P48_has_preferred_identifier _:Ne7abdbf26a7b4f668794a56230592dab .
+
+    ngo:KX5Z-X70C-CAC3-BYNX crm:P1_is_identified_by _:N6dc002065c3d4ba88af7f0247941edca,
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "Scientist Officer" ;
+                crm:P3_has_note "None" ] ;
+        crm:P48_has_preferred_identifier _:N6dc002065c3d4ba88af7f0247941edca ;
+        crm:P76_has_contact_point [ a crm:E41_Appellation ;
+                rdfs:label "gabriella.macaro@ng-london.org.uk" ] .
+
+    ngo:MOJ2-EHMB-48BU-82C7 crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            _:Nb3583d1d66e64426b30e0dd18c3dd05c,
+            [ a crm:E41_Appellation ;
+                rdfs:label "Paintings Conservator and laboratory technician, CATS-SMK" ;
+                crm:P3_has_note "None" ] ;
+        crm:P48_has_preferred_identifier _:Nb3583d1d66e64426b30e0dd18c3dd05c ;
+        crm:P76_has_contact_point [ a crm:E41_Appellation ;
+                rdfs:label "astrid.grinder-hansen@smk.dk | astridgrinder@gmail.com" ] .
+
+    ngo:N805-NB90-9JXR-PBGB crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            _:N4f48c81d510a4b30ac82f3fdad1b5467,
+            [ a crm:E41_Appellation ;
+                rdfs:label "Scientist" ;
+                crm:P3_has_note "None" ] ;
+        crm:P48_has_preferred_identifier _:N4f48c81d510a4b30ac82f3fdad1b5467 .
+
+    ngo:NC2I-H8C7-8NG1-CLBQ crm:P1_is_identified_by _:N34e05a822ee640a78a9ed21d3290a99b,
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "Chemical-technical assistant" ;
+                crm:P3_has_note "None" ] ;
+        crm:P48_has_preferred_identifier _:N34e05a822ee640a78a9ed21d3290a99b .
+
+    ngo:OU4Q-6GTS-O59Q-X3AL crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "Scientist for Paintings Examination" ;
+                crm:P3_has_note "None" ],
+            _:N6ab8a1ee02724c1aa5c6cd8284bbff0e,
+            _:N9a167067b07f46f1ba6b361a35dc5a56,
+            [ a crm:E41_Appellation ;
+                rdfs:label "Scientist" ;
+                crm:P3_has_note "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ] ;
+        crm:P48_has_preferred_identifier _:N6ab8a1ee02724c1aa5c6cd8284bbff0e,
+            _:N9a167067b07f46f1ba6b361a35dc5a56 .
+
+    ngo:RLNH-G1T1-03AV-Q3YO crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "Scientist, organic analysis" ;
+                crm:P3_has_note "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            _:N89f010c9a2314b869c34b78b7f073265 ;
+        crm:P48_has_preferred_identifier _:N89f010c9a2314b869c34b78b7f073265 .
+
+    ngo:S9LH-FUNA-G8ZA-PDAF crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "Freelance conservator" ;
+                crm:P3_has_note "None" ],
+            _:Ne041d5a5a7e84646aeaffdf288f69444 ;
+        crm:P48_has_preferred_identifier _:Ne041d5a5a7e84646aeaffdf288f69444 .
+
+    ngo:SKSM-2TRH-M8SF-473Z crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "Scientist" ;
+                crm:P3_has_note "None" ],
+            _:Nc2e7f386fdc7436683c80bbcd2171a98 ;
+        crm:P48_has_preferred_identifier _:Nc2e7f386fdc7436683c80bbcd2171a98 .
+
+    ngo:SZMG-Y7G2-2FKD-5MB3 crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            _:N80d890562695499e91130ad89b8c4f3c,
+            [ a crm:E41_Appellation ;
+                rdfs:label "Head of Painting Conservation Department SKD" ;
+                crm:P3_has_note "None" ] ;
+        crm:P48_has_preferred_identifier _:N80d890562695499e91130ad89b8c4f3c ;
+        crm:P76_has_contact_point [ a crm:E41_Appellation ;
+                rdfs:label "marlies.giebe@skd.museum" ] .
+
+    ngo:SZYH-96Q6-WDRB-JF8X crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            _:N436f2f3f67a94c6f8929f9e3dd8aae38,
+            [ a crm:E41_Appellation ;
+                rdfs:label "Scientist" ;
+                crm:P3_has_note "None" ] ;
+        crm:P48_has_preferred_identifier _:N436f2f3f67a94c6f8929f9e3dd8aae38 .
+
+    ngo:U27T-HNTY-3YMJ-I11Q crm:P1_is_identified_by _:N4a99659043d04a149ead00ca62adbc9a,
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "Head of Scientific Department" ;
+                crm:P3_has_note "None" ] ;
+        crm:P48_has_preferred_identifier _:N4a99659043d04a149ead00ca62adbc9a ;
+        crm:P76_has_contact_point [ a crm:E41_Appellation ;
+                rdfs:label "marika.spring@ng-london.org.uk" ] .
+
+    ngo:UCF0-V1QC-WMGH-DFYN crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            _:Nc8a992c36b524eadac3513707cd40474,
+            [ a crm:E41_Appellation ;
+                rdfs:label "Chemical-technical assistant" ;
+                crm:P3_has_note "None" ] ;
+        crm:P48_has_preferred_identifier _:Nc8a992c36b524eadac3513707cd40474 .
+
+    ngo:UP9M-U4LY-7F5P-HLTI crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "Scientist" ;
+                crm:P3_has_note "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            _:Ndb0e5ec8d74640a38f7d171683114137 ;
+        crm:P48_has_preferred_identifier _:Ndb0e5ec8d74640a38f7d171683114137 .
+
+    ngo:UUMQ-D9YT-0DLW-2QMA crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "Scientist" ;
+                crm:P3_has_note "None" ],
+            _:N45eb6ba1bf4c43d796698e4709a49094,
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ] ;
+        crm:P48_has_preferred_identifier _:N45eb6ba1bf4c43d796698e4709a49094 ;
+        crm:P76_has_contact_point [ a crm:E41_Appellation ;
+                rdfs:label "jeanine.walcher@doernerinstitut.pinakothek.de" ] .
+
+    ngo:V5J9-UNK3-9VW3-SXPT crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "Head of Conservation Alte Pinakothek" ;
+                crm:P3_has_note "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            _:N85bb9ebe02f54f3fb8e3c9b6d8bac49c ;
+        crm:P48_has_preferred_identifier _:N85bb9ebe02f54f3fb8e3c9b6d8bac49c .
+
+    ngo:VHVI-Q1XS-RCHM-9KW2 crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            _:N2daa4fc812dc49a78c8ddccb17aeb5ff,
+            [ a crm:E41_Appellation ;
+                rdfs:label "Chemical-technical assistant" ;
+                crm:P3_has_note "None" ] ;
+        crm:P48_has_preferred_identifier _:N2daa4fc812dc49a78c8ddccb17aeb5ff .
+
+    ngo:VKDI-2NFA-3GRF-WY8T crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "Associated Scientist (Archeometry)" ;
+                crm:P3_has_note "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            _:Nf15b8914ef044cfa81f0862098568fef ;
+        crm:P48_has_preferred_identifier _:Nf15b8914ef044cfa81f0862098568fef ;
+        crm:P76_has_contact_point [ a crm:E41_Appellation ;
+                rdfs:label "fuhrmann@hfbk-dresden.de" ] .
+
+    ngo:ZN9J-F5I4-TU39-R8ZN crm:P1_is_identified_by [ a crm:E41_Appellation ;
+                rdfs:label "None" ],
+            [ a crm:E41_Appellation ;
+                rdfs:label "Head of Scientific Department" ;
+                crm:P3_has_note "None" ],
+            _:Ne0b2024a74a2474382601561eaee2e68 ;
+        crm:P48_has_preferred_identifier _:Ne0b2024a74a2474382601561eaee2e68 .
+
+    _:N0e7cbd352643468a83bab34efc59195e a crm:E41_Appellation ;
+        rdfs:label "Jan Schmidt"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N16e9c6d60cb34c069a80a723b2a55e4a a crm:E41_Appellation ;
+        rdfs:label "Cornelia Tilenschi"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N1c1cacd941d74ebf8239bc7e88618beb a crm:E41_Appellation ;
+        rdfs:label "David Peggie"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N265512bf50a74b3aaae39f33ab7062e6 a crm:E41_Appellation ;
+        rdfs:label "Marta Melchiorre Di Crescenzo"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N2c65aeff848b42139c98d0875185ae30 a crm:E41_Appellation ;
+        rdfs:label "Nora Schlag"@en ;
+        crm:P2_has_type crm:E41_Appellation ;
+        crm:P3_has_note "2017/11/1 - 2018/03/30" .
+
+    _:N2daa4fc812dc49a78c8ddccb17aeb5ff a crm:E41_Appellation ;
+        rdfs:label "Andrea Obermeier"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N34e05a822ee640a78a9ed21d3290a99b a crm:E41_Appellation ;
+        rdfs:label "Carola Komar"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N3714113b51e44628ad76cd089a3b29ef a crm:E41_Appellation ;
+        rdfs:label "Joyce Plesters"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N38a79083c51d4f18b38069986b3f3596 a crm:E41_Appellation ;
+        rdfs:label "Wibke Neugebauer"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N436f2f3f67a94c6f8929f9e3dd8aae38 a crm:E41_Appellation ;
+        rdfs:label "Kate Stonor"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N45eb6ba1bf4c43d796698e4709a49094 a crm:E41_Appellation ;
+        rdfs:label "Jeanine Walcher"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N4a99659043d04a149ead00ca62adbc9a a crm:E41_Appellation ;
+        rdfs:label "Marika Spring"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N4c623c61fece4a17b3bbc157465784c1 a crm:E41_Appellation ;
+        rdfs:label "Jan Sacher"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N4f48c81d510a4b30ac82f3fdad1b5467 a crm:E41_Appellation ;
+        rdfs:label "Aviva Burnstock"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N4f78399208de447cac66b6c0bd07536c a crm:E41_Appellation ;
+        rdfs:label "Christoph Herm"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N531b23663ae1489da0859145d8b89849 a crm:E41_Appellation ;
+        rdfs:label "Sofie Wikkelsø Jensen"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N6ab8a1ee02724c1aa5c6cd8284bbff0e a crm:E41_Appellation ;
+        rdfs:label "Joanna Russell"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N6dc002065c3d4ba88af7f0247941edca a crm:E41_Appellation ;
+        rdfs:label "Gabriella Macaro"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N70e7d68ecd484662abe40bf6e9bf3db4 a crm:E41_Appellation ;
+        rdfs:label "Patrick Dietemann"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N7ae6e3af6f774bf28bc0240a276ba796 a crm:E41_Appellation ;
+        rdfs:label "Helen Howard"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N80d890562695499e91130ad89b8c4f3c a crm:E41_Appellation ;
+        rdfs:label "Marlies Giebe"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N85bb9ebe02f54f3fb8e3c9b6d8bac49c a crm:E41_Appellation ;
+        rdfs:label "Veronika Poll-Frommel"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N89f010c9a2314b869c34b78b7f073265 a crm:E41_Appellation ;
+        rdfs:label "Rachel Morrison"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N8a3d2d0b4d3b4944a00b9749ff5ec56b a crm:E41_Appellation ;
+        rdfs:label "David Buti"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N8a61cb23a2e34200a76b1f1750ea6465 a crm:E41_Appellation ;
+        rdfs:label "Ulrike Fischer"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N948bc7f5e966491d8883fd1747a7ebc6 a crm:E41_Appellation ;
+        rdfs:label "Heike Stege"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N94e31dcc64284b98923fa9cda05b2496 a crm:E41_Appellation ;
+        rdfs:label "Tobias Lange"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:N9a167067b07f46f1ba6b361a35dc5a56 a crm:E41_Appellation ;
+        rdfs:label "Joanna Russell"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:Na7efbc06446e4b10affd1ae1f4429e8e a crm:E41_Appellation ;
+        rdfs:label "Evelyn Adler"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:Nb3583d1d66e64426b30e0dd18c3dd05c a crm:E41_Appellation ;
+        rdfs:label "Astrid Grinder-Hansen"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:Nb75645749d094e769e3b3acc6b7673cf a crm:E41_Appellation ;
+        rdfs:label "Anke Stenzel"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:Nc2e7f386fdc7436683c80bbcd2171a98 a crm:E41_Appellation ;
+        rdfs:label "Jilleen Nadolny"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:Nc8a992c36b524eadac3513707cd40474 a crm:E41_Appellation ;
+        rdfs:label "Ursula Baumer"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:Ndb0e5ec8d74640a38f7d171683114137 a crm:E41_Appellation ;
+        rdfs:label "Rachel Grout"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:Ndb6545a6fb0e4f1688d5b2ebda6ec57e a crm:E41_Appellation ;
+        rdfs:label "Andreas Burmester"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:Ne041d5a5a7e84646aeaffdf288f69444 a crm:E41_Appellation ;
+        rdfs:label "Kathrin Jacob"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:Ne0b2024a74a2474382601561eaee2e68 a crm:E41_Appellation ;
+        rdfs:label "Ashok Roy"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:Ne56d624ba4b54cbd9ce4890b051d8de4 a crm:E41_Appellation ;
+        rdfs:label "Arie Wallert"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:Ne7abdbf26a7b4f668794a56230592dab a crm:E41_Appellation ;
+        rdfs:label "Sabine Posselt"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:Nf15b8914ef044cfa81f0862098568fef a crm:E41_Appellation ;
+        rdfs:label "Annegret Fuhrmann"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+
+    _:Nfaaf2e5690354c539c4b2faca73f4347 a crm:E41_Appellation ;
+        rdfs:label "Christoph Krekel"@en ;
+        crm:P2_has_type crm:E41_Appellation .
+}
+

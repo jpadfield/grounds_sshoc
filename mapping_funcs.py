@@ -207,17 +207,16 @@ def map_event(new_graph, **kwargs):
 
 def map_person(new_graph, **kwargs):
 
-    kwargs["person_role_institution"]["full_name"] = process_name_prefixes(kwargs["person_role_institution"])
+    for _, row in kwargs["person_role_institution"].iterrows():
+        row["person_name"] = process_name_prefixes(row)
 
     for _, row in kwargs["person_role_institution"].iterrows():
-
-        person_name = row["full_name"].replace("'", "")
+        person_name = row["person_name"].replace("'", "")
         person_PID = generate_placeholder_PID(person_name)
         institution_PID = generate_placeholder_PID(row["institution_name"])
-
-        new_graph = create_person_triples(new_graph=new_graph, person_PID=person_PID, person_name=row["full_name"], comment=row["person_comment"], person_other_name=row["person_other_name"], person_contact=row["person_contact"])
+        new_graph = create_person_triples(new_graph=new_graph, person_PID=person_PID, person_name=person_name, comment=row["person_comment"], person_other_name=row["person_other_name"], person_contact=row["person_contact"])
         new_graph = create_role_triples(new_graph=new_graph, person_title=row["person_title"], person_PID=person_PID, role_name=row["role_name"], role_comment=row["role_comment"], institution_PID=institution_PID)
-        
+   
     for _, row in kwargs["person_influence"].iterrows():
 
         person_name = row["full_name"].replace("'", "")
