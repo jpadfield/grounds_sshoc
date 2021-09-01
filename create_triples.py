@@ -795,7 +795,7 @@ def create_location_triples(new_graph, **kwargs):
         new_graph.add((object_side, CRM.P59_has_section, getattr(NGO, location_PID)))
     if kwargs["location_comment"] is not None and kwargs["location_comment"] != '':
         new_graph.add((getattr(NGO, location_PID), RDFS.comment, Literal(kwargs["location_comment"], lang="en")))
-    new_graph.add((getattr(NGO, object_PID, CRM.P59_has_section, getattr(NGO, location_PID))))
+    new_graph.add((getattr(NGO, object_PID), CRM.P59_has_section, getattr(NGO, location_PID)))
 
     if kwargs["image_location_x"] is not None and kwargs["image_location_y"] is not None:
         image_coordinates = "(" + kwargs["image_location_x"] + ", " + kwargs["image_location_y"] + ")"
