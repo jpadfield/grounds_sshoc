@@ -9,8 +9,16 @@ This repo contains code that connects to a version of the National Gallery's GRO
 * A partial rebuild can be initiated by deleting the relevant files in the outputs folder and rerunning the code (e.g. to rebuild all objects, delete the grounds_object files). The code checks for these output files before it decides which parts of the graph to build.
 * A full rebuild can be initiated by passing the command line argument 'fullrebuild' when running grounds_mapping. This will take a long time to run so it's not recommended unless absolutely necessary.
 * Run inferencing.py with a graph TTL file as the input to output an inferenced version of the RDF graph.
+
+## MySQL view creation
+* The file grounds_sql_queries.sql contains numerous queries that will create VIEWS that act as the inputs for the Python code. If this code is run atop another database the views should be created using this SQL code beforehand, otherwise it will not work.
  
 ## Tables reference for the GROUNDS database
 [database structure_ground_16.10.2017.pdf](https://github.com/odelaney/grounds_sshoc/files/7067846/database.structure_ground_16.10.2017.pdf)
 
+# Acknowledgement
+This project was developed and tested as part of the work of the following project:
 
+## H2020 EU project [SSHOC](https://sshopencloud.eu/)
+<img height="64px" src="https://github.com/jpadfield/simple-site/blob/master/docs/graphics/sshoc-logo.png" alt="SSHOC Grant Info">
+<img height="32px" src="https://github.com/jpadfield/simple-site/blob/master/docs/graphics/sshoc-eu-tag2.png" alt="SSHOC Grant Info">
