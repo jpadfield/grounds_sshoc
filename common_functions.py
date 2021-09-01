@@ -151,7 +151,7 @@ def find_aat_value(material,material_type):
         wb = load_workbook(filename = 'inputs/NG_Roles_AAT.xlsx', read_only=True)
         ws = wb['AAT_Roles']
     elif material_type == 'material_grounds':
-        wb = load_workbook(filename = 'inputs/NG_Meduim_and_Support_AAT.xlsx', read_only=True)
+        wb = load_workbook(filename = 'inputs/NG_Medium_and_Support_AAT.xlsx', read_only=True)
         ws = wb['GROUNDS materials']
     elif material_type == 'protocols':
         wb = load_workbook(filename = 'inputs/Protocol_AAT.xlsx', read_only=True)
