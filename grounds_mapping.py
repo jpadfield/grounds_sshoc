@@ -176,13 +176,13 @@ def map_db_to_triples(full_rebuild=False):
     print('images mapped!')
     
     full_graph = Graph()
-    full_graph.parse(new_object_graph)
-    full_graph.parse(new_event_graph)
-    full_graph.parse(new_person_graph)
-    full_graph.parse(new_place_graph)
-    full_graph.parse(new_extra_timespan_graph)
-    full_graph.parse(new_sample_graph)
-    full_graph.parse(new_image_graph)
+    full_graph.parse('outputs/grounds_object.xml')
+    full_graph.parse('outputs/grounds_event.xml')
+    full_graph.parse('outputs/grounds_person.xml')
+    full_graph.parse('outputs/grounds_place.xml')
+    full_graph.parse('outputs/grounds_timespan.xml')
+    full_graph.parse('outputs/grounds_sample.xml')
+    full_graph.parse('outputs/grounds_image.xml')
 
     return full_graph
 
