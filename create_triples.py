@@ -1,7 +1,7 @@
 import pandas as pd
 import mysql.connector
 from rdflib import Graph, Namespace, Literal, BNode
-from rdflib.namespace import OWL, RDF, RDFS, NamespaceManager, XSD
+from rdflib.namespace import RDF, RDFS, NamespaceManager, XSD
 from pdb import set_trace as st
 import numpy as np
 from common_functions import generate_placeholder_PID, triples_to_csv, triples_to_tsv, create_PID_from_triple, find_aat_value, run_ruby_program, wikidata_query, create_year_dates, check_aat_values
@@ -15,6 +15,7 @@ TGN = Namespace("http://vocab.getty.edu/page/tgn/")
 WD = Namespace("http://www.wikidata.org/entity/")
 SCI = Namespace("http://www.cidoc-crm.org/crmsci/")
 DIG = Namespace("http://www.cidoc-crm.org/crmdig/")
+OWL = Namespace("http://www.w3.org/2002/07/owl#")
 
 def parse_reference_json(new_graph, reference_json, subject_PID):
     creation_event = BNode()

@@ -15,7 +15,7 @@ DIG = Namespace("http://www.cidoc-crm.org/crmdig/")
 SCI = Namespace("http://www.cidoc-crm.org/crmsci/")
 
 g = Graph()
-g.parse("outputs/raphael_final.xml", format="xml")
+g.parse("outputs/grounds_full.xml", format="xml")
 g.namespace_manager.bind('crm',CRM)
 g.namespace_manager.bind('ngo',NGO)
 g.namespace_manager.bind('aat',AAT)
@@ -28,4 +28,4 @@ g.namespace_manager.bind('sci', SCI)
 
 owlrl.DeductiveClosure(owlrl.OWLRL_Semantics).expand(g)
 
-g.serialize(destination='outputs/raphael_inferenced_final.xml', format='xml')
+g.serialize(destination='outputs/grounds_full_inferenced.xml', format='xml')
