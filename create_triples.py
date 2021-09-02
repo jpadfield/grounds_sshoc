@@ -1073,7 +1073,7 @@ def create_image_file_triples(new_graph, **kwargs):
         new_graph.add((image_license, RDF.type, CRM.E30_Right))
         new_graph.add((image_license, CRM.P2_has_type, CRM.E30_Right))
         new_graph.add((image_license, RDFS.label, Literal(kwargs["image_license"], lang="en")))
-        new_graph.add((getattr(NGO, kwargs["image_copyright_holder"]), CRM.P75_possesses, image_license))
+        new_graph.add((institution_PID, CRM.P75_possesses, image_license))
 
     if kwargs["object_inventory_number"] is not None and kwargs["object_inventory_number"] != '':
         work_image_PID = generate_placeholder_PID(kwargs["object_inventory_number"])
