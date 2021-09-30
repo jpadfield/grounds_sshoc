@@ -43,10 +43,10 @@ ngo:3VRE-GDC5-77EQ-PMIG a crm:E17_Type_Assignment ;
         crm:E17_Type_Assignment ;
     crm:P41_classified ngo:XU43-KMGC-ORWT-QRUU ;
     crm:P42_assigned [ a crm:E55_Type ;
-            rdfs:label "8"@en ;
+            rdfs:label "5"@en ;
             crm:P2_has_type crm:E55_Type ],
         [ a crm:E55_Type ;
-            rdfs:label "5"@en ;
+            rdfs:label "8"@en ;
             crm:P2_has_type crm:E55_Type ] .
 
 ngo:4DFO-FX4S-ZD62-PID6 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
@@ -64,10 +64,10 @@ ngo:4VR1-5JWQ-9MQN-UTGA a crm:E17_Type_Assignment ;
         crm:E17_Type_Assignment ;
     crm:P41_classified ngo:VCHE-MUIB-AMTA-8KDC ;
     crm:P42_assigned [ a crm:E55_Type ;
-            rdfs:label "None"@en ;
+            rdfs:label "6"@en ;
             crm:P2_has_type crm:E55_Type ],
         [ a crm:E55_Type ;
-            rdfs:label "6"@en ;
+            rdfs:label "None"@en ;
             crm:P2_has_type crm:E55_Type ] .
 
 ngo:58P9-KSSW-7CXO-S05R crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
@@ -179,18 +179,18 @@ ngo:BU2V-IG8G-DB9J-L9FI crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
 ngo:BU7X-Z7OF-Q3PJ-LQO9 a crm:E17_Type_Assignment ;
     rdfs:label "Classification of The National Gallery, London"@en ;
     crm:P2_has_type [ a crm:E55_Type ;
-            rdfs:label "None"@en ;
+            rdfs:label "institution type"@en ;
             crm:P2_has_type crm:E55_Type ],
         [ a crm:E55_Type ;
-            rdfs:label "institution type"@en ;
+            rdfs:label "None"@en ;
             crm:P2_has_type crm:E55_Type ],
         crm:E17_Type_Assignment ;
     crm:P41_classified ngo:JG33-LVW3-KBKC-EXLU ;
     crm:P42_assigned [ a crm:E55_Type ;
-            rdfs:label "1"@en ;
+            rdfs:label "None"@en ;
             crm:P2_has_type crm:E55_Type ],
         [ a crm:E55_Type ;
-            rdfs:label "None"@en ;
+            rdfs:label "1"@en ;
             crm:P2_has_type crm:E55_Type ] .
 
 ngo:BVGD-S2OF-5RPV-YOEY crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
@@ -198,18 +198,18 @@ ngo:BVGD-S2OF-5RPV-YOEY crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
 ngo:C58G-7BY1-S9Z8-L71A a crm:E17_Type_Assignment ;
     rdfs:label "Classification of Museo Nacional del Prado"@en ;
     crm:P2_has_type [ a crm:E55_Type ;
-            rdfs:label "institution type"@en ;
+            rdfs:label "None"@en ;
             crm:P2_has_type crm:E55_Type ],
         [ a crm:E55_Type ;
-            rdfs:label "None"@en ;
+            rdfs:label "institution type"@en ;
             crm:P2_has_type crm:E55_Type ],
         crm:E17_Type_Assignment ;
     crm:P41_classified ngo:OHRN-OEAM-2F7I-MKS0 ;
     crm:P42_assigned [ a crm:E55_Type ;
-            rdfs:label "None"@en ;
+            rdfs:label "3"@en ;
             crm:P2_has_type crm:E55_Type ],
         [ a crm:E55_Type ;
-            rdfs:label "3"@en ;
+            rdfs:label "None"@en ;
             crm:P2_has_type crm:E55_Type ] .
 
 ngo:C6I1-MMOG-ELFK-NO1K crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
@@ -258,10 +258,10 @@ ngo:FVXD-1NEH-E9TO-ZYO6 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
 ngo:FZ8S-XLOG-LXOI-R7NM a crm:E17_Type_Assignment ;
     rdfs:label "Classification of Statens Museum for Kunst, Centre for Art Technological Studies and Conservation"@en ;
     crm:P2_has_type [ a crm:E55_Type ;
-            rdfs:label "institution type"@en ;
+            rdfs:label "None"@en ;
             crm:P2_has_type crm:E55_Type ],
         [ a crm:E55_Type ;
-            rdfs:label "None"@en ;
+            rdfs:label "institution type"@en ;
             crm:P2_has_type crm:E55_Type ],
         crm:E17_Type_Assignment ;
     crm:P41_classified ngo:9IWQ-P1OQ-FQQB-S0XX ;
@@ -350,10 +350,10 @@ ngo:LSNI-I4X4-XAD8-Z3FT a crm:E17_Type_Assignment ;
         crm:E17_Type_Assignment ;
     crm:P41_classified ngo:TUPN-6H9K-2T1M-NE7P ;
     crm:P42_assigned [ a crm:E55_Type ;
-            rdfs:label "4"@en ;
+            rdfs:label "None"@en ;
             crm:P2_has_type crm:E55_Type ],
         [ a crm:E55_Type ;
-            rdfs:label "None"@en ;
+            rdfs:label "4"@en ;
             crm:P2_has_type crm:E55_Type ] .
 
 ngo:M9NS-UM3B-CKGA-89C3 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
@@ -366,35 +366,35 @@ ngo:MD6K-5SWI-29O1-GU2X crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
 
 ngo:MPUU-GH8U-VQTE-UMKN crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
 
-ngo:N0458d50a79af4027a7dab9b8692b8135 crm:P2_has_type aat:300265431 .
+ngo:N2cb5a6f673dc439282eeb91aa9fca1a3 crm:P2_has_type aat:300265431 .
 
-ngo:N0cdc0649565547ca826fbd240a13d7e8 crm:P2_has_type aat:300265431 .
+ngo:N312bb5b1cbd64b218bba4b2ec5540e04 crm:P2_has_type aat:300265431 .
 
-ngo:N0dde529e37e64d5194482729f6d74b65 crm:P2_has_type aat:300265431 .
+ngo:N3598765de22d4d94a3a75dba9e781f4c crm:P2_has_type aat:300265431 .
 
-ngo:N1ab7ebc810fc40dca9c3fa2686b864fb crm:P2_has_type aat:300265431 .
+ngo:N3f026902ea9143da9717304ab2a43008 crm:P2_has_type aat:300265431 .
 
-ngo:N1babace97ca6406d9d29ed74e9c1b4c0 crm:P2_has_type aat:300265431 .
+ngo:N3f725d0977f74c12b5a7cf1226fccb9a crm:P2_has_type aat:300265431 .
 
-ngo:N35703fca0f1e47589279ac1889848d65 crm:P2_has_type aat:300265431 .
+ngo:N5335712727484e79918711adaaed4329 crm:P2_has_type aat:300265431 .
 
-ngo:N3590fab1370b44779ff4517a817035db crm:P2_has_type aat:300265431 .
+ngo:N5d1bdf1f2d52432fbf917e31ded40c05 crm:P2_has_type aat:300265431 .
 
-ngo:N468cae2d12bf407fbe4d304654fe05c4 crm:P2_has_type aat:300265431 .
+ngo:N6218617df679488f9de492d4d8669663 crm:P2_has_type aat:300265431 .
 
-ngo:N5b13a57ca02e43f2834decfa5b956ff8 crm:P2_has_type aat:300265431 .
-
-ngo:N73ff7d68ab2941d9bae699f58245011b crm:P2_has_type aat:300265431 .
+ngo:N695882e00d6946cd8653254153d46a18 crm:P2_has_type aat:300265431 .
 
 ngo:N7TH-99CC-IF35-FCTK crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
 
-ngo:N8b143ac8a69642b0bb48f87d0cbe4dad crm:P2_has_type aat:300265431 .
+ngo:N7f37fee33aac4afa86888a96bcd787e7 crm:P2_has_type aat:300265431 .
 
-ngo:N8df85631681843e68d9bfb9c1393429d crm:P2_has_type aat:300265431 .
+ngo:N8e4995df9a4747728f1478ee311b92d4 crm:P2_has_type aat:300265431 .
 
-ngo:N8ef6ba897fef475ab134db7bfc49f4da crm:P2_has_type aat:300265431 .
+ngo:N94b10e322c4944839189bacb4178a5e0 crm:P2_has_type aat:300265431 .
 
-ngo:N909691218b144fcda75c45bbf92b0a93 crm:P2_has_type aat:300265431 .
+ngo:N9d1a00840e4d446c88a020bf73c01768 crm:P2_has_type aat:300265431 .
+
+ngo:N9f98ec85f8344b7f8a09ad17477fe61d crm:P2_has_type aat:300265431 .
 
 ngo:NBMH-ORFC-ASRX-UM2O crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
 
@@ -406,21 +406,21 @@ ngo:NJX6-84BD-S2QC-LN6M crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
 
 ngo:NN6M-BM69-X272-EIAJ crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
 
-ngo:Nb0a004a48f2143f8b9601fe3ce853f51 crm:P2_has_type aat:300265431 .
+ngo:Nb1d6ee4283ca4cdeb20cbbb04f46dea0 crm:P2_has_type aat:300265431 .
 
-ngo:Nbcbdb985a01848979019e113c96c6fdb crm:P2_has_type aat:300265431 .
+ngo:Nbc6069279e534659a3532728c2086142 crm:P2_has_type aat:300265431 .
 
-ngo:Ncab942283f7b419cbcc6d89955170b8b crm:P2_has_type aat:300265431 .
+ngo:Nbe52e442cf7a495ba6fda02a1b31d7d9 crm:P2_has_type aat:300265431 .
 
-ngo:Nd9ff00dbaeef450c85ff122b6e697c91 crm:P2_has_type aat:300265431 .
+ngo:Nc5901d97b75844d6a5d87c35d39560f3 crm:P2_has_type aat:300265431 .
 
-ngo:Ne0237674b0774d06b95b565668ee557b crm:P2_has_type aat:300265431 .
+ngo:Nc689738044864b7e9380a69344fd0556 crm:P2_has_type aat:300265431 .
 
-ngo:Ne3e2b257a8014b58852e6ea6f8a6104f crm:P2_has_type aat:300265431 .
+ngo:Nca01bfcc844844e888bc7cbaac89fac0 crm:P2_has_type aat:300265431 .
 
-ngo:Neb7fdc07399a4c129d9141453957b9bc crm:P2_has_type aat:300265431 .
+ngo:Ne7990bd3fa1547c5beaaca7db34155e7 crm:P2_has_type aat:300265431 .
 
-ngo:Nf61247a9ad2a461b9b390202f8fa6cb6 crm:P2_has_type aat:300265431 .
+ngo:Nfc6444c211424a8986d99f514eb6b3d7 crm:P2_has_type aat:300265431 .
 
 ngo:O3IP-FHD6-CMV5-4JJR crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
 
@@ -473,10 +473,10 @@ ngo:U349-B9GZ-EVUN-J396 a crm:E17_Type_Assignment ;
         crm:E17_Type_Assignment ;
     crm:P41_classified ngo:7LRT-JN22-2V6K-WZKG ;
     crm:P42_assigned [ a crm:E55_Type ;
-            rdfs:label "7"@en ;
+            rdfs:label "None"@en ;
             crm:P2_has_type crm:E55_Type ],
         [ a crm:E55_Type ;
-            rdfs:label "None"@en ;
+            rdfs:label "7"@en ;
             crm:P2_has_type crm:E55_Type ] .
 
 ngo:UMLE-O5VU-DHWJ-ZRJN crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
@@ -512,10 +512,10 @@ ngo:XRXX-H2M0-QMOZ-0R4E crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
 ngo:YHAP-HLO8-6SYY-SDKS a crm:E17_Type_Assignment ;
     rdfs:label "Classification of Doerner Institut, Bayerische Staatsgemäldesammlungen"@en ;
     crm:P2_has_type [ a crm:E55_Type ;
-            rdfs:label "institution type"@en ;
+            rdfs:label "None"@en ;
             crm:P2_has_type crm:E55_Type ],
         [ a crm:E55_Type ;
-            rdfs:label "None"@en ;
+            rdfs:label "institution type"@en ;
             crm:P2_has_type crm:E55_Type ],
         [ a crm:E55_Type ;
             rdfs:label "institution type"@en ;
@@ -523,13 +523,13 @@ ngo:YHAP-HLO8-6SYY-SDKS a crm:E17_Type_Assignment ;
         crm:E17_Type_Assignment ;
     crm:P41_classified ngo:OTST-LJPS-N28V-77DF ;
     crm:P42_assigned [ a crm:E55_Type ;
+            rdfs:label "5"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
+            rdfs:label "5"@en ;
+            crm:P2_has_type crm:E55_Type ],
+        [ a crm:E55_Type ;
             rdfs:label "None"@en ;
-            crm:P2_has_type crm:E55_Type ],
-        [ a crm:E55_Type ;
-            rdfs:label "5"@en ;
-            crm:P2_has_type crm:E55_Type ],
-        [ a crm:E55_Type ;
-            rdfs:label "5"@en ;
             crm:P2_has_type crm:E55_Type ] .
 
 ngo:Z39U-ABO8-6FIY-8M59 crm:P4_has_time_span ngo:25UI-ZYQZ-7TGD-8FQK .
@@ -602,10 +602,10 @@ ngo:9IWQ-P1OQ-FQQB-S0XX a crm:E74_Group ;
     crm:P3_has_note "www.smk.dk"@en ;
     crm:P48_has_preferred_identifier "Statens Museum for Kunst, Centre for Art Technological Studies and Conservation"@en ;
     crm:P70i_is_documented_in [ a crm:E73_Information_Object ;
-            rdfs:label "55.688837 | 12.578317"@en ;
+            rdfs:label "www.smk.dk"@en ;
             crm:P2_has_type crm:E73_Information_Object ],
         [ a crm:E73_Information_Object ;
-            rdfs:label "www.smk.dk"@en ;
+            rdfs:label "55.688837 | 12.578317"@en ;
             crm:P2_has_type crm:E73_Information_Object ] .
 
 ngo:A9Y6-5SLC-F6DZ-NGBB a crm:E74_Group ;
@@ -731,10 +731,10 @@ ngo:JG33-LVW3-KBKC-EXLU a crm:E74_Group ;
     crm:P3_has_note "http://www.nationalgallery.org.uk"@en ;
     crm:P48_has_preferred_identifier "The National Gallery, London"@en ;
     crm:P70i_is_documented_in [ a crm:E73_Information_Object ;
-            rdfs:label "51.508995 | -0.128312"@en ;
+            rdfs:label "http://www.nationalgallery.org.uk"@en ;
             crm:P2_has_type crm:E73_Information_Object ],
         [ a crm:E73_Information_Object ;
-            rdfs:label "http://www.nationalgallery.org.uk"@en ;
+            rdfs:label "51.508995 | -0.128312"@en ;
             crm:P2_has_type crm:E73_Information_Object ] .
 
 ngo:K0YM-MMUY-D41X-NCCT crm:P53_has_former_or_current_location ngo:WUK5-RQH8-RBV2-QIX7 .
@@ -780,10 +780,10 @@ ngo:OTST-LJPS-N28V-77DF a crm:E74_Group ;
     crm:P3_has_note "www.doernerinstitut.de"@en ;
     crm:P48_has_preferred_identifier "Doerner Institut, Bayerische Staatsgemäldesammlungen"@en ;
     crm:P70i_is_documented_in [ a crm:E73_Information_Object ;
-            rdfs:label "www.doernerinstitut.de"@en ;
+            rdfs:label "48.1498568 | 11.57097"@en ;
             crm:P2_has_type crm:E73_Information_Object ],
         [ a crm:E73_Information_Object ;
-            rdfs:label "48.1498568 | 11.57097"@en ;
+            rdfs:label "www.doernerinstitut.de"@en ;
             crm:P2_has_type crm:E73_Information_Object ],
         [ a crm:E73_Information_Object ;
             rdfs:label "48.1498568 | 11.57097"@en ;
@@ -846,10 +846,10 @@ ngo:VCHE-MUIB-AMTA-8KDC a crm:E74_Group ;
     crm:P3_has_note "www.kikirpa.be"@en ;
     crm:P48_has_preferred_identifier "Koninklijk Instituut voor het Kunstpatrimonium"@en ;
     crm:P70i_is_documented_in [ a crm:E73_Information_Object ;
-            rdfs:label "50.8424352 | 4.3936017"@en ;
+            rdfs:label "www.kikirpa.be"@en ;
             crm:P2_has_type crm:E73_Information_Object ],
         [ a crm:E73_Information_Object ;
-            rdfs:label "www.kikirpa.be"@en ;
+            rdfs:label "50.8424352 | 4.3936017"@en ;
             crm:P2_has_type crm:E73_Information_Object ] .
 
 ngo:VTRC-CJYL-5019-43RC crm:P53_has_former_or_current_location ngo:GTYB-XW4Y-TA4J-6E8B .

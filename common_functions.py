@@ -4,6 +4,7 @@ import random, urllib, json, string, csv
 from SPARQLWrapper import SPARQLWrapper, JSON
 import time
 import numpy as np
+import requests
 
 from pdb import set_trace as st
 
@@ -25,7 +26,7 @@ def get_json(url):
     else:
        print("Error receiving data", operUrl.getcode())
     return json_data
-
+    
 def find_gallery_PID(ng_number):
     ng_number = str(ng_number)
     if ng_number.startswith('https'):
@@ -37,12 +38,21 @@ def find_gallery_PID(ng_number):
 
     try:
         export_url = 'https://collectiondata.ng-london.org.uk/es/ng-public/_search?q=identifier.object_number:' + ng_number
-        json = get_json(export_url)
-        if json['hits']['total'] > 0:
-            gallery_PID = json['hits']['hits'][0]['_id']
     except:
-        gallery_PID = None
-
+        export_url is None
+        
+    if export_url is not None:
+        data = requests.get(export_url, verify=False)
+        json = data.json()
+        if 'error' not in json:
+            if json['hits']['total'] > 0:
+                try:
+                    json_ng_number = json['hits']['hits'][0]['_source']['identifier'][0]['object_number']
+                except:
+                    json_ng_number = None
+                if json_ng_number == ng_number:
+                    gallery_PID = json['hits']['hits'][0]['_source']['identifier'][1]['pid_tms']
+    
     return gallery_PID
 
 def check_db(input_literal, table_name):
