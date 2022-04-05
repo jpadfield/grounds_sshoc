@@ -1,0 +1,126 @@
+/home/joe/.local/lib/python3.8/site-packages/urllib3/connectionpool.py:1013: InsecureRequestWarning: Unverified HTTPS request is being made to host 'collectiondata.ng-london.org.uk'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  warnings.warn(
+/usr/lib/python3.8/xml/etree/ElementTree.py:1274: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  self._parser.feed(data)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3/dist-packages/simplejson/decoder.py:400: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  return self.scan_once(s, idx=_w(s, idx).end())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.8/os.py:675: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  raise KeyError(key) from None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.8/http/client.py:498: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  b = memoryview(b)[0:self.length]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.8/threading.py:225: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  self._lock = lock
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.8/threading.py:354: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  waiters_to_notify = _deque(_islice(all_waiters, n))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/joe/.local/lib/python3.8/site-packages/mysql/connector/network.py:284: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  packet_view = packet_view[4:]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.8/ssl.py:1204: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  v = self.send(byte_view[count:])
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.8/http/cookiejar.py:1220: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  keys = sorted(adict.keys())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/joe/.local/lib/python3.8/site-packages/requests/models.py:238: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  for (k, v) in list(hooks.items()):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/joe/.local/lib/python3.8/site-packages/openpyxl/descriptors/serialisable.py:59: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  for key in list(attrib):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/joe/.local/lib/python3.8/site-packages/urllib3/util/timeout.py:103: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  self._connect = self._validate_timeout(connect, "connect")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.8/_collections_abc.py:660: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  return self[key]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/joe/.local/lib/python3.8/site-packages/openpyxl/descriptors/serialisable.py:53: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  for key, ns in cls.__namespaced__:
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/joe/.local/lib/python3.8/site-packages/urllib3/poolmanager.py:173: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  self.pools = RecentlyUsedContainer(num_pools, dispose_func=lambda p: p.close())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.8/_collections_abc.py:839: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  for key, value in kwds.items():
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/joe/.local/lib/python3.8/site-packages/openpyxl/descriptors/sequence.py:26: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  seq = [_convert(self.expected_type, value) for value in seq]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.8/abc.py:86: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  _abc_init(cls)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/joe/.local/lib/python3.8/site-packages/requests/sessions.py:421: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  self.mount('https://', HTTPAdapter())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/joe/.local/lib/python3.8/site-packages/pandas/core/generic.py:5587: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  object.__getattribute__(self, name)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/joe/.local/lib/python3.8/site-packages/requests/structures.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  return (casedkey for casedkey, mappedvalue in self._store.values())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.8/threading.py:227: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  self.acquire = lock.acquire
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/joe/.local/lib/python3.8/site-packages/rdflib/graph.py:386: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  self.__store.add((s, p, o), self, quoted=False)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/joe/.local/lib/python3.8/site-packages/urllib3/_collections.py:52: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  self.lock = RLock()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/joe/.local/lib/python3.8/site-packages/requests/hooks.py:18: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  return {event: [] for event in HOOKS}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.8/email/feedparser.py:89: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  for ateof in reversed(self._eofstack):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.8/http/client.py:503: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  n = self.fp.readinto(b)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/joe/.local/lib/python3.8/site-packages/urllib3/connectionpool.py:1006: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  super(HTTPSConnectionPool, self)._validate_conn(conn)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/joe/.local/lib/python3.8/site-packages/requests/structures.py:46: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  self.update(data, **kwargs)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.8/email/message.py:121: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  self.policy = policy
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/joe/.local/lib/python3.8/site-packages/requests/structures.py:43: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  self._store = OrderedDict()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.8/email/feedparser.py:123: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  self._lines.extend(lines)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/joe/.local/lib/python3.8/site-packages/urllib3/connection.py:115: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  self.source_address = kw.get("source_address")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.8/http/client.py:832: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  self._tunnel_headers = {}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/joe/.local/lib/python3.8/site-packages/rdflib/term.py:1318: UserWarning: Serializing weird numerical rdflib.term.Literal('50 - 100', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#double'))
+  warnings.warn("Serializing weird numerical %r" % self)
+/home/joe/.local/lib/python3.8/site-packages/rdflib/term.py:1318: UserWarning: Serializing weird numerical rdflib.term.Literal('100 +', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#double'))
+  warnings.warn("Serializing weird numerical %r" % self)
+/home/joe/.local/lib/python3.8/site-packages/rdflib/term.py:1318: UserWarning: Serializing weird numerical rdflib.term.Literal('20 - 50', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#double'))
+  warnings.warn("Serializing weird numerical %r" % self)
+/home/joe/.local/lib/python3.8/site-packages/rdflib/term.py:1318: UserWarning: Serializing weird numerical rdflib.term.Literal('5 - 10', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#double'))
+  warnings.warn("Serializing weird numerical %r" % self)
+/home/joe/.local/lib/python3.8/site-packages/rdflib/term.py:1318: UserWarning: Serializing weird numerical rdflib.term.Literal('10 - 20', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#double'))
+  warnings.warn("Serializing weird numerical %r" % self)
+/usr/lib/python3.8/email/feedparser.py:164: ResourceWarning: unclosed file <_io.BufferedReader name='inputs/NG_Medium_and_Support_AAT.xlsx'>
+  self._parse = self._parsegen().__next__
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/joe/.local/lib/python3.8/site-packages/rdflib/term.py:1318: UserWarning: Serializing weird numerical rdflib.term.Literal('None', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#double'))
+  warnings.warn("Serializing weird numerical %r" % self)
+objects mapped!
+events mapped!
+people mapped!
+places mapped!
+timespans mapped!
+samples mapped!
+images mapped!

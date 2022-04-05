@@ -6,6 +6,7 @@ from pdb import set_trace as st
 import numpy as np
 from common_functions import generate_placeholder_PID, triples_to_csv, triples_to_tsv, create_PID_from_triple, find_aat_value, run_ruby_program, wikidata_query, create_year_dates, check_aat_values, process_name_prefixes
 from create_triples import create_object_triples, create_title_triples, create_event_triples, create_dimension_triples, create_medium_triples, create_object_part_triples, create_timespan_triples, create_person_triples, create_role_triples, create_influence_triples, create_institution_triples, create_place_triples, create_extra_timespan_triples, create_reference_triples, create_sample_triples, create_sample_layer_triples, create_sample_component_triples, create_colour_triples, create_preparation_triples, create_protocol_triples, create_measurement_triples, create_location_triples, create_image_file_triples, create_model_file_triples, create_classification_triples
+import sys
 
 RRO = Namespace("https://rdf.ng-london.org.uk/raphael/ontology/")
 RRI = Namespace("https://rdf.ng-london.org.uk/raphael/resource/")
@@ -279,9 +280,18 @@ def map_extra_timespan_info(new_graph, **kwargs):
     return new_graph
 
 def map_sample(new_graph, **kwargs):
-
+    #sno = 0
+    #limit = 50
+    
     for _, row in kwargs["sample_timespan_event"].iterrows():
 
+        #sno = sno + 1          
+        #if sno > limit:
+        #  sno = 0
+        #  break
+        
+        #print ("SAM Event: [" +str(sno)+ "] - "+str(row["object_inventory_number"])+" "+str(row["sample_number"]))
+	
         object_inventory_number = row["object_inventory_number"]
         sample_id = row["sample_id"]
         sample_layer_id = row["sample_layer_id"]
@@ -310,8 +320,15 @@ def map_sample(new_graph, **kwargs):
             new_graph = create_dimension_triples(new_graph=new_graph, dimension_PID=BNode(), object_PID=layer_PID, obj=row["sample_layer_thickness"], aat_dimension_value='300055646', aat_dimension_title='thickness', aat_unit_value='300198990', aat_unit_title='micrometers')     
         if sample_layer_id is not None:
             new_graph = create_sample_component_triples(new_graph=new_graph, layer_PID=layer_PID, sample_PID=sample_PID, component_PID=component_PID, event_name=row["event_name"], sample_component_size=row["sample_component_size"], sample_component_number=row["sample_component_number"], sample_component_function=row["sample_component_function"], sample_comp_function_confidence=row["sample_comp_function_confidence"], sample_component_comment=row["sample_component_comment"], sample_number=row["sample_number"], object_inventory_number=row["object_inventory_number"], sample_component_amount=row["sample_component_amount"])
+          
+    for _, row in kwargs["sample_colour"].iterrows():
+        #sno = sno + 1          
+        #if sno > limit:
+        #  sno = 0
+        #  break
         
-    for _, row in kwargs["sample_colour"].iterrows():   
+        #print ("SAM Colour: [" +str(sno)+ "] ")
+          
         layer_id = 'Layer_no_' + str(row["sample_layer_id"]) 
         object_PID = generate_placeholder_PID(layer_id)
 
@@ -327,8 +344,15 @@ def map_sample(new_graph, **kwargs):
         descriptor_colour_aat_value = check_aat_values(row["colour_descriptor_name"])[1]
 
         new_graph = create_colour_triples(new_graph=new_graph, object_PID=object_PID, main_colour_PID=main_colour_PID, modifier_colour_PID=modifier_colour_PID, descriptor_colour_PID=descriptor_colour_PID, main_colour_comment=row["colour_main_comment"], main_colour_name=row["colour_main_name"], modifier_colour_comment=row["colour_modifier_comment"], modifier_colour_name=row["colour_modifier_name"], descriptor_colour_name=row["colour_descriptor_name"], descriptor_colour_comment=row["colour_descriptor_comment"], main_colour_aat_title=main_colour_aat_title, main_colour_aat_value=main_colour_aat_value, modifier_colour_aat_title=modifier_colour_aat_title, modifier_colour_aat_value=modifier_colour_aat_value, descriptor_colour_aat_value=descriptor_colour_aat_value, descriptor_colour_aat_title=descriptor_colour_aat_title)
-     
+    
     for _, row in kwargs["sample_component_colours"].iterrows():
+        #sno = sno + 1          
+        #if sno > limit:
+        #  sno = 0
+        #  break
+        
+        #print ("SAM Component Colour: [" +str(sno)+ "] ")
+          
         component_ID = 'Component_no_' + str(row["sample_component_id"])
         object_PID = generate_placeholder_PID(component_ID)
 
@@ -343,6 +367,13 @@ def map_sample(new_graph, **kwargs):
         new_graph = create_colour_triples(new_graph=new_graph, object_PID=object_PID, main_colour_PID=main_colour_PID, modifier_colour_PID=None, descriptor_colour_PID=descriptor_colour_PID, main_colour_comment=row["colour_main_comment"], main_colour_name=row["colour_main_name"], modifier_colour_comment=None, modifier_colour_name=None, descriptor_colour_name=row["colour_descriptor_name"], descriptor_colour_comment=row["colour_descriptor_comment"], main_colour_aat_title=main_colour_aat_title, main_colour_aat_value=main_colour_aat_value, modifier_colour_aat_title=None, modifier_colour_aat_value=None, descriptor_colour_aat_value=descriptor_colour_aat_value, descriptor_colour_aat_title=descriptor_colour_aat_title)
         
     for _, row in kwargs["sample_component_parents"].iterrows():
+        #sno = sno + 1          
+        #if sno > limit:
+        #  sno = 0
+        #  break
+        
+        #print ("SAM Component Parents: [" +str(sno)+ "] ")
+        
         component_ID = 'Component_no_' + str(row["sample_component_id"])
         component_PID = generate_placeholder_PID(component_ID)
         parent_component_id = 'Component_no_' + str(row["sample_component_parent_id"])
@@ -351,16 +382,34 @@ def map_sample(new_graph, **kwargs):
         new_graph.add((getattr(NGO, parent_component_pid), CRM.P45_consists_of, getattr(NGO, component_PID)))
 
     for _, row in kwargs["measurement_materials"].iterrows():
+        #sno = sno + 1          
+        #if sno > limit:
+        #  sno = 0
+        #  break
+        
+        #print ("SAM Materials: [" +str(sno)+ "] ")
         event_PID = generate_placeholder_PID(row["event_name"])
 
         new_graph = create_measurement_triples(new_graph=new_graph, event_PID=event_PID, event_name=row["event_name"], object_inventory_number=row["object_inventory_number"], material_name=row["material_name"], material_value=row["material_value"], material_value_percent=row["material_value%"], material_comment=row["material_comment"], material_type=row["material_type"], material_link=row["material_link"], material_class=row["material_class"], material_subclass=row["material_subclass"], measurement_comment=row["measurement_comment"], measurementXcomposition_comment=row["measurementXcomposition_comment"], result_confidence=row["result_confidence"])
     
     for _, row in kwargs["sample_location"].iterrows():
+        #sno = sno + 1          
+        #if sno > limit:
+        #  sno = 0
+        #  break
+        
+        #print ("SAM Location: [" +str(sno)+ "] ")
         location_PID = generate_placeholder_PID(row["location_name"])
 
         new_graph = create_location_triples(new_graph=new_graph, object_part_name=row["object_part_name"], object_inventory_number=row["object_inventory_number"], location_PID=location_PID, location_type=row["location_type"], location_name=row["location_name"], location_description=row["location_description"], object_side=row["object_side"], location_comment=row["location_comment"], image_location_x=row["image_location_x"], image_location_y=row["image_location_y"], image_location_w=row["image_location_w"], image_location_h=row["image_location_h"], model_location_x=row["3Dmodel_location_x"], model_location_y=row["3Dmodel_location_y"], model_location_z=row["3Dmodel_location_z"], image_file=row["image_file"], mesh_name=row["mesh_name"])
 
     for _, row in kwargs["sample_reference"].iterrows():
+        #sno = sno + 1          
+        #if sno > limit:
+        #  sno = 0
+        #  break
+        
+        #print ("SAM Reference: [" +str(sno)+ "] ")
         sample_id = 'Sample_no_' + str(row["sample_id"])
         sample_PID = generate_placeholder_PID(sample_id)
         ref_string = 'reference_document_' + str(row["reference_id"])
@@ -368,6 +417,9 @@ def map_sample(new_graph, **kwargs):
         
         new_graph = create_reference_triples(new_graph=new_graph, object_PID=None, sample_PID=sample_PID, reference_PID=reference_PID, thing_type=row["thing_type"], reference_title=row["reference_title"], reference_id=row["reference_id"], reference_comment=row["reference_comment"], reference_type=row["reference_type"], reference_link=row["reference_link"])
 
+    #new_graph.serialize(destination='outputs/grounds_sample-test.xml', format='xml')
+    #sys.exit()
+    
     return new_graph
 
 def map_image(new_graph, **kwargs):

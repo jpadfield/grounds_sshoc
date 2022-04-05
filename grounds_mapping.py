@@ -8,6 +8,7 @@ from common_functions import generate_placeholder_PID, triples_to_csv, triples_t
 from mapping_funcs import map_object, map_image, map_sample, map_event, map_extra_timespan_info, map_person, map_place
 from os import path
 import sys
+import warnings
 
 def create_graph():
 
@@ -49,10 +50,8 @@ def sql_query(query):
 
 def read_table(table):
     db = connect_to_sql()
-
     query = "SELECT * FROM " + table
     table_df = pd.read_sql(query, db)
-
     return table_df
 
 def generate_table_dataframes():
@@ -60,20 +59,26 @@ def generate_table_dataframes():
     cursor = db.cursor()
     table_names_query = "SHOW TABLES;"
     cursor.execute(table_names_query)
-    result = cursor.fetchall()
 
+    result = cursor.fetchall()
+    
     tables_list = [x[0] for x in result]
     tables = [read_table(table) for table in tables_list]
 
-    tables_dict = {table_name:table for table_name, table in zip(tables_list, tables)}
+    tables_dict = {table_name:table for table_name, table in zip(tables_list, tables)}    
     
     return tables_dict
 
 def map_db_to_triples(full_rebuild=False):
     # Pulling in all tables from the sql database and extracting the ones we need into their own objects
-    tables_dict = generate_table_dataframes()
     
-    object_medium_support = tables_dict["object_medium_support"]
+    warnings.filterwarnings('ignore')
+    # This uses pandas which works but gives the following warning:
+    # pandas only support SQLAlchemy connectable(engine/connection) ordatabase string URI or sqlite3 DBAPI2 connectionother DBAPI2 objects are not tested, please consider using SQLAlchemy
+    tables_dict = generate_table_dataframes()
+    warnings.filterwarnings('default')
+    
+    object_medium_support = tables_dict["object_medium_support"]          
     object_part_title_table = tables_dict["object_part_title_table"]
     obj_reference_timespan = tables_dict["obj_reference_timespan_f"]
     person_parent_table = tables_dict["person_parent_table"]
