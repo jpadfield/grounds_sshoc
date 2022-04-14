@@ -1,4 +1,7 @@
-# GROUNDS to CIDOC-CRM
+# SSHOC - Mapping Painting Sample data to the CIDOC CRM
+
+In 2018 the <a href="https://doi.org/10.5281/zenodo.5838339">IPERION-CH Grounds Database</a> was presented to examine how the data produced through the scientific examination of historic painting preparation or grounds samples, from multiple institutions could be combined in a flexible digital form. Exploring the presentation of interrelated high resolution images, text, complex metadata and procedural documentation. The original <a href="https://research.ng-london.org.uk/iperion/">main user interface</a> is live, though password protected at this time. The SSHOC work aimed to make this data more [FAIR](https://www.go-fair.org/fair-principles/) so in addition to mapping it to a standard ontology, to increase Interoprability, it has also been made availbale in the form of <a href="http://en.wikipedia.org/wiki/Linked_Data">open linkable data</a> combined with a <a href="http://en.wikipedia.org/wiki/SPARQL">SPARQL</a> end-point. A draft version of this live data presentation can been found [Here](https://rdf.ng-london.org.uk/sshoc/).
+
 This repo contains code that connects to a version of the National Gallery's GROUNDS database on MySQL and maps the data to CIDOC-CRM.
 
 ## Running the code
