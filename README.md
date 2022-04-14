@@ -1,3 +1,13 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6461469.svg)](https://doi.org/10.5281/zenodo.6461469)
+# SSHOC - Mapping Painting Sample data to the CIDOC CRM
+Please note the content of the Inputs and Outputs is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
 In 2018 the <a href="https://doi.org/10.5281/zenodo.5838339">IPERION-CH Grounds Database</a> was presented to examine how the data produced through the scientific examination of historic painting preparation or grounds samples, from multiple institutions could be combined in a flexible digital form. Exploring the presentation of interrelated high resolution images, text, complex metadata and procedural documentation. The original <a href="https://research.ng-london.org.uk/iperion/">main user interface</a> is live, though password protected at this time. The SSHOC work aimed to make this data more [FAIR](https://www.go-fair.org/fair-principles/) so in addition to mapping it to a standard ontology, to increase Interoperability, it has also been made available in the form of <a href="http://en.wikipedia.org/wiki/Linked_Data">open linkable data</a> combined with a <a href="http://en.wikipedia.org/wiki/SPARQL">SPARQL</a> end-point. A draft version of this live data presentation can been found [Here](https://rdf.ng-london.org.uk/sshoc/).
 
 This repo contains code that connects to a version of the National Gallery's GROUNDS database on MySQL and maps the data to CIDOC-CRM.
