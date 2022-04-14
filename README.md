@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6461469.svg)](https://doi.org/10.5281/zenodo.6461469)
 # SSHOC - Mapping Painting Sample data to the CIDOC CRM
 Please note the content of the Inputs and Outputs is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
