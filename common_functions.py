@@ -5,6 +5,8 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 import time
 import numpy as np
 import requests
+import re
+import sys
 
 from pdb import set_trace as st
 
@@ -35,6 +37,13 @@ def find_gallery_PID(ng_number):
         ng_number = ng_number.replace(' ','_')
 
     gallery_PID = None
+    
+    # Added as the NG code needs to be formatted correctly to match the ES system
+    code = UT_split_code(ng_number);
+    #print (ng_number + ' ----> ' + code[14])
+    
+    if code[14] != "NG0":
+      ng_number = code[14]
 
     try:
         export_url = 'https://collectiondata.ng-london.org.uk/es/ng-public/_search?q=identifier.object_number:' + ng_number
@@ -84,6 +93,10 @@ def generate_placeholder_PID(input_literal):
         placeholder_PID += str(res)
         placeholder_PID += '-'
     placeholder_PID = placeholder_PID[:-1]
+    
+    # Added to make them a different structure to real ones.
+    placeholder_PID = "SC-" + placeholder_PID
+    
     #input_list = [input_literal, placeholder_PID]
     #fields = ['Literal value','Placeholder PID']
     existing_pid = check_db(input_literal, table_name = 'temp_pids')
@@ -298,3 +311,157 @@ def process_name_prefixes(row):
         value = row["person_name"]
 
     return value
+    
+def UT_split_code (ob_code):
+	ob_code = ob_code.strip("'" )
+	ob_code = ob_code.strip();
+
+	se = re.search('^([a-zA-Z]*)[._-]*([0-9]+)[._-]*([0-9]*)[._-]*([a-zA-Z]+)*[._-]*([0-9]*)(.*)$', ob_code)
+	if se:
+		var = [se.group(),se.group(1),se.group(2),se.group(3),se.group(4),se.group(5)]
+	else:
+		var = [False,False,False,False,False,False]
+	
+	code = [False] * 16
+	codeX = ""
+	
+	if not var[3]:
+		var[3] = 0
+
+	er = ["new", "XS", "S", "a", "b", "s"]	
+	if var[1] == "NGL":
+		code[0] = "%03.0f" % (float(var[2]),)
+		code[1] = "= "+str(int(var[3]))
+		code[2] = "%02.0f" % (float(var[3]),)
+		code[3] = var[1]
+	elif var[1] == "F":
+		code[0] = "%05.0f" % (float(var[2]),)
+		code[1] = "= "+str(int(var[3]))
+		code[2] = "%02.0f" % (float(var[3]),)		
+		code[3] = var[1]
+	elif var[2] and var[3] and (var[4] in er) :
+		code[0] = "%04.0f" % (float(var[2]),)
+		code[1] = "= 0"
+		code[2] = "000"		
+		code[3] = "N"
+	elif var[3] and var[4] and not var[1]:
+		code[0] = "%04.0f" % (float(var[2]),)
+		code[1] = "= "+str(var[3])+str(var[4])
+		code[2] = str(var[3])+str(var[4])
+		codeX = var[4]
+		code[3] = "-"
+	elif var[2] and var[3] and var[5] and not var[1]:
+		code[0] = "%04.0f" % (float(var[2]),)
+		code[1] = "= " + str(int(var[3]))
+		code[2] = "%02.0f" % (float(var[3]),)
+		codeX = "."+str(var[5])
+		code[3] = "-"
+	elif var[1] and var[2] and var[4] and var[5]:
+		code[0] = "0000"
+		code[1] = "= 0"
+		code[2] = "000"
+		code[3] = var[0]
+	elif (var[2] and not var[1]):
+		code[0] = "%04.0f" % (float(var[2]),)
+		code[1] = "= " + str(int(var[3]))
+		code[2] = "%03.0f" % (float(var[3]),)
+		code[3] = "N"
+	elif (var[2]):
+		code[0] = "%04.0f" % (float(var[2]),)
+		code[1] = "= " + str(int(var[3]))
+		code[2] = "%03.0f" % (float(var[3]),)
+		code[3] = var[1]
+	else:
+		code[0] = "0000"
+		code[1] = "= 0"
+		code[2] = "000"
+		code[3] = "N"
+	
+	if ( code[3] == "NG" or code[3] == "ng" or code[3] == "N" ):
+		code[3] = "N"
+		at = "NG"
+	elif (code[3] == "-"):
+		code[3] = ""
+		at = ""
+	elif not code[3]:
+		code[3] = -1
+		at = "-1"
+	else:
+		code[3].upper()
+		at = code[3]
+ 
+	code[4] = str(code[3])+str(code[0])+"."+str(code[2])
+	aan = int(code[0])
+	aasn = str(code[2])+str(codeX)
+	
+	try:
+	  ic2 = int(code[2])
+	except:
+	  ic2 = 0
+	  	
+	try:
+	  fc2 = ("%02.0f" % (float(code[2]),))
+	except:
+	  fc2 = code[2]
+
+	if (at == "NGL"):
+		# Display NG Inventory No.
+		code[5] = str(code[3])+str(code[0])+"."+str(code[2])
+		code[6] = str(code[3])+"-"+str(code[0])+"-"+str(code[2])
+		if (ic2):
+		  code[14] = str(code[3])+str(code[0])+"."+str(code[2])
+		else:
+		  code[14] = str(code[3])+str(code[0])
+	elif aasn:
+		code[5] = str(at)+str(aan)+"."+str(aasn)
+		code[6] = str(code[3])+"-"+str(aan)+"-"+str(aasn)
+		if (ic2):
+		  code[14] = str(at)+str(aan)+"."+str(aasn)
+		else:
+		  code[14] = str(at)+str(aan)
+	elif aan:
+		code[5] = str(at)+str(aan)
+		code[6] = str(code[3])+"-"+str(aan)
+		code[14] = str(at)+str(aan)
+	else:
+		code[5] = str(at)
+		code[6] = str(at)
+		code[14] = str(at)
+
+	code[13] = code[5]
+	
+	# Not sure why this is done now, but wanted a simple F-number display for sample files
+	if at == "F":
+	  # Display NG Inventory No.
+		code[5] = str(code[3])+str(code[0])+"."+str(code[2])
+		code[6] = str(code[3])+"-"+str(code[0])+"-"+str(code[2])
+		
+	# NG painting related image filename base	
+
+	code[7] = str(code[3])+"-"+str(code[0])+"-"+str(fc2)
+	code[8] = ("%04.0f" % (float(code[0]),))+"-"+str(fc2)
+
+	if aasn:
+		code[9] = str(at)+str(code[0])+"."+str(code[2])
+	else:
+		code[9] = str(at)+str(code[0])
+
+	if ic2 > 0:
+			code[10] = code[7]
+			code[11] = str(at)+str(code[0])+"_"+str(code[2])
+	else:
+			code[10] = str(code[3])+"-"+str(code[0])
+			code[11] = str(at)+str(code[0])
+	
+	if not var[5]:
+		var[5] = "No Match"
+		
+	if re.search('^[0-9]{6}$', var[5]):
+		code[12] = str(code[7])+"-"+str(var[5])
+	else:
+		code[12] = False
+	
+	if not code[3] == -1:
+		return code
+	else:
+		return False

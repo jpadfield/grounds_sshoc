@@ -4,7 +4,7 @@ from rdflib import Graph, Namespace, Literal, BNode
 from rdflib.namespace import RDF, RDFS, NamespaceManager, XSD
 from pdb import set_trace as st
 import numpy as np
-from common_functions import generate_placeholder_PID, triples_to_csv, triples_to_tsv, create_PID_from_triple, find_aat_value, run_ruby_program, wikidata_query, create_year_dates, connect_to_sql
+from common_functions import generate_placeholder_PID, triples_to_csv, triples_to_tsv, create_PID_from_triple, find_aat_value, run_ruby_program, wikidata_query, create_year_dates, connect_to_sql, UT_split_code
 from mapping_funcs import map_object, map_image, map_sample, map_event, map_extra_timespan_info, map_person, map_place
 from os import path
 import sys

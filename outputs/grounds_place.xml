@@ -4,28 +4,39 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/P9O0-B57Y-HNMT-WCOX">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-CF66-FQMV-XTRZ-JUWW">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:nodeID="N2dbebe841c42463a8f4049f5264761e3"/>
+    <crm:P2_has_type rdf:nodeID="N07d5d91b69ea46a6aab398eba3f549fc"/>
+    <crm:P2_has_type rdf:nodeID="N7851ae82ab8644f9a7198c73f2f54a83"/>
+    <rdfs:label xml:lang="en">Classification of Doerner Institut, Bayerische Staatsgemäldesammlungen</rdfs:label>
+    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/SC-XS2O-2VKV-69RZ-E1XM"/>
+    <crm:P42_assigned rdf:nodeID="Nef760d94c8714727b7b43f54af5c2bdb"/>
+    <crm:P42_assigned rdf:nodeID="N399f39380597480a8691eb60a86c59e7"/>
+    <crm:P42_assigned rdf:nodeID="Nbba0cdad08e241599dfa0f3c908127ad"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N68cd6b52a1a64779816d053562407f9b">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">institution type</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8324f638c4814637a3b58435d80c804f">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-QSJL-T9SS-R0J5-QUTQ">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
-    <rdfs:label xml:lang="en">Rijksmuseum</rdfs:label>
-    <crm:P168_place_is_defined_by>52.359998N 4.885433E</crm:P168_place_is_defined_by>
-    <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/4XDS-N3QH-19E2-02J7"/>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/19SG-FCVP-UUUT-6CIF"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/VCHE-MUIB-AMTA-8KDC">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
     <rdfs:label xml:lang="en">Koninklijk Instituut voor het Kunstpatrimonium</rdfs:label>
-    <crm:P48_has_preferred_identifier xml:lang="en">Koninklijk Instituut voor het Kunstpatrimonium</crm:P48_has_preferred_identifier>
-    <crm:P1_is_identified_by xml:lang="en">KIK-IRPA</crm:P1_is_identified_by>
-    <crm:P70i_is_documented_in rdf:nodeID="N5335712727484e79918711adaaed4329"/>
-    <crm:P70i_is_documented_in rdf:nodeID="Nbc6069279e534659a3532728c2086142"/>
-    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/22SJ-NC5G-OWYA-I1YM"/>
-    <crm:P3_has_note xml:lang="en">www.kikirpa.be</crm:P3_has_note>
+    <crm:P168_place_is_defined_by>50.8424352N 4.3936017E</crm:P168_place_is_defined_by>
+    <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-J3GH-AEE8-RYJI-3U12"/>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-KCYM-6K3Z-8UGT-7516"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time_span"/>
     <rdf:type rdf:resource="http://vocab.getty.edu/page/aat/300379244"/>
     <rdfs:label xml:lang="en">Timespan of Existence of Unknown</rdfs:label>
@@ -168,96 +179,53 @@
     <crm:P90_has_value xml:lang="en">None</crm:P90_has_value>
     <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/A9Y6-5SLC-F6DZ-NGBB">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-ZOVC-LTSG-QPOE-01GW">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
-    <rdfs:label xml:lang="en">Statens Museum for Kunst</rdfs:label>
-    <crm:P48_has_preferred_identifier xml:lang="en">Statens Museum for Kunst</crm:P48_has_preferred_identifier>
-    <crm:P1_is_identified_by xml:lang="en">SMK</crm:P1_is_identified_by>
-    <crm:P70i_is_documented_in rdf:nodeID="Nb1d6ee4283ca4cdeb20cbbb04f46dea0"/>
-    <crm:P3_has_note xml:lang="en">www.smk.dk</crm:P3_has_note>
-    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/GEJR-3M3K-2Q6M-DIKZ"/>
+    <rdfs:label xml:lang="en">The National Gallery, London</rdfs:label>
+    <crm:P48_has_preferred_identifier xml:lang="en">The National Gallery, London</crm:P48_has_preferred_identifier>
+    <crm:P1_is_identified_by xml:lang="en">NG</crm:P1_is_identified_by>
+    <crm:P70i_is_documented_in rdf:nodeID="Nada875ae658d435c98744e92f716b236"/>
+    <crm:P70i_is_documented_in rdf:nodeID="N4e7a4898cbde4f56bbda5b4cddc0a02e"/>
+    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/SC-8PZL-D1ED-RUR5-AY8M"/>
+    <crm:P3_has_note xml:lang="en">http://www.nationalgallery.org.uk</crm:P3_has_note>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N358d30dbcd4f4e478919562f0f1db674">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">institution type</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N51b3389e28444cfe889328d085e5e6ec">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">None</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/N3598765de22d4d94a3a75dba9e781f4c">
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/WUK5-RQH8-RBV2-QIX7">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-L5WM-Y108-B9K5-OFQB">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
-    <rdfs:label xml:lang="en">Statens Museum for Kunst, Centre for Art Technological Studies and Conservation</rdfs:label>
-    <crm:P168_place_is_defined_by>55.688837N 12.578317E</crm:P168_place_is_defined_by>
-    <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/F23J-RFM9-W6WZ-0D56"/>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/19SG-FCVP-UUUT-6CIF"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N94b10e322c4944839189bacb4178a5e0">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <rdfs:label xml:lang="en">www.doernerinstitut.de</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/E191-2T4B-WD6U-H7U3">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:nodeID="N52cbe2f36c1f45779b62331ec5faac28"/>
-    <rdfs:label xml:lang="en">Classification of National Museum of Stockholm</rdfs:label>
-    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/GI2E-TQJJ-OJJT-GE8T"/>
-    <crm:P42_assigned rdf:nodeID="Nba7e19dec6e8488392fe9a371db900ac"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/FZ8S-XLOG-LXOI-R7NM">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:nodeID="N08ed76e42ae3418b949ef608a20ac5c4"/>
-    <crm:P2_has_type rdf:nodeID="Ne8762cf4b90142c3bc7726618ce8f724"/>
-    <rdfs:label xml:lang="en">Classification of Statens Museum for Kunst, Centre for Art Technological Studies and Conservation</rdfs:label>
-    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/9IWQ-P1OQ-FQQB-S0XX"/>
-    <crm:P42_assigned rdf:nodeID="Ncb287aa9714448eba7600332a9a8b2fc"/>
-    <crm:P42_assigned rdf:nodeID="Na24c0dd559804a8fae29e89f32d211f0"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/2XOK-XW3Z-0OAL-Q5EM">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne099e3290a624c01a370ef3f504bb7aa">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">institution type</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/GTYB-XW4Y-TA4J-6E8B">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
-    <rdfs:label xml:lang="en">Bayerische Staatsgemäldesammlungen</rdfs:label>
+    <rdfs:label xml:lang="en">Doerner Institut, Bayerische Staatsgemäldesammlungen</rdfs:label>
     <crm:P168_place_is_defined_by>48.1498568N 11.57097E</crm:P168_place_is_defined_by>
     <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/PSR9-T7HD-1RK0-P63D"/>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/8I4L-31NL-46WE-1GEB"/>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-X4K6-A7XG-8SN1-HCUC"/>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-KCYM-6K3Z-8UGT-7516"/>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-QHBW-L7SF-N6SP-AV92"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc6025ff06a2241138d8553f5e835c0ff">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-G5XQ-CO9X-1ZDV-4VEH">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-78VL-GBTT-JTRP-HMXU">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/Nd86e3b2dba7849fdb0e17523a6386e5c">
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-OVNR-T211-F0A3-F56L">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
+    <rdfs:label xml:lang="en">Consiglio Nazionale delle Ricerche</rdfs:label>
+    <crm:P168_place_is_defined_by>41.8998236N 12.5101778E</crm:P168_place_is_defined_by>
+    <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-BCIH-VSL0-H4AL-AWDU"/>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-KCYM-6K3Z-8UGT-7516"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbba0cdad08e241599dfa0f3c908127ad">
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">None</rdfs:label>
+    <rdfs:label xml:lang="en">5</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/U349-B9GZ-EVUN-J396">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:nodeID="N5cee00ded3f2406881105fa5b5498091"/>
-    <crm:P2_has_type rdf:nodeID="Nd865fb504d3c4025be035ee3fe537c5a"/>
-    <rdfs:label xml:lang="en">Classification of Consiglio Nazionale delle Ricerche</rdfs:label>
-    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/7LRT-JN22-2V6K-WZKG"/>
-    <crm:P42_assigned rdf:nodeID="N92c508cf6eaf4da0813ffa9e88255000"/>
-    <crm:P42_assigned rdf:nodeID="Nbf02862dfce5431fb78105a69f63939b"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/XPQI-E47A-LH17-OEXV">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-IJRB-I7VH-UO5Z-C886">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
@@ -265,1223 +233,1255 @@
     <crm:P168_place_is_defined_by>0.0N 0.0E</crm:P168_place_is_defined_by>
     <crm:P168_place_is_defined_by>51.053289N 13.734807E</crm:P168_place_is_defined_by>
     <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/19SG-FCVP-UUUT-6CIF"/>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-APWR-QBYD-DT4G-FOIT"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/X6JN-OTCC-FTMX-Y979">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
-    <rdfs:label xml:lang="en">Statens Museum for Kunst</rdfs:label>
-    <crm:P168_place_is_defined_by>55.688837N 12.578317E</crm:P168_place_is_defined_by>
-    <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/0MGT-2KJ8-7CB9-6QJK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-HB0N-U1YX-4QY1-J1N1">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/164H-WS25-RFZ2-L30C">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-5IWN-NQ18-LUK7-K1M3">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/3VRE-GDC5-77EQ-PMIG">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:nodeID="Nddd763778f864f059c62ad57f4a6cf6f"/>
-    <crm:P2_has_type rdf:nodeID="N6bcb5186d2bb4ee3ace2cafe04c5e115"/>
-    <rdfs:label xml:lang="en">Classification of Bayerische Staatsgemäldesammlungen</rdfs:label>
-    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/XU43-KMGC-ORWT-QRUU"/>
-    <crm:P42_assigned rdf:nodeID="Nee34f15d8f494197af9b06a957d02b16"/>
-    <crm:P42_assigned rdf:nodeID="N1c6c859f51844fcb86b1df82d15a45cc"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N6218617df679488f9de492d4d8669663">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <rdfs:label xml:lang="en">www.cnr.it</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/MC9V-QIH4-Y4CM-LM81">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N3f725d0977f74c12b5a7cf1226fccb9a">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <rdfs:label xml:lang="en">55.672287  | 12.571802</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nba7e19dec6e8488392fe9a371db900ac">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">25</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nbe52e442cf7a495ba6fda02a1b31d7d9">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <rdfs:label xml:lang="en">52.359998 | 4.885433</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd865fb504d3c4025be035ee3fe537c5a">
+  <rdf:Description rdf:nodeID="Naf1492027a5a47e397396f515b6355b8">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label xml:lang="en">institution type</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N832949375b464b3aa0abde279a898808">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">institution type</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/R6VV-CQ6V-VB6O-VUT3">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
-    <rdfs:label xml:lang="en">Frederiksborg slot, Det Nationalhistoriske Museum</rdfs:label>
-    <crm:P168_place_is_defined_by>55.92918N 12.3081E</crm:P168_place_is_defined_by>
-    <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/0MGT-2KJ8-7CB9-6QJK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/LSNI-I4X4-XAD8-Z3FT">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:nodeID="Nb70eb7bd06464e43b6ab564fa429d490"/>
-    <crm:P2_has_type rdf:nodeID="Nfeb21dba89cc4ecd977c2258339c0d36"/>
-    <rdfs:label xml:lang="en">Classification of Rijksmuseum</rdfs:label>
-    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/TUPN-6H9K-2T1M-NE7P"/>
-    <crm:P42_assigned rdf:nodeID="N35e9d1ebad73410bb88ada7b156a4c03"/>
-    <crm:P42_assigned rdf:nodeID="Ne93105bf61054c72befa6dc14e03a494"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/JFGA-SCMD-X7YN-SZAF">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/ZLL4-WL42-5OEL-0IH5">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:nodeID="N67327cd292ce4cf8a1198ad448d459c4"/>
-    <rdfs:label xml:lang="en">Classification of Hochschule für Bildende Künste Dresden</rdfs:label>
-    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/BFAE-5VOC-UWRI-C9JI"/>
-    <crm:P42_assigned rdf:nodeID="N5d32b1c774e145c28b1002e2513bd0ad"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N563651d3fe1848ebae76792a009bd3df">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">None</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/BVGD-S2OF-5RPV-YOEY">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/P05K-J0PD-309W-34BB">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc689738044864b7e9380a69344fd0556">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <rdfs:label xml:lang="en">41.8998236 | 12.5101778</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/WGIN-DL0K-O6EB-B8F2">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/4VR1-5JWQ-9MQN-UTGA">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:nodeID="N1dd1766d537d4039a54e780bdccf7c2f"/>
-    <crm:P2_has_type rdf:nodeID="N3f7793ccf44443bdbb71099a95005b85"/>
-    <rdfs:label xml:lang="en">Classification of Koninklijk Instituut voor het Kunstpatrimonium</rdfs:label>
-    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/VCHE-MUIB-AMTA-8KDC"/>
-    <crm:P42_assigned rdf:nodeID="Nd8321eda62084323a814c23237137483"/>
-    <crm:P42_assigned rdf:nodeID="Nb9732bd927b241e9b77ab3ed3a890c05"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/D38M-CQ9T-RQQV-O3D1">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/MPUU-GH8U-VQTE-UMKN">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/YHAP-HLO8-6SYY-SDKS">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:nodeID="N51b3389e28444cfe889328d085e5e6ec"/>
-    <crm:P2_has_type rdf:nodeID="N827e51cb2eef4656888ce2fb01958545"/>
-    <crm:P2_has_type rdf:nodeID="Nb2d3f9d6182c4860aa20842caf928bd8"/>
-    <rdfs:label xml:lang="en">Classification of Doerner Institut, Bayerische Staatsgemäldesammlungen</rdfs:label>
-    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/OTST-LJPS-N28V-77DF"/>
-    <crm:P42_assigned rdf:nodeID="N563651d3fe1848ebae76792a009bd3df"/>
-    <crm:P42_assigned rdf:nodeID="N00fca82cec8741cca8d7cebd3e030bf6"/>
-    <crm:P42_assigned rdf:nodeID="N3f2b5100dcf14ed78ad20159804fb179"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/XRXX-H2M0-QMOZ-0R4E">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N6bcb5186d2bb4ee3ace2cafe04c5e115">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">institution type</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/GPMS-V694-WF1Z-MPXK">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-ZX29-2S0S-PTVC-GYEM">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
     <rdfs:label xml:lang="en">The National Gallery, London</rdfs:label>
     <crm:P168_place_is_defined_by>51.508995N -0.128312E</crm:P168_place_is_defined_by>
     <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/PA0P-T5H5-0CBZ-TC3P"/>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/8I4L-31NL-46WE-1GEB"/>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-HXAV-TC2D-39YO-AVIL"/>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-QHBW-L7SF-N6SP-AV92"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/8I4U-R12O-83LN-UBEQ">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
-    <rdfs:label xml:lang="en">Hochschule für Bildende Künste Dresden</rdfs:label>
-    <crm:P168_place_is_defined_by>0.0N 0.0E</crm:P168_place_is_defined_by>
-    <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/R7QT-T8ZD-B2AR-KA4V"/>
+  <rdf:Description rdf:nodeID="N40c261d975c14d3fb02533e01cb69f48">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:label xml:lang="en">48.1498568 | 11.57097</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/4EHM-6YGI-QFC7-YRI2">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-6EC8-DUWY-5DYD-1A1Y">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne93105bf61054c72befa6dc14e03a494">
+  <rdf:Description rdf:nodeID="N7f9655a8027745fb946a18c24318832a">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neab68536a5994793b4a9cf1dcbad365d">
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">4</rdfs:label>
+    <rdfs:label xml:lang="en">9</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/LJJ2-SM47-OAC6-OEK2">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-FKHH-52MC-8Y0A-N67F">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/OTST-LJPS-N28V-77DF">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-KYQI-SH7V-HTMK-QMIB">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/Nd783fcd162434c59850b7562325931b9">
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-137Q-UXUZ-WBXS-ZVGP">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na63f180aaccb4c31bc41dc8357ecc0c7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:label xml:lang="en">55.929180 | 12.308100</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-CZUC-ZRVL-KBQZ-B70S">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N03a8c980ed514f27a5b13e782a9149f7">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-5W6Q-7AHU-V4K2-XV3I">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
-    <rdfs:label xml:lang="en">Doerner Institut, Bayerische Staatsgemäldesammlungen</rdfs:label>
-    <crm:P48_has_preferred_identifier xml:lang="en">Doerner Institut, Bayerische Staatsgemäldesammlungen</crm:P48_has_preferred_identifier>
-    <crm:P1_is_identified_by xml:lang="en">DI-BStGS</crm:P1_is_identified_by>
-    <crm:P70i_is_documented_in rdf:nodeID="N94b10e322c4944839189bacb4178a5e0"/>
-    <crm:P70i_is_documented_in rdf:nodeID="N5d1bdf1f2d52432fbf917e31ded40c05"/>
-    <crm:P70i_is_documented_in rdf:nodeID="N9d1a00840e4d446c88a020bf73c01768"/>
-    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/L3DC-DBGI-TZYJ-84OZ"/>
-    <crm:P3_has_note xml:lang="en">www.doernerinstitut.de</crm:P3_has_note>
+    <rdfs:label xml:lang="en">Statens Museum for Kunst</rdfs:label>
+    <crm:P48_has_preferred_identifier xml:lang="en">Statens Museum for Kunst</crm:P48_has_preferred_identifier>
+    <crm:P1_is_identified_by xml:lang="en">SMK</crm:P1_is_identified_by>
+    <crm:P70i_is_documented_in rdf:nodeID="Na751d5443a1d412393a74777f5162be2"/>
+    <crm:P3_has_note xml:lang="en">www.smk.dk</crm:P3_has_note>
+    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/SC-8A1T-TPBL-D1L5-ZCUR"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/C58G-7BY1-S9Z8-L71A">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:nodeID="Nd798b4a95b71437c92ad371d47027862"/>
-    <crm:P2_has_type rdf:nodeID="Ne099e3290a624c01a370ef3f504bb7aa"/>
-    <rdfs:label xml:lang="en">Classification of Museo Nacional del Prado</rdfs:label>
-    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/OHRN-OEAM-2F7I-MKS0"/>
-    <crm:P42_assigned rdf:nodeID="Nc6025ff06a2241138d8553f5e835c0ff"/>
-    <crm:P42_assigned rdf:nodeID="N1588754b7f184be3a73a80214a16dc99"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na24c0dd559804a8fae29e89f32d211f0">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">2</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N1588754b7f184be3a73a80214a16dc99">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">3</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/TUPN-6H9K-2T1M-NE7P">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-4RGM-PM8T-XOAI-AD3T">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
-    <rdfs:label xml:lang="en">Rijksmuseum</rdfs:label>
-    <crm:P48_has_preferred_identifier xml:lang="en">Rijksmuseum</crm:P48_has_preferred_identifier>
-    <crm:P1_is_identified_by xml:lang="en">Rijks Museum</crm:P1_is_identified_by>
-    <crm:P70i_is_documented_in rdf:nodeID="Nfc6444c211424a8986d99f514eb6b3d7"/>
-    <crm:P70i_is_documented_in rdf:nodeID="Nbe52e442cf7a495ba6fda02a1b31d7d9"/>
-    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/8N06-5EQR-KOP8-L1L2"/>
-    <crm:P3_has_note xml:lang="en">https://www.rijksmuseum.nl/</crm:P3_has_note>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/929A-PN1A-AWA7-JFYO">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
     <rdfs:label xml:lang="en">Museo Nacional del Prado</rdfs:label>
-    <crm:P168_place_is_defined_by>40.413825N -3.69213E</crm:P168_place_is_defined_by>
-    <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/0TJA-2DP6-GQE1-BZ7N"/>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/19SG-FCVP-UUUT-6CIF"/>
+    <crm:P48_has_preferred_identifier xml:lang="en">Museo Nacional del Prado</crm:P48_has_preferred_identifier>
+    <crm:P1_is_identified_by xml:lang="en">PRADO</crm:P1_is_identified_by>
+    <crm:P70i_is_documented_in rdf:nodeID="Nfd295c1e2a9d4889b69db66d1eaf23e3"/>
+    <crm:P70i_is_documented_in rdf:nodeID="Nf1dfbf29966a41579870a0d6c7981ce1"/>
+    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/SC-I7CN-MQGS-X1N9-5M4X"/>
+    <crm:P3_has_note xml:lang="en">www.museodelprado.es</crm:P3_has_note>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/JG33-LVW3-KBKC-EXLU">
+  <rdf:Description rdf:nodeID="Nbb436630e371451cb1e31275083cebda">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">institution type</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na751d5443a1d412393a74777f5162be2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:label xml:lang="en">55.688837 | 12.578317</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4e7a4898cbde4f56bbda5b4cddc0a02e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:label xml:lang="en">51.508995 | -0.128312</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndd6d4f63b44e43c4b281b32e86def857">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:label xml:lang="en">48.1498568 | 11.57097</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1e98e5ee4b9e480f9321ef15162ce601">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N45b71e0042654428b4bd6677ed7977d7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-WABH-ICUI-J129-82P7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:nodeID="N7f9655a8027745fb946a18c24318832a"/>
+    <crm:P2_has_type rdf:nodeID="N68cd6b52a1a64779816d053562407f9b"/>
+    <rdfs:label xml:lang="en">Classification of Statens Museum for Kunst, Centre for Art Technological Studies and Conservation</rdfs:label>
+    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/SC-ND5W-2DK0-2BW5-J963"/>
+    <crm:P42_assigned rdf:nodeID="N03a8c980ed514f27a5b13e782a9149f7"/>
+    <crm:P42_assigned rdf:nodeID="N8324f638c4814637a3b58435d80c804f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-D8RF-W15U-O7WG-79VB">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
-    <rdfs:label xml:lang="en">The National Gallery, London</rdfs:label>
-    <crm:P48_has_preferred_identifier xml:lang="en">The National Gallery, London</crm:P48_has_preferred_identifier>
-    <crm:P1_is_identified_by xml:lang="en">NG</crm:P1_is_identified_by>
-    <crm:P70i_is_documented_in rdf:nodeID="N695882e00d6946cd8653254153d46a18"/>
-    <crm:P70i_is_documented_in rdf:nodeID="N8e4995df9a4747728f1478ee311b92d4"/>
-    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/4S5W-M9BG-F6GJ-QY0D"/>
-    <crm:P3_has_note xml:lang="en">http://www.nationalgallery.org.uk</crm:P3_has_note>
+    <rdfs:label xml:lang="en">The J. Paul Getty Museum</rdfs:label>
+    <crm:P48_has_preferred_identifier xml:lang="en">The J. Paul Getty Museum</crm:P48_has_preferred_identifier>
+    <crm:P1_is_identified_by xml:lang="en">Getty</crm:P1_is_identified_by>
+    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/SC-Q9A0-01FN-JWD1-FPUR"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/MD6K-5SWI-29O1-GU2X">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N3f2b5100dcf14ed78ad20159804fb179">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">5</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/2P9V-QJ54-7W7P-YL62">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/82KG-XTKC-26UD-OCH2">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:nodeID="Nefd33ce48a6a4cfab0de5abd565c09f4"/>
-    <rdfs:label xml:lang="en">Classification of Frederiksborg slot, Det Nationalhistoriske Museum</rdfs:label>
-    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/ET3T-FO0C-U1P3-T13W"/>
-    <crm:P42_assigned rdf:nodeID="N35e74d52946c4a1593b41b26f2b3fc0b"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/M9NS-UM3B-CKGA-89C3">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/9YKD-GNHR-MIJY-7NYT">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:nodeID="N7ef151981e2d4dd394a9e6b217a5a1e1"/>
-    <rdfs:label xml:lang="en">Classification of Statens Museum for Kunst</rdfs:label>
-    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/A9Y6-5SLC-F6DZ-NGBB"/>
-    <crm:P42_assigned rdf:nodeID="N1b1d4af523a1436ea6fabcd17b018a93"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nfeb21dba89cc4ecd977c2258339c0d36">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">institution type</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N00fca82cec8741cca8d7cebd3e030bf6">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">5</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/CM01-7EZX-LMKI-GMVF">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/R5O0-KYX5-VSFO-VBNM">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N827e51cb2eef4656888ce2fb01958545">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">institution type</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb2d3f9d6182c4860aa20842caf928bd8">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">institution type</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/B7AS-AE3Y-EHC9-116G">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
-    <rdfs:label xml:lang="en">National Museum of Stockholm</rdfs:label>
-    <crm:P168_place_is_defined_by>59.328456N 18.078058E</crm:P168_place_is_defined_by>
-    <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/0MGT-2KJ8-7CB9-6QJK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/FP9B-9KYO-FJV4-NM8M">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-25BZ-AIHI-G75N-KBYN">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
     <rdfs:label xml:lang="en">Staatliche Kunstsammlungen Dresden</rdfs:label>
     <crm:P48_has_preferred_identifier xml:lang="en">Staatliche Kunstsammlungen Dresden</crm:P48_has_preferred_identifier>
     <crm:P1_is_identified_by xml:lang="en">SKD</crm:P1_is_identified_by>
     <crm:P3_has_note xml:lang="en">https://www.skd.museum</crm:P3_has_note>
-    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/N82S-GCDQ-3OK7-I1UC"/>
-    <crm:P70i_is_documented_in rdf:nodeID="N3598765de22d4d94a3a75dba9e781f4c"/>
+    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/SC-BWO9-EK6Q-7F6Z-UKD6"/>
+    <crm:P70i_is_documented_in rdf:nodeID="Nd01b97af4e4e43bda07b90fefc70f369"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/5WV9-6NY6-M45P-YDOV">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:nodeID="N70c60ec14dde4bc89c2814ac99f1af71"/>
-    <rdfs:label xml:lang="en">Classification of Ny Carlsberg Glyptotek</rdfs:label>
-    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/AXMV-6LD9-6Q6T-61AK"/>
-    <crm:P42_assigned rdf:nodeID="N54a987402d48435ea28bfd2372026ff8"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/RZKG-4ZG5-IGK8-H5NJ">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N1b1d4af523a1436ea6fabcd17b018a93">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">10</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc5901d97b75844d6a5d87c35d39560f3">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <rdfs:label xml:lang="en">55.688837 | 12.578317</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N2e62b11e3f9f4ca4b095585191219f3f">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">9</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/7LRT-JN22-2V6K-WZKG">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
-    <rdfs:label xml:lang="en">Consiglio Nazionale delle Ricerche</rdfs:label>
-    <crm:P48_has_preferred_identifier xml:lang="en">Consiglio Nazionale delle Ricerche</crm:P48_has_preferred_identifier>
-    <crm:P1_is_identified_by xml:lang="en">CNR</crm:P1_is_identified_by>
-    <crm:P70i_is_documented_in rdf:nodeID="N6218617df679488f9de492d4d8669663"/>
-    <crm:P70i_is_documented_in rdf:nodeID="Nc689738044864b7e9380a69344fd0556"/>
-    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/22X0-311R-PFJG-DQLI"/>
-    <crm:P3_has_note xml:lang="en">www.cnr.it</crm:P3_has_note>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/OHRN-OEAM-2F7I-MKS0">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
-    <rdfs:label xml:lang="en">Museo Nacional del Prado</rdfs:label>
-    <crm:P48_has_preferred_identifier xml:lang="en">Museo Nacional del Prado</crm:P48_has_preferred_identifier>
-    <crm:P1_is_identified_by xml:lang="en">PRADO</crm:P1_is_identified_by>
-    <crm:P70i_is_documented_in rdf:nodeID="N2cb5a6f673dc439282eeb91aa9fca1a3"/>
-    <crm:P70i_is_documented_in rdf:nodeID="N3f026902ea9143da9717304ab2a43008"/>
-    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/TURQ-YQBI-FQAE-DVX7"/>
-    <crm:P3_has_note xml:lang="en">www.museodelprado.es</crm:P3_has_note>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/page/aat/300379244">
-    <rdfs:label>years@en</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/NBMH-ORFC-ASRX-UM2O">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/UD9K-ICXM-SI6F-9KHS">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
-    <rdfs:label xml:lang="en">Doerner Institut, Bayerische Staatsgemäldesammlungen</rdfs:label>
-    <crm:P168_place_is_defined_by>48.1498568N 11.57097E</crm:P168_place_is_defined_by>
-    <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/J6ZA-0ZI4-JL6S-IVLU"/>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/R7QT-T8ZD-B2AR-KA4V"/>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/8I4L-31NL-46WE-1GEB"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nca01bfcc844844e888bc7cbaac89fac0">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <rdfs:label xml:lang="en">48.1498568 | 11.57097</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/VY50-7I7A-F2OH-7MG3">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nee34f15d8f494197af9b06a957d02b16">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">8</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N9f98ec85f8344b7f8a09ad17477fe61d">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <rdfs:label xml:lang="en">48.1498568 | 11.57097</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N8418e9155ff949cfa42f20a5d1230fae">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">9</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N5763f35948f149bf874149babe26cf2c">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">None</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N35e9d1ebad73410bb88ada7b156a4c03">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">None</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/6RYP-RLS7-AHC0-DL53">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/XU43-KMGC-ORWT-QRUU">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
-    <rdfs:label xml:lang="en">Bayerische Staatsgemäldesammlungen</rdfs:label>
-    <crm:P48_has_preferred_identifier xml:lang="en">Bayerische Staatsgemäldesammlungen</crm:P48_has_preferred_identifier>
-    <crm:P1_is_identified_by xml:lang="en">BStGS</crm:P1_is_identified_by>
-    <crm:P1_is_identified_by xml:lang="en">DI-BStGS</crm:P1_is_identified_by>
-    <crm:P70i_is_documented_in rdf:nodeID="N9f98ec85f8344b7f8a09ad17477fe61d"/>
-    <crm:P70i_is_documented_in rdf:nodeID="Nca01bfcc844844e888bc7cbaac89fac0"/>
-    <crm:P3_has_note xml:lang="en">www.pinakothek.de</crm:P3_has_note>
-    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/VTRC-CJYL-5019-43RC"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/Nb1d6ee4283ca4cdeb20cbbb04f46dea0">
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/Nfc6444c211424a8986d99f514eb6b3d7">
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N7f37fee33aac4afa86888a96bcd787e7">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <rdfs:label xml:lang="en">59.328456 | 18.078058</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/N5d1bdf1f2d52432fbf917e31ded40c05">
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/F0P1-YU15-2L7P-UMNJ">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
-    <rdfs:label xml:lang="en">Koninklijk Instituut voor het Kunstpatrimonium</rdfs:label>
-    <crm:P168_place_is_defined_by>50.8424352N 4.3936017E</crm:P168_place_is_defined_by>
-    <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/H38R-7D5V-Q5IR-R131"/>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/R7QT-T8ZD-B2AR-KA4V"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/GVZV-79MW-N38N-07BA">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/L88U-MP9Y-Q4V6-UHC1">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ncb287aa9714448eba7600332a9a8b2fc">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">None</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/5QCI-SW6L-3MIL-U6FI">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/PLCQ-CNCF-BTJ8-B6IO">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N24b05db165664c9684274c636085792b">
+  <rdf:Description rdf:nodeID="Ndfc29cf0750e41c096fdf4d533b8c651">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label xml:lang="en">institution type</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/QFF8-Z7DF-TG4V-YDX3">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/N6e03e2f393ad4e83a341732c999114ba">
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/AIK5-A8BU-H754-B8O8">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/O3IP-FHD6-CMV5-4JJR">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/LARU-59IZ-ASDN-EO2E">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/THAA-ZPYH-N5I2-HJZO">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/IEXN-MTE1-9DDV-LVGV">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-N2DH-C1DL-NMSG-51JN">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:nodeID="N358d30dbcd4f4e478919562f0f1db674"/>
-    <crm:P2_has_type rdf:nodeID="N832949375b464b3aa0abde279a898808"/>
-    <crm:P2_has_type rdf:nodeID="N24b05db165664c9684274c636085792b"/>
-    <rdfs:label xml:lang="en">Classification of Staatliche Kunstsammlungen Dresden</rdfs:label>
-    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/FP9B-9KYO-FJV4-NM8M"/>
-    <crm:P42_assigned rdf:nodeID="N2e62b11e3f9f4ca4b095585191219f3f"/>
-    <crm:P42_assigned rdf:nodeID="N8418e9155ff949cfa42f20a5d1230fae"/>
-    <crm:P42_assigned rdf:nodeID="Nfadce89273fa48cca3b98765b946553a"/>
+    <crm:P2_has_type rdf:nodeID="N45b71e0042654428b4bd6677ed7977d7"/>
+    <crm:P2_has_type rdf:nodeID="N2d19e18da2be4581ac882da334eb36ed"/>
+    <rdfs:label xml:lang="en">Classification of Consiglio Nazionale delle Ricerche</rdfs:label>
+    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/SC-UUP0-85R7-BS9D-VF57"/>
+    <crm:P42_assigned rdf:nodeID="N575054c5714949d5a02802faf361acdf"/>
+    <crm:P42_assigned rdf:nodeID="N520edf6b4b0f4d21814385e5059d94f5"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/I8HF-AJH0-126I-Q8YD">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb9732bd927b241e9b77ab3ed3a890c05">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">6</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/HMPC-5FTA-OTOE-ICJF">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-YNIB-H22X-38BJ-C3NR">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
-    <rdfs:label xml:lang="en">Consiglio Nazionale delle Ricerche</rdfs:label>
-    <crm:P168_place_is_defined_by>41.8998236N 12.5101778E</crm:P168_place_is_defined_by>
-    <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/KL06-10K5-RPY3-MEUT"/>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/R7QT-T8ZD-B2AR-KA4V"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/ET3T-FO0C-U1P3-T13W">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
     <rdfs:label xml:lang="en">Frederiksborg slot, Det Nationalhistoriske Museum</rdfs:label>
-    <crm:P48_has_preferred_identifier xml:lang="en">Frederiksborg slot, Det Nationalhistoriske Museum</crm:P48_has_preferred_identifier>
-    <crm:P1_is_identified_by xml:lang="en">DNM</crm:P1_is_identified_by>
-    <crm:P70i_is_documented_in rdf:nodeID="Ne7990bd3fa1547c5beaaca7db34155e7"/>
-    <crm:P3_has_note xml:lang="en">http://www.dnm.dk</crm:P3_has_note>
-    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/1RX6-VIFI-VK9V-VHIM"/>
+    <crm:P168_place_is_defined_by>55.92918N 12.3081E</crm:P168_place_is_defined_by>
+    <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-5DZG-4L0U-O1XM-0F7R"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N8fd31e4853fa46c591532e0099efa709">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">institution type</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/J9FF-XM6F-2IMQ-R24Z">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/AXMV-6LD9-6Q6T-61AK">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
-    <rdfs:label xml:lang="en">Ny Carlsberg Glyptotek</rdfs:label>
-    <crm:P48_has_preferred_identifier xml:lang="en">Ny Carlsberg Glyptotek</crm:P48_has_preferred_identifier>
-    <crm:P1_is_identified_by xml:lang="en">Glyptotek</crm:P1_is_identified_by>
-    <crm:P70i_is_documented_in rdf:nodeID="N3f725d0977f74c12b5a7cf1226fccb9a"/>
-    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/T3TB-MD0V-P3RH-G7AT"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/Z7YD-FCBE-XQO6-Y089">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/66YD-I92P-00OW-EB28">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/N3f026902ea9143da9717304ab2a43008">
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/T3TB-MD0V-P3RH-G7AT">
-    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/NMME-ZEL6-QD1Z-40YN"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N5cee00ded3f2406881105fa5b5498091">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">None</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/1U5X-CZPW-VNKN-BAXR">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N70c60ec14dde4bc89c2814ac99f1af71">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">institution type</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N52cbe2f36c1f45779b62331ec5faac28">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">institution type</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N7ef151981e2d4dd394a9e6b217a5a1e1">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">institution type</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/K0YM-MMUY-D41X-NCCT">
-    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/WUK5-RQH8-RBV2-QIX7"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/74K7-PN8V-YVTK-SUHJ">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/Nc689738044864b7e9380a69344fd0556">
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N54a987402d48435ea28bfd2372026ff8">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">12</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/AMT8-29SO-DIWG-M6PP">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N67327cd292ce4cf8a1198ad448d459c4">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">institution type</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N3598765de22d4d94a3a75dba9e781f4c">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <rdfs:label xml:lang="en">51.053289 | 13.734807</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/BU7X-Z7OF-Q3PJ-LQO9">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:nodeID="N9117f73fdf5e4605866d28dd63f5842d"/>
-    <crm:P2_has_type rdf:nodeID="N8fd31e4853fa46c591532e0099efa709"/>
-    <rdfs:label xml:lang="en">Classification of The National Gallery, London</rdfs:label>
-    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/JG33-LVW3-KBKC-EXLU"/>
-    <crm:P42_assigned rdf:nodeID="N5763f35948f149bf874149babe26cf2c"/>
-    <crm:P42_assigned rdf:nodeID="N77ddc8cbda6b4d06a91810c4bf54c553"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/9IWQ-P1OQ-FQQB-S0XX">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
-    <rdfs:label xml:lang="en">Statens Museum for Kunst, Centre for Art Technological Studies and Conservation</rdfs:label>
-    <crm:P48_has_preferred_identifier xml:lang="en">Statens Museum for Kunst, Centre for Art Technological Studies and Conservation</crm:P48_has_preferred_identifier>
-    <crm:P1_is_identified_by xml:lang="en">CATS-SMK</crm:P1_is_identified_by>
-    <crm:P70i_is_documented_in rdf:nodeID="N312bb5b1cbd64b218bba4b2ec5540e04"/>
-    <crm:P70i_is_documented_in rdf:nodeID="Nc5901d97b75844d6a5d87c35d39560f3"/>
-    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/K0YM-MMUY-D41X-NCCT"/>
-    <crm:P3_has_note xml:lang="en">www.smk.dk</crm:P3_has_note>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N5d1bdf1f2d52432fbf917e31ded40c05">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <rdfs:label xml:lang="en">48.1498568 | 11.57097</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N312bb5b1cbd64b218bba4b2ec5540e04">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <rdfs:label xml:lang="en">www.smk.dk</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N35e74d52946c4a1593b41b26f2b3fc0b">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">24</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/VM8X-I68G-BWJL-YRG2">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nddd763778f864f059c62ad57f4a6cf6f">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">institution type</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd798b4a95b71437c92ad371d47027862">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">None</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/7OU1-NXDH-DYUW-9ORG">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N695882e00d6946cd8653254153d46a18">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <rdfs:label xml:lang="en">http://www.nationalgallery.org.uk</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne8762cf4b90142c3bc7726618ce8f724">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">institution type</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/BFAE-5VOC-UWRI-C9JI">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
-    <rdfs:label xml:lang="en">Hochschule für Bildende Künste Dresden</rdfs:label>
-    <crm:P48_has_preferred_identifier xml:lang="en">Hochschule für Bildende Künste Dresden</crm:P48_has_preferred_identifier>
-    <crm:P1_is_identified_by xml:lang="en">HfBK Dresden</crm:P1_is_identified_by>
-    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/QQM1-247W-6GNI-Q5DF"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0aabf21a197045268365eae66e441951">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">institution type</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/2156-OQ5M-VPEP-PR2Z">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/CD9J-9EV9-2DP4-9H57">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N1c6c859f51844fcb86b1df82d15a45cc">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">5</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/4DFO-FX4S-ZD62-PID6">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nbf02862dfce5431fb78105a69f63939b">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">7</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/92FZ-6URY-IF8H-D7MT">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb70eb7bd06464e43b6ab564fa429d490">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">None</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/QFRZ-PI1J-5QHU-3S3Z">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/3JWD-SXMC-RAS0-DJNX">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nbc6069279e534659a3532728c2086142">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <rdfs:label xml:lang="en">50.8424352 | 4.3936017</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/6MGO-4LJN-05GK-53FY">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/RLC5-6D9M-ICSW-A998">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/N94b10e322c4944839189bacb4178a5e0">
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/N6218617df679488f9de492d4d8669663">
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N3f7793ccf44443bdbb71099a95005b85">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">institution type</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N3f026902ea9143da9717304ab2a43008">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <rdfs:label xml:lang="en">40.413825 | -3.692130</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/NBN7-JD8T-1XEO-VAYB">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/ATDU-GTFA-COPG-177T">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/R3P4-8J3L-Q7ZA-C3AC">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/LGK8-295O-8JVP-EIPK">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/GI2E-TQJJ-OJJT-GE8T">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-ZAH1-GI3F-DF2E-FGLZ">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
     <rdfs:label xml:lang="en">National Museum of Stockholm</rdfs:label>
     <crm:P48_has_preferred_identifier xml:lang="en">National Museum of Stockholm</crm:P48_has_preferred_identifier>
     <crm:P1_is_identified_by xml:lang="en">NM</crm:P1_is_identified_by>
-    <crm:P70i_is_documented_in rdf:nodeID="N7f37fee33aac4afa86888a96bcd787e7"/>
+    <crm:P70i_is_documented_in rdf:nodeID="N8f06d821d04c4993a02d6c4ee6ac03fc"/>
     <crm:P3_has_note xml:lang="en">https://www.nationalmuseum.se/</crm:P3_has_note>
-    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/5294-2BGR-2ELL-AY50"/>
+    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/SC-BUVD-RZ9C-Z730-NNIQ"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne7990bd3fa1547c5beaaca7db34155e7">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <rdfs:label xml:lang="en">55.929180 | 12.308100</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N90ddfd2553174a5293b64ddc20da5cf6">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">11</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/Nbe52e442cf7a495ba6fda02a1b31d7d9">
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/N9d1a00840e4d446c88a020bf73c01768">
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N08ed76e42ae3418b949ef608a20ac5c4">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">None</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/AN8D-L8W6-EQM6-J5FF">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-OJ5O-GFD6-CITK-PY93">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
-    <crm:P2_has_type rdf:nodeID="N0aabf21a197045268365eae66e441951"/>
-    <rdfs:label xml:lang="en">Classification of The J. Paul Getty Museum</rdfs:label>
-    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/LXDH-JZ0Y-E46P-BSO6"/>
-    <crm:P42_assigned rdf:nodeID="N90ddfd2553174a5293b64ddc20da5cf6"/>
+    <crm:P2_has_type rdf:nodeID="N38e560349a8543beaa48f93597dba942"/>
+    <rdfs:label xml:lang="en">Classification of Hochschule für Bildende Künste Dresden</rdfs:label>
+    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/SC-Y5SL-3BRB-0ZF7-9CB5"/>
+    <crm:P42_assigned rdf:nodeID="N24457af8db7040b2b856f49b06900dba"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/ZU2L-N5N6-UXPA-PADM">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-AZKS-GTPV-FNF4-098K">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nfc6444c211424a8986d99f514eb6b3d7">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <rdfs:label xml:lang="en">https://www.rijksmuseum.nl/</rdfs:label>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-SCRS-YIC7-G08M-9Z2R">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
+    <rdfs:label xml:lang="en">National Museum of Stockholm</rdfs:label>
+    <crm:P168_place_is_defined_by>59.328456N 18.078058E</crm:P168_place_is_defined_by>
+    <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-5DZG-4L0U-O1XM-0F7R"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb1d6ee4283ca4cdeb20cbbb04f46dea0">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <rdfs:label xml:lang="en">55.688837 | 12.578317</rdfs:label>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-XS2O-2VKV-69RZ-E1XM">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <rdfs:label xml:lang="en">Doerner Institut, Bayerische Staatsgemäldesammlungen</rdfs:label>
+    <crm:P48_has_preferred_identifier xml:lang="en">Doerner Institut, Bayerische Staatsgemäldesammlungen</crm:P48_has_preferred_identifier>
+    <crm:P1_is_identified_by xml:lang="en">DI-BStGS</crm:P1_is_identified_by>
+    <crm:P70i_is_documented_in rdf:nodeID="N8ed2efabcc554bf1981dbd52dfa77eae"/>
+    <crm:P70i_is_documented_in rdf:nodeID="N31138f9929a146ee8b825ea90e0813cd"/>
+    <crm:P70i_is_documented_in rdf:nodeID="Ndd6d4f63b44e43c4b281b32e86def857"/>
+    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/SC-QHKQ-U8F9-GYAG-6E12"/>
+    <crm:P3_has_note xml:lang="en">www.doernerinstitut.de</crm:P3_has_note>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/BU2V-IG8G-DB9J-L9FI">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd8321eda62084323a814c23237137483">
+  <rdf:Description rdf:nodeID="N575054c5714949d5a02802faf361acdf">
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label xml:lang="en">None</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/AUC4-G1BU-2AQC-ODWN">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-0XM5-18QZ-B046-8TGV">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/C8BF-FCW8-8UO4-3VF8">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-0VFD-YJV6-M3T3-D9D9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <rdfs:label xml:lang="en">Rijksmuseum</rdfs:label>
+    <crm:P48_has_preferred_identifier xml:lang="en">Rijksmuseum</crm:P48_has_preferred_identifier>
+    <crm:P1_is_identified_by xml:lang="en">Rijks Museum</crm:P1_is_identified_by>
+    <crm:P70i_is_documented_in rdf:nodeID="Nb77657e025f14a28bcf9497e1e918ae8"/>
+    <crm:P70i_is_documented_in rdf:nodeID="Nb2f6c4c6e75b49949dafe1342b6e2499"/>
+    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/SC-JJ0P-R7SV-CYZJ-V5PT"/>
+    <crm:P3_has_note xml:lang="en">https://www.rijksmuseum.nl/</crm:P3_has_note>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/N9f98ec85f8344b7f8a09ad17477fe61d">
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/L59M-MXDT-7126-5SQE">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/NMME-ZEL6-QD1Z-40YN">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-09QA-PGZE-4V85-IXLT">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
     <rdfs:label xml:lang="en">Ny Carlsberg Glyptotek</rdfs:label>
     <crm:P168_place_is_defined_by>55.672287N 12.571802E</crm:P168_place_is_defined_by>
     <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/0MGT-2KJ8-7CB9-6QJK"/>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-5DZG-4L0U-O1XM-0F7R"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nfadce89273fa48cca3b98765b946553a">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">16</rdfs:label>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-SAM7-ID56-16X2-3EW3">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/4S5W-M9BG-F6GJ-QY0D">
-    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/GPMS-V694-WF1Z-MPXK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-V591-GLXD-18WO-48ID">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/GNEM-BT9Z-356I-7A4T">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/8Z1W-7QHD-REL5-E7EC">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/QQM1-247W-6GNI-Q5DF">
-    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/8I4U-R12O-83LN-UBEQ"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/L3DC-DBGI-TZYJ-84OZ">
-    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/UD9K-ICXM-SI6F-9KHS"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/GZFQ-5O3V-WSVY-9ILO">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N77ddc8cbda6b4d06a91810c4bf54c553">
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">1</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/GFBT-PT0T-KLBR-NMHO">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/S7O9-PPNS-9BTT-DDLM">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/N312bb5b1cbd64b218bba4b2ec5540e04">
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N8e4995df9a4747728f1478ee311b92d4">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <rdfs:label xml:lang="en">51.508995 | -0.128312</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/8BCG-MHKY-TLF4-TSY7">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/Ne7990bd3fa1547c5beaaca7db34155e7">
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/1RX6-VIFI-VK9V-VHIM">
-    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/R6VV-CQ6V-VB6O-VUT3"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/QXQV-RXAB-BEQ5-U0C0">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/page/aat/300265431">
-    <rdfs:label xml:lang="en">Web sites</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/RI3T-TDD3-30WC-JRHJ">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/WVLA-DXMX-MW89-MDGS">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/AQ4P-LCGP-9LWO-7RW8">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/WA30-A8FG-9KL4-OHO6">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/N7f37fee33aac4afa86888a96bcd787e7">
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/ANZK-R40D-1GRX-A5QG">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nefd33ce48a6a4cfab0de5abd565c09f4">
+  <rdf:Description rdf:nodeID="N07d5d91b69ea46a6aab398eba3f549fc">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label xml:lang="en">institution type</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/C6I1-MMOG-ELFK-NO1K">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:nodeID="N17d4d1785a9741efa639ad3054f1f6bc">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">institution type</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/VRTP-ZX7C-P41B-6JVW">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:nodeID="N38e560349a8543beaa48f93597dba942">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">institution type</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/2VCJ-B83M-5A13-NJ8G">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/G9LR-2F1T-UINY-5DCR">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/LXDH-JZ0Y-E46P-BSO6">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-MYMU-P6HP-IFNE-3ZGL">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
-    <rdfs:label xml:lang="en">The J. Paul Getty Museum</rdfs:label>
-    <crm:P48_has_preferred_identifier xml:lang="en">The J. Paul Getty Museum</crm:P48_has_preferred_identifier>
-    <crm:P1_is_identified_by xml:lang="en">Getty</crm:P1_is_identified_by>
-    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/TA0H-66UA-Q9HQ-JCCO"/>
+    <rdfs:label xml:lang="en">Frederiksborg slot, Det Nationalhistoriske Museum</rdfs:label>
+    <crm:P48_has_preferred_identifier xml:lang="en">Frederiksborg slot, Det Nationalhistoriske Museum</crm:P48_has_preferred_identifier>
+    <crm:P1_is_identified_by xml:lang="en">DNM</crm:P1_is_identified_by>
+    <crm:P70i_is_documented_in rdf:nodeID="Na63f180aaccb4c31bc41dc8357ecc0c7"/>
+    <crm:P3_has_note xml:lang="en">http://www.dnm.dk</crm:P3_has_note>
+    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/SC-LDEN-MG50-UGX5-QGU4"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/DM4X-DAW7-9XJW-9Q2O">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-X75R-N7AO-7WRX-UWBF">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:nodeID="N809edb96161d48888aaeb29794b17db7"/>
+    <crm:P2_has_type rdf:nodeID="N42c0000d586546c8b1b76aaa36ada3c9"/>
+    <rdfs:label xml:lang="en">Classification of Koninklijk Instituut voor het Kunstpatrimonium</rdfs:label>
+    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/SC-7R1O-K0ZS-NUOM-C8AB"/>
+    <crm:P42_assigned rdf:nodeID="N5d04e49a9a0641dc8e4c8622cc0a8859"/>
+    <crm:P42_assigned rdf:nodeID="N5025a23186b04397a6990ab66aa2e330"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/DWYE-ZG0L-82T6-LEJE">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-6ED1-EQ4R-IDND-Q7L7">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/58P9-KSSW-7CXO-S05R">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:nodeID="N1f579fa46b4d43ee8d69522d0a1e36c6">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">4</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/GEJR-3M3K-2Q6M-DIKZ">
-    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/X6JN-OTCC-FTMX-Y979"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-VAVM-ATJ8-NFDJ-U4YU">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N92c508cf6eaf4da0813ffa9e88255000">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-HSTB-YE33-3HXW-V1GL">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
+    <rdfs:label xml:lang="en">Rijksmuseum</rdfs:label>
+    <crm:P168_place_is_defined_by>52.359998N 4.885433E</crm:P168_place_is_defined_by>
+    <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-619W-9GS5-LQ56-W2PF"/>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-APWR-QBYD-DT4G-FOIT"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf1dfbf29966a41579870a0d6c7981ce1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:label xml:lang="en">40.413825 | -3.692130</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-X28N-GREM-2M6V-GB2P">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
+    <rdfs:label xml:lang="en">Hochschule für Bildende Künste Dresden</rdfs:label>
+    <crm:P168_place_is_defined_by>0.0N 0.0E</crm:P168_place_is_defined_by>
+    <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-KCYM-6K3Z-8UGT-7516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-FJDJ-13GZ-Y3S5-FIRX">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:nodeID="N375e214e6ee149538ff13270e22a16ae"/>
+    <rdfs:label xml:lang="en">Classification of Frederiksborg slot, Det Nationalhistoriske Museum</rdfs:label>
+    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/SC-MYMU-P6HP-IFNE-3ZGL"/>
+    <crm:P42_assigned rdf:nodeID="N76a3d967b49748408fe205419f0fd850"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-Y5SL-3BRB-0ZF7-9CB5">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <rdfs:label xml:lang="en">Hochschule für Bildende Künste Dresden</rdfs:label>
+    <crm:P48_has_preferred_identifier xml:lang="en">Hochschule für Bildende Künste Dresden</crm:P48_has_preferred_identifier>
+    <crm:P1_is_identified_by xml:lang="en">HfBK Dresden</crm:P1_is_identified_by>
+    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/SC-HS65-O8IG-80W4-N0AY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-63C6-ZB39-4X2W-38GU">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-2PG7-VI9S-NETJ-2JM8">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N033472cd7e82481bb5a1d77ac9ae3168">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">institution type</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-MMQ1-K98W-E66K-IKUE">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-MNTR-4J9D-5UTT-FDFJ">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-TK15-WQ0D-8WJA-FAJR">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
+    <rdfs:label xml:lang="en">Statens Museum for Kunst, Centre for Art Technological Studies and Conservation</rdfs:label>
+    <crm:P168_place_is_defined_by>55.688837N 12.578317E</crm:P168_place_is_defined_by>
+    <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-RPLO-K1A7-JNIY-Y2JO"/>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-APWR-QBYD-DT4G-FOIT"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nada875ae658d435c98744e92f716b236">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:label xml:lang="en">http://www.nationalgallery.org.uk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-ZC6N-52L8-LXJR-JCPC">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/N654ffad7b6034080b560fc5cc3dd5ce5">
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N750ff33f7a8e416da92c149fe9ab3a31">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">9</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-8AR9-B7ZP-MLTT-2PCQ">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-GANL-EA94-6MAH-YIZI">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd783fcd162434c59850b7562325931b9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:label xml:lang="en">48.1498568 | 11.57097</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-X4WR-Y3EA-FVQZ-L9KP">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:nodeID="N11a789a3f46a4c6fbc0df63b7ce43612"/>
+    <crm:P2_has_type rdf:nodeID="Nbb436630e371451cb1e31275083cebda"/>
+    <rdfs:label xml:lang="en">Classification of Bayerische Staatsgemäldesammlungen</rdfs:label>
+    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/SC-2ZLD-SHGW-LOOB-N1SE"/>
+    <crm:P42_assigned rdf:nodeID="N0a66d204fa3f4fa8b87802303fe6256a"/>
+    <crm:P42_assigned rdf:nodeID="Nc187bc954ea8400891be73d75a820169"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-B4S4-US6F-S3C0-FJZG">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:nodeID="N24a35a60fd63402bbc55041f0a50d943"/>
+    <crm:P2_has_type rdf:nodeID="Na41c16fa163748ff80f11cd718208b9c"/>
+    <rdfs:label xml:lang="en">Classification of The National Gallery, London</rdfs:label>
+    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/SC-ZOVC-LTSG-QPOE-01GW"/>
+    <crm:P42_assigned rdf:nodeID="N1d5610cba7ae4f7bbbf5068c0be5894f"/>
+    <crm:P42_assigned rdf:nodeID="N1bce5e8be5a64e45ad6be323147931f7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-XDSD-PJF4-G6A3-F5U4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:nodeID="N29394a4f022d4edcac933a66287b771e"/>
+    <rdfs:label xml:lang="en">Classification of National Museum of Stockholm</rdfs:label>
+    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/SC-ZAH1-GI3F-DF2E-FGLZ"/>
+    <crm:P42_assigned rdf:nodeID="Ne0fefee9a486444489fcdc6face000bc"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8ed2efabcc554bf1981dbd52dfa77eae">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:label xml:lang="en">www.doernerinstitut.de</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N31138f9929a146ee8b825ea90e0813cd">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:label xml:lang="en">48.1498568 | 11.57097</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N39ff770d0e3e4e96b14e032f6ba0c97d">
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label xml:lang="en">None</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/R90L-S71R-9HIL-GOT1">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:nodeID="Nc187bc954ea8400891be73d75a820169">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">5</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/05W6-LZY4-5H3U-7WSA">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:nodeID="N29394a4f022d4edcac933a66287b771e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">institution type</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/6WAD-4S9H-PYBY-6VFA">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/TLI0-94U3-YUES-IGRQ">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/22X0-311R-PFJG-DQLI">
-    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/HMPC-5FTA-OTOE-ICJF"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/N2cb5a6f673dc439282eeb91aa9fca1a3">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/N31138f9929a146ee8b825ea90e0813cd">
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/HLNN-1Y4X-WGVF-2A9A">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-0HZE-KBWO-PFPI-I2R7">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-8DRI-R2UA-0YIB-7H25">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-70OU-Z34J-50N0-QP6J">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:nodeID="Naf1492027a5a47e397396f515b6355b8"/>
+    <crm:P2_has_type rdf:nodeID="N17d4d1785a9741efa639ad3054f1f6bc"/>
+    <crm:P2_has_type rdf:nodeID="N033472cd7e82481bb5a1d77ac9ae3168"/>
+    <rdfs:label xml:lang="en">Classification of Staatliche Kunstsammlungen Dresden</rdfs:label>
+    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/SC-25BZ-AIHI-G75N-KBYN"/>
+    <crm:P42_assigned rdf:nodeID="N750ff33f7a8e416da92c149fe9ab3a31"/>
+    <crm:P42_assigned rdf:nodeID="Neab68536a5994793b4a9cf1dcbad365d"/>
+    <crm:P42_assigned rdf:nodeID="N38738d70f4454769934cf505b503107d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-CVRM-O1TI-OBKW-01SZ">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
+    <rdfs:label xml:lang="en">Bayerische Staatsgemäldesammlungen</rdfs:label>
+    <crm:P168_place_is_defined_by>48.1498568N 11.57097E</crm:P168_place_is_defined_by>
+    <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-7EUI-B2Z9-5ZT4-GVFP"/>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-QHBW-L7SF-N6SP-AV92"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N96dcdb50665a4f049ed06cb992e3260a">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:label xml:lang="en">55.688837 | 12.578317</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-TFEC-V19L-6X0W-UL1L">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:nodeID="Nfe2a32be9c8a4e12b9a93bff05fb2a0e"/>
+    <rdfs:label xml:lang="en">Classification of Ny Carlsberg Glyptotek</rdfs:label>
+    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/SC-GYE5-THBE-QF6Y-9G7C"/>
+    <crm:P42_assigned rdf:nodeID="N9a712d36cc5247588fddb40eafdadd94"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-MDAU-23WM-A6WJ-B60E">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
+    <rdfs:label xml:lang="en">Museo Nacional del Prado</rdfs:label>
+    <crm:P168_place_is_defined_by>40.413825N -3.69213E</crm:P168_place_is_defined_by>
+    <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-AGIH-5WTA-ISZA-MMJ9"/>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-APWR-QBYD-DT4G-FOIT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-PM1K-LAFX-VX2M-2SIW">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-KHRZ-UUE9-V2OH-T0UH">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-BO59-K971-9FX6-S5YM">
+    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/SC-OVNR-T211-F0A3-F56L"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N24a35a60fd63402bbc55041f0a50d943">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N42c0000d586546c8b1b76aaa36ada3c9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">institution type</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nef760d94c8714727b7b43f54af5c2bdb">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N482b4ab3ff90479883ea2f0d76acbe61">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb77657e025f14a28bcf9497e1e918ae8">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:label xml:lang="en">https://www.rijksmuseum.nl/</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/page/aat/300265431">
+    <rdfs:label xml:lang="en">Web sites</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-BKOI-F0IC-69TS-N2NI">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-MI1U-RHLV-7B9F-SIP9">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1e4981b0233f46cea6073d64e3163934">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N520edf6b4b0f4d21814385e5059d94f5">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">7</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-UUP0-85R7-BS9D-VF57">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <rdfs:label xml:lang="en">Consiglio Nazionale delle Ricerche</rdfs:label>
+    <crm:P48_has_preferred_identifier xml:lang="en">Consiglio Nazionale delle Ricerche</crm:P48_has_preferred_identifier>
+    <crm:P1_is_identified_by xml:lang="en">CNR</crm:P1_is_identified_by>
+    <crm:P70i_is_documented_in rdf:nodeID="Nd1a72f0df2b34110b5c51fdbbac3dd77"/>
+    <crm:P70i_is_documented_in rdf:nodeID="N654ffad7b6034080b560fc5cc3dd5ce5"/>
+    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/SC-BO59-K971-9FX6-S5YM"/>
+    <crm:P3_has_note xml:lang="en">www.cnr.it</crm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-NRXB-I02D-RQKQ-M3G9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
+    <rdfs:label xml:lang="en">Statens Museum for Kunst</rdfs:label>
+    <crm:P168_place_is_defined_by>55.688837N 12.578317E</crm:P168_place_is_defined_by>
+    <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-5DZG-4L0U-O1XM-0F7R"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-1IP2-XDOB-16ZC-1MC8">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/N40c261d975c14d3fb02533e01cb69f48">
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-18AA-JSOF-VQ4U-LO5K">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-GT76-SFC9-LWOQ-Q5EE">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-F7ML-0TH5-66D8-JVQ7">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-BWO9-EK6Q-7F6Z-UKD6">
+    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/SC-IJRB-I7VH-UO5Z-C886"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-D3F1-TYQW-WOX6-CUXX">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:nodeID="N6b2a4d0e3dab4fd8be7cac0399315481"/>
+    <rdfs:label xml:lang="en">Classification of Statens Museum for Kunst</rdfs:label>
+    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/SC-5W6Q-7AHU-V4K2-XV3I"/>
+    <crm:P42_assigned rdf:nodeID="N746b17a88f5542fa934d174c85c67a63"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/Na751d5443a1d412393a74777f5162be2">
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd1a72f0df2b34110b5c51fdbbac3dd77">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:label xml:lang="en">www.cnr.it</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-KOUV-YYEN-7B1G-N98X">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300312292"/>
     <rdfs:label xml:lang="en">The J. Paul Getty Museum</rdfs:label>
     <crm:P168_place_is_defined_by>0.0N 0.0E</crm:P168_place_is_defined_by>
     <crm:P3_has_note xml:lang="en">None</crm:P3_has_note>
-    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/0MGT-2KJ8-7CB9-6QJK"/>
+    <crm:P89_falls_within rdf:resource="https://data.ng-london.org.uk/SC-5DZG-4L0U-O1XM-0F7R"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/0VFC-SC5L-KG2C-XBFM">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/VTRC-CJYL-5019-43RC">
-    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/GTYB-XW4Y-TA4J-6E8B"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/22SJ-NC5G-OWYA-I1YM">
-    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/F0P1-YU15-2L7P-UMNJ"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/V505-FLGY-52US-U2M6">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/ECKS-QSF1-4TP7-JZPP">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/Q7S9-VIR6-KM6S-LHSH">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/JDAP-O0F5-GQCZ-YCPX">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/BFCH-OA5J-2U7O-F63H">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/KE6R-JLJK-SBEM-YIWM">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/page/aat/300312292">
-    <rdfs:label xml:lang="en">institutions (buildings)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/B59U-T6PY-381M-EFRD">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/3G18-GA78-VCXO-AZW1">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/BPZN-3KKN-8QSP-XRPR">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/A7YW-6Y9O-54P8-MU1E">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/70YI-RZZJ-0O2D-IWRQ">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/EO4E-KPY8-ZEQU-EPKO">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N9117f73fdf5e4605866d28dd63f5842d">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+  <rdf:Description rdf:nodeID="N399f39380597480a8691eb60a86c59e7">
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">None</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">5</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/7Q1T-CEHQ-G0E2-L5ZZ">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/N8e4995df9a4747728f1478ee311b92d4">
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N9d1a00840e4d446c88a020bf73c01768">
+  <rdf:Description rdf:nodeID="N55fd76d8e1a546f0984fd41f78c71c5c">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
-    <rdfs:label xml:lang="en">48.1498568 | 11.57097</rdfs:label>
+    <rdfs:label xml:lang="en">50.8424352 | 4.3936017</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/X81E-RHF9-7W25-ASAG">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-GYE5-THBE-QF6Y-9G7C">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <rdfs:label xml:lang="en">Ny Carlsberg Glyptotek</rdfs:label>
+    <crm:P48_has_preferred_identifier xml:lang="en">Ny Carlsberg Glyptotek</crm:P48_has_preferred_identifier>
+    <crm:P1_is_identified_by xml:lang="en">Glyptotek</crm:P1_is_identified_by>
+    <crm:P70i_is_documented_in rdf:nodeID="N6e03e2f393ad4e83a341732c999114ba"/>
+    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/SC-WEL9-J4MB-W1VT-T7Q8"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/HZI4-ONQ5-4G52-3ZZR">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-AEU0-1YGN-W8ZH-CFSG">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/1ZX8-1K51-7Y3A-XTN5">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-XN53-RHJ2-516L-KU4B">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:nodeID="N1e4981b0233f46cea6073d64e3163934"/>
+    <crm:P2_has_type rdf:nodeID="N259d6c0e998043138a94d9fe988f0e2d"/>
+    <rdfs:label xml:lang="en">Classification of Museo Nacional del Prado</rdfs:label>
+    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/SC-4RGM-PM8T-XOAI-AD3T"/>
+    <crm:P42_assigned rdf:nodeID="N482b4ab3ff90479883ea2f0d76acbe61"/>
+    <crm:P42_assigned rdf:nodeID="N410e7cd2a2f1438c858982481bdd1245"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/N7TH-99CC-IF35-FCTK">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/Ndd6d4f63b44e43c4b281b32e86def857">
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/BRH1-G3GB-LCUH-KT71">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-2ZLD-SHGW-LOOB-N1SE">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <rdfs:label xml:lang="en">Bayerische Staatsgemäldesammlungen</rdfs:label>
+    <crm:P48_has_preferred_identifier xml:lang="en">Bayerische Staatsgemäldesammlungen</crm:P48_has_preferred_identifier>
+    <crm:P1_is_identified_by xml:lang="en">BStGS</crm:P1_is_identified_by>
+    <crm:P1_is_identified_by xml:lang="en">DI-BStGS</crm:P1_is_identified_by>
+    <crm:P70i_is_documented_in rdf:nodeID="Nd783fcd162434c59850b7562325931b9"/>
+    <crm:P70i_is_documented_in rdf:nodeID="N40c261d975c14d3fb02533e01cb69f48"/>
+    <crm:P3_has_note xml:lang="en">www.pinakothek.de</crm:P3_has_note>
+    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/SC-KEB2-V52R-RVB5-X9WE"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/EKY1-35UR-V6SO-1Z89">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N1dd1766d537d4039a54e780bdccf7c2f">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label xml:lang="en">None</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/S2FS-LCF7-MAPV-23W0">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/JONK-5US8-HA0R-0KZM">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/BIW6-1HUP-AELQ-PN1X">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/N82S-GCDQ-3OK7-I1UC">
-    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/XPQI-E47A-LH17-OEXV"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/FT5B-RT49-264T-6K2Q">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/2UL8-I7FN-ACZQ-VLFU">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/XQ3Y-9HAB-0BU9-5U3Q">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/7QQ6-FASF-BICN-FNAI">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/NN6M-BM69-X272-EIAJ">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N5d32b1c774e145c28b1002e2513bd0ad">
+  <rdf:Description rdf:nodeID="N24457af8db7040b2b856f49b06900dba">
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label xml:lang="en">13</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N2cb5a6f673dc439282eeb91aa9fca1a3">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/Nf1dfbf29966a41579870a0d6c7981ce1">
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-YNM4-ASMY-AVLY-ER4Z">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N11a789a3f46a4c6fbc0df63b7ce43612">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">institution type</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N410e7cd2a2f1438c858982481bdd1245">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-M70Y-CRXE-Q9G8-FHJX">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-I2R4-58TF-3VVQ-MSYF">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-H5P3-VKV8-5G8F-Y37Y">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:nodeID="Ndfc29cf0750e41c096fdf4d533b8c651"/>
+    <rdfs:label xml:lang="en">Classification of The J. Paul Getty Museum</rdfs:label>
+    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/SC-D8RF-W15U-O7WG-79VB"/>
+    <crm:P42_assigned rdf:nodeID="N904f2477c7894f84b58ed20c0007f34d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-IZRC-IQT3-359C-JN0G">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-2S0E-5V5O-8GFQ-O6L7">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6b2a4d0e3dab4fd8be7cac0399315481">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">institution type</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/N4e7a4898cbde4f56bbda5b4cddc0a02e">
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-1023-FMA4-JAK6-DE32">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na41c16fa163748ff80f11cd718208b9c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">institution type</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-R06T-UM3O-5MG8-CA7M">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-IQZE-0HGZ-0RMR-H4JO">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N375e214e6ee149538ff13270e22a16ae">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">institution type</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-ND5W-2DK0-2BW5-J963">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <rdfs:label xml:lang="en">Statens Museum for Kunst, Centre for Art Technological Studies and Conservation</rdfs:label>
+    <crm:P48_has_preferred_identifier xml:lang="en">Statens Museum for Kunst, Centre for Art Technological Studies and Conservation</crm:P48_has_preferred_identifier>
+    <crm:P1_is_identified_by xml:lang="en">CATS-SMK</crm:P1_is_identified_by>
+    <crm:P70i_is_documented_in rdf:nodeID="N7ac8f91ffda4406ebfaffd2743cc7a65"/>
+    <crm:P70i_is_documented_in rdf:nodeID="N96dcdb50665a4f049ed06cb992e3260a"/>
+    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/SC-0877-02B4-XZVN-6OOH"/>
+    <crm:P3_has_note xml:lang="en">www.smk.dk</crm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N654ffad7b6034080b560fc5cc3dd5ce5">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:label xml:lang="en">41.8998236 | 12.5101778</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-0877-02B4-XZVN-6OOH">
+    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/SC-TK15-WQ0D-8WJA-FAJR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-RCVD-F10U-F8PS-AJXH">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-2SH1-57F9-3ND7-MF95">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-XRY9-VLG5-7Y24-F9NO">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-LXR7-6U3Z-L8AS-NP7Z">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-OU7C-9XXC-G475-AM56">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7ac8f91ffda4406ebfaffd2743cc7a65">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:label xml:lang="en">www.smk.dk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-ZMK9-PHYP-SHMH-FTET">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-3KP1-0ZPE-XJ0V-4IKX">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-I4P6-R9U7-L9BS-LRAB">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1bce5e8be5a64e45ad6be323147931f7">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5025a23186b04397a6990ab66aa2e330">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">6</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/page/aat/300379244">
+    <rdfs:label>years@en</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-XOUA-A35B-ZLKS-I61R">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-9DKN-39JM-DXR9-ZKOX">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0a66d204fa3f4fa8b87802303fe6256a">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N259d6c0e998043138a94d9fe988f0e2d">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">institution type</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-VDQI-OIU4-U6JW-I7GN">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-AAD8-QSJ8-GTU1-KQ42">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/Nada875ae658d435c98744e92f716b236">
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9a712d36cc5247588fddb40eafdadd94">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">12</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-BBJF-NMXT-P8MD-BG91">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N76a3d967b49748408fe205419f0fd850">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">24</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-HYXE-10G3-RHPJ-ZWWM">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-6T6Y-DQE3-BGQ7-AUX9">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-KEB2-V52R-RVB5-X9WE">
+    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/SC-CVRM-O1TI-OBKW-01SZ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-7R1O-K0ZS-NUOM-C8AB">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <rdfs:label xml:lang="en">Koninklijk Instituut voor het Kunstpatrimonium</rdfs:label>
+    <crm:P48_has_preferred_identifier xml:lang="en">Koninklijk Instituut voor het Kunstpatrimonium</crm:P48_has_preferred_identifier>
+    <crm:P1_is_identified_by xml:lang="en">KIK-IRPA</crm:P1_is_identified_by>
+    <crm:P70i_is_documented_in rdf:nodeID="Nd86e3b2dba7849fdb0e17523a6386e5c"/>
+    <crm:P70i_is_documented_in rdf:nodeID="N55fd76d8e1a546f0984fd41f78c71c5c"/>
+    <crm:P156_occupies rdf:resource="https://data.ng-london.org.uk/SC-QWX4-LO6R-65UD-957H"/>
+    <crm:P3_has_note xml:lang="en">www.kikirpa.be</crm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-ELGR-KXRZ-10C9-8LX7">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N809edb96161d48888aaeb29794b17db7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/N55fd76d8e1a546f0984fd41f78c71c5c">
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N38738d70f4454769934cf505b503107d">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">16</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-30NW-AB97-RMQQ-HSIX">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2d19e18da2be4581ac882da334eb36ed">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">institution type</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-Y5EX-VBFP-69IH-QWOF">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-0DAR-F22U-NFZW-13K4">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-Q7AA-NL2N-YZYM-E67J">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-Z6LG-W7TS-EDPQ-8FTS">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/Nfd295c1e2a9d4889b69db66d1eaf23e3">
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1d5610cba7ae4f7bbbf5068c0be5894f">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">None</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-FBQF-3XF0-VOLE-E14W">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-9D8Y-H9MU-C87Q-TG6R">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-W1ZD-H4ZR-MTHV-8A62">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfd295c1e2a9d4889b69db66d1eaf23e3">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
     <rdfs:label xml:lang="en">www.museodelprado.es</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/6BD6-7BGE-GF4P-0QBX">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-8GKY-2APW-HE02-DNFY">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/MAYW-BHIM-OUHL-3CMC">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:nodeID="N2dbebe841c42463a8f4049f5264761e3">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">None</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/Nca01bfcc844844e888bc7cbaac89fac0">
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
+  <rdf:Description rdf:nodeID="N5d04e49a9a0641dc8e4c8622cc0a8859">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">None</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/GGBV-2B6R-VJ13-JA5Y">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-DL3N-JA8Q-BXFZ-M1YG">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/TA0H-66UA-Q9HQ-JCCO">
-    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/HLNN-1Y4X-WGVF-2A9A"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-QHKQ-U8F9-GYAG-6E12">
+    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/SC-L5WM-Y108-B9K5-OFQB"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/KRJP-U77W-7N7D-KZIW">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-QDIJ-4H3H-POWP-LEBS">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    <crm:P2_has_type rdf:nodeID="N1e98e5ee4b9e480f9321ef15162ce601"/>
+    <crm:P2_has_type rdf:nodeID="N627870f356f341639b8d783cd732025e"/>
+    <rdfs:label xml:lang="en">Classification of Rijksmuseum</rdfs:label>
+    <crm:P41_classified rdf:resource="https://data.ng-london.org.uk/SC-0VFD-YJV6-M3T3-D9D9"/>
+    <crm:P42_assigned rdf:nodeID="N39ff770d0e3e4e96b14e032f6ba0c97d"/>
+    <crm:P42_assigned rdf:nodeID="N1f579fa46b4d43ee8d69522d0a1e36c6"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/TURQ-YQBI-FQAE-DVX7">
-    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/929A-PN1A-AWA7-JFYO"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-BUVD-RZ9C-Z730-NNIQ">
+    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/SC-SCRS-YIC7-G08M-9Z2R"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/GLML-A4C3-WVNN-UEZI">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:nodeID="N6e03e2f393ad4e83a341732c999114ba">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:label xml:lang="en">55.672287  | 12.571802</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/UXAD-XI39-93S2-NF3A">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-LAZA-IKYY-K3SQ-SEO7">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/BDKO-2X2H-PT1J-XVJR">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-C3UG-817P-8B6X-NYD8">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/D5YS-PQCF-ZMY0-YSC6">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N5335712727484e79918711adaaed4329">
+  <rdf:Description rdf:nodeID="Nd86e3b2dba7849fdb0e17523a6386e5c">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
     <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
     <rdfs:label xml:lang="en">www.kikirpa.be</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/NDFH-W8V9-KXRD-PIQ0">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:nodeID="N8f06d821d04c4993a02d6c4ee6ac03fc">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:label xml:lang="en">59.328456 | 18.078058</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/O45R-UCEP-CQEI-PMVD">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-OL8P-GL5R-U1K0-BUTV">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/Nbc6069279e534659a3532728c2086142">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-X3P4-OTDB-MLVQ-7GLZ">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-Q9A0-01FN-JWD1-FPUR">
+    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/SC-KOUV-YYEN-7B1G-N98X"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-XKIC-DUV4-Y8B0-VSQJ">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-RUJQ-1WUJ-FEVL-DX82">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-FIOT-O14W-5PHC-W9Z9">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-DAFL-JPDC-4KDU-NQ3V">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N627870f356f341639b8d783cd732025e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">institution type</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-LDEN-MG50-UGX5-QGU4">
+    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/SC-YNIB-H22X-38BJ-C3NR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-SHKK-J2QO-VP00-PDED">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-5BC9-I9AY-KP99-ZU9X">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-LEZX-BUOC-XES3-U1T4">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfe2a32be9c8a4e12b9a93bff05fb2a0e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">institution type</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-OOBQ-MLI5-CMZU-EMMD">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-10UJ-R1QB-44JU-08MI">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7851ae82ab8644f9a7198c73f2f54a83">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">institution type</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-6VSW-WTJ3-RRVI-8FDT">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-Y54W-Z6M1-J8Z1-8KSD">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-I7CN-MQGS-X1N9-5M4X">
+    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/SC-MDAU-23WM-A6WJ-B60E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-LLV9-X2R6-WJFP-Q83N">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N904f2477c7894f84b58ed20c0007f34d">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">11</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-L4Y9-R00W-0BYQ-BPGH">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/N8ed2efabcc554bf1981dbd52dfa77eae">
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/5294-2BGR-2ELL-AY50">
-    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/B7AS-AE3Y-EHC9-116G"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-H0XF-VRDJ-N08Z-HOH2">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/F69N-LPJK-TDE6-F2E3">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-UQDH-M81U-24VX-LH4W">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/KQXF-T09M-83AY-NL4Y">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-HS65-O8IG-80W4-N0AY">
+    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/SC-X28N-GREM-2M6V-GB2P"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/P6L2-27TT-8YD2-GF6A">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-LHRY-KD01-G9EC-T12A">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/Z39U-ABO8-6FIY-8M59">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-AJO8-R319-4OWB-AC0C">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/8N06-5EQR-KOP8-L1L2">
-    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/P9O0-B57Y-HNMT-WCOX"/>
+  <rdf:Description rdf:nodeID="Nb2f6c4c6e75b49949dafe1342b6e2499">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:label xml:lang="en">52.359998 | 4.885433</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/E3PG-YMX6-2SZ6-6YBM">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-U7E6-MF79-LZLH-9V5J">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/907J-FLD1-R106-MGWV">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/9IYY-OIWJ-JUEL-XBG7">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/Nc5901d97b75844d6a5d87c35d39560f3">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/N7ac8f91ffda4406ebfaffd2743cc7a65">
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/38L3-BZXL-FWRU-N284">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-DBH7-IR3Z-ZH0M-LMDY">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/N695882e00d6946cd8653254153d46a18">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-Z9WS-D06R-4Z2O-R5TC">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/N8f06d821d04c4993a02d6c4ee6ac03fc">
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/WVA7-3X2C-N5LP-UVC1">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-8X71-LZZI-Q2Q7-JZ09">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/K7GJ-0OMV-SND7-J1V4">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-DRRZ-ASQA-L62B-EU8F">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/V51K-3FRI-2R1B-4QHZ">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:nodeID="N746b17a88f5542fa934d174c85c67a63">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">10</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/NJX6-84BD-S2QC-LN6M">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-8PZL-D1ED-RUR5-AY8M">
+    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/SC-ZX29-2S0S-PTVC-GYEM"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/2NRF-ABMV-SUFA-PJST">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-JJ0P-R7SV-CYZJ-V5PT">
+    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/SC-HSTB-YE33-3HXW-V1GL"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/FVXD-1NEH-E9TO-ZYO6">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-3W5F-GMDY-DEHC-ADKQ">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/CNLU-W61X-X55P-U6YV">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-7JS3-BZZ8-APSK-NDIF">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/UMLE-O5VU-DHWJ-ZRJN">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
+  <rdf:Description rdf:nodeID="Ne0fefee9a486444489fcdc6face000bc">
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">25</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/N5335712727484e79918711adaaed4329">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-YK2H-NMMR-HAE5-IHN1">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-WEL9-J4MB-W1VT-T7Q8">
+    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/SC-09QA-PGZE-4V85-IXLT"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd01b97af4e4e43bda07b90fefc70f369">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <crm:P2_has_type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:label xml:lang="en">51.053289 | 13.734807</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-955I-8C2L-T6VY-2ULU">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-6VER-YLIH-P2PR-4BAB">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-EMAA-UZXX-7VIX-XPBL">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-Y1F8-WH3Q-B4ZS-YZBV">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-H5LU-7WSV-LD6N-4V71">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-QCDU-SHPI-UFYF-S2FD">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-F4VN-AZVO-E28Y-TELM">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-8A1T-TPBL-D1L5-ZCUR">
+    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/SC-NRXB-I02D-RQKQ-M3G9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-JHW5-8YV8-42Q6-N0EW">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-R1P2-PJ1V-2HQ0-25GN">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-Z9QC-5O90-S47M-36XN">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-H5YE-BINJ-REO1-WAMZ">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-7GIZ-U9P1-9SZN-RSB5">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-WLUU-R193-5Q3Y-8DR4">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-DXYA-9NTD-DKSM-H51Y">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-ZDWF-G7ZE-DQ4T-I9RC">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/N96dcdb50665a4f049ed06cb992e3260a">
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/OPHZ-GELS-FUBA-8A9S">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/X5A7-ZJCS-PEFD-9WC0">
-    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/25UI-ZYQZ-7TGD-8FQK"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://data.ng-london.org.uk/N3f725d0977f74c12b5a7cf1226fccb9a">
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/Nd01b97af4e4e43bda07b90fefc70f369">
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-ZKY8-SUSA-ND9R-UM5B">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-XZSN-AIMZ-6QDY-Y32T">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-4ZA9-T5E8-R10K-WC8A">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-3HRI-A78F-B3VL-0RKC">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/Nb2f6c4c6e75b49949dafe1342b6e2499">
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-G57B-GOV7-Z4M0-DYJR">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-FDQQ-OKJV-OVJA-5KDP">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-9WMO-E0TV-Q2CL-YIAD">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-15E2-6CPP-5AU1-9BSH">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/Nd1a72f0df2b34110b5c51fdbbac3dd77">
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-QWX4-LO6R-65UD-957H">
+    <crm:P53_has_former_or_current_location rdf:resource="https://data.ng-london.org.uk/SC-QSJL-T9SS-R0J5-QUTQ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-STOX-K9CV-BYLP-5YR2">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-8FTU-414Y-R3FW-SK4V">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-T2LT-F9GK-FKFO-QHMS">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-4V7S-FWL7-80AF-0DZM">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-9AXL-YC86-9H5N-7IR4">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-CWXF-LHNL-3CI1-9FA1">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/Nb77657e025f14a28bcf9497e1e918ae8">
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-2M3A-N95T-EP1U-QWXC">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-6MPR-TFE2-VI6H-ZDJM">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-J391-3T8A-UYXY-T8FQ">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-6BUG-W9SX-7Z3Q-84UQ">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/Na63f180aaccb4c31bc41dc8357ecc0c7">
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/page/aat/300265431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-U2KB-ENQE-LD9I-GDKP">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-5SB5-TNZQ-EPYU-8670">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-7Q05-QW0Z-JLWJ-B3UN">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-HC6B-GDYZ-TO7L-5IU3">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-YZMV-KSR1-78OE-0OFT">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.ng-london.org.uk/SC-HIQO-1ED1-FPJH-O4PU">
+    <crm:P4_has_time_span rdf:resource="https://data.ng-london.org.uk/SC-J5MR-LU5G-UCLQ-J35D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/page/aat/300312292">
+    <rdfs:label xml:lang="en">institutions (buildings)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>
